@@ -11,5 +11,6 @@
 use Ivy\core\Controller;
 abstract class CController extends Controller
 {
+    
 
 }
