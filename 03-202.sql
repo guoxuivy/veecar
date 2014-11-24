@@ -1,9 +1,8 @@
-/*
+﻿/*
 SQLyog Ultimate v11.11 (64 bit)
-MySQL - 5.5.24-log : Database - ivy
+MySQL - 5.5.24-log : Database - veecar
 *********************************************************************
-*/
-
+*/
 /*!40101 SET NAMES utf8 */;
 
 /*!40101 SET SQL_MODE=''*/;
@@ -12,9 +11,9 @@ MySQL - 5.5.24-log : Database - ivy
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`ivy` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`veecar` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `ivy`;
+USE `veecar`;
 
 /*Table structure for table `admin_nav` */
 

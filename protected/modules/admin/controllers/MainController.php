@@ -45,7 +45,7 @@ class MainController extends \CController {
         $this->view->assign(array(
             'way'=>isset($way)?$way:false,
             'nav_arr'=>$navTree
-        ))->display();
+        ))->display('sidebar');
 	}
     
     /**

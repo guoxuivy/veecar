@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 <!-- BEGIN HEAD -->
 
+<!-- BEGIN HEAD -->
 <head>
-
-	<meta charset="utf-8" />
-
-	<title><?php echo $page_title ?></title>
-
-	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-	<meta content="" name="description" />
-
-	<meta content="" name="author" />
-
-	<!-- BEGIN GLOBAL MANDATORY STYLES -->
-	<link href="<?php echo $this->basePath('media/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/bootstrap-responsive.min.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/font-awesome.min.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/style-metro.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/style.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/style-responsive.css');?>" rel="stylesheet" type="text/css"/>
-
-	<link href="<?php echo $this->basePath('media/css/default.css');?>" rel="stylesheet" type="text/css" id="style_color"/>
-
-	<link href="<?php echo $this->basePath('media/css/uniform.default.css');?>" rel="stylesheet" type="text/css"/>
-
-	<!-- END GLOBAL MANDATORY STYLES -->
-
-	<!-- BEGIN PAGE LEVEL STYLES -->
-
-	<link href="<?php echo $this->basePath('media/css/error.css');?>" rel="stylesheet" type="text/css"/>
-
-	<!-- END PAGE LEVEL STYLES -->
-
-	<link rel="shortcut icon" href="<?php echo $this->basePath('media/image/favicon.ico');?>" />
-
+<meta charset="utf-8"/>
+<title>Metronic | Admin Dashboard Template</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<!--
+<link href="http://fonts.useso.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+-->
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL PLUGIN STYLES -->
+<!-- BEGIN PAGE STYLES -->
+<link href="<?php echo $this->basePath('assets');?>/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="<?php echo $this->basePath('assets');?>/global/css/components.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->basePath('assets');?>/admin/layout/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="<?php echo $this->basePath('assets');?>/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <!-- END HEAD -->
-
 <!-- BEGIN BODY -->
-
-<body class="page-header-fixed">
-
-	<!-- BEGIN HEADER -->
+<!-- DOC: Apply "page-header-fixed-mobile" and "page-footer-fixed-mobile" class to body element to force fixed header or footer in mobile devices -->
+<!-- DOC: Apply "page-sidebar-closed" class to the body and "page-sidebar-menu-closed" class to the sidebar menu element to hide the sidebar by default -->
+<!-- DOC: Apply "page-sidebar-hide" class to the body to make the sidebar completely hidden on toggle -->
+<!-- DOC: Apply "page-sidebar-closed-hide-logo" class to the body element to make the logo hidden on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-hide" class to body element to completely hide the sidebar on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-fixed" class to have fixed sidebar -->
+<!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
+<!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
+<!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
+<body class="page-header-fixed page-quick-sidebar-over-content">
