@@ -1,12 +1,16 @@
 <?php  Ivy::app()->widget('admin/main/head'); ?>
 <?php  Ivy::app()->widget('admin/main/topnav'); ?>
 
+<!-- 加载本页面所需要css -->
+<!-- BEGIN PAGE STYLES -->
 <link href="<?php echo $this->basePath('assets');?>/admin/pages/css/error.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE STYLES -->
+
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
+    <!-- IMPORT SIDEBAR -->
+	<?php  Ivy::app()->widget('admin/main/menu',array('active'=>'min_nav')); ?>
 
-	<?php  Ivy::app()->widget('admin/main/menu'); ?>
-	
 	<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
 		<div class="page-content">
@@ -192,11 +196,15 @@
 	</div>
 	<!-- END CONTENT -->
 	<!-- BEGIN QUICK SIDEBAR -->
-	<a href="javascript:;" class="page-quick-sidebar-toggler"><i class="icon-close"></i></a>
-	
+    <!-- QUICK SIDEBAR 全站及时聊天系统 -->
 	<!-- END QUICK SIDEBAR -->
 </div>
 <!-- END CONTAINER -->
+
+<!-- 加载本页面所需要js插件 -->
+<!-- BEGIN PAGE plugs -->
+
+<!-- END PAGE plugs -->
 
 
 <?php  Ivy::app()->widget('admin/main/foot'); ?>
