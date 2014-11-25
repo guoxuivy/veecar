@@ -92,6 +92,13 @@ class MainController extends \CController {
         }
         return false;
     }
+    
+    /**
+	 * 登录
+	 */
+	public function loginAction() {
+        $this->view->assign()->display();
+	}
      
     
 	

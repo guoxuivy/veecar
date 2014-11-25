@@ -7,11 +7,13 @@
  * @since 1.0
  */
 namespace admin; 
-class IndexController extends \CController {
+class IndexController extends \SController {
+    
     /**
 	 * 显示模版实例示例
 	 */
 	public function indexAction() {
+	   
         $this->view->assign()->display('');
 	}
 	

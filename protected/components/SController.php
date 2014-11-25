@@ -1,6 +1,6 @@
 <?php
 /**
- * 全站控制器基类
+ * 后台基类 需要登录验证
  * Ivy class file.
  * All controller classes for this application should extend from this base class.
  * @author ivy <guoxuivy@gmail.com>
@@ -9,8 +9,12 @@
  * @package framework
  * @since 1.0
  */
-use Ivy\core\Controller;
-class CController extends Controller
+class SController extends CController
 {
-    
+    public function init() {
+        if(\Ivy::app()->user->isGuest){
+            $this->redirect('admin/main/login');
+        }
+	}
+
 }
