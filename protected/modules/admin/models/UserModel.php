@@ -6,21 +6,16 @@
  * @package framework
  * @since 1.0
  */
-class NavModel extends \CModel
+namespace admin; 
+class UserModel extends \CModel
 {
+    
     /**
-     * 必须方法一
-     **/
-    public static function model($className=__CLASS__)
-	{
-		return parent::model($className);
-	}
-    /**
-     * 必须方法二
+     * 必须方法
      **/
     public function tableName()
 	{
-		return 'admin_nav';
+		return 'admin_user';
 	}
 	
 }

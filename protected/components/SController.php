@@ -11,6 +11,9 @@
  */
 class SController extends CController
 {
+    /**
+     * 用户登录验证 
+     **/
     public function init() {
         if(\Ivy::app()->user->isGuest){
             $this->redirect('admin/main/login');

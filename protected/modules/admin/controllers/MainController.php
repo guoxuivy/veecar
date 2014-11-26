@@ -12,7 +12,7 @@ class MainController extends \CController {
 	 * head载入
 	 */
 	public function headAction() {
-        $this->view->assign('page_title','V-CAR 微改装网')->display();
+        $this->view->assign('page_title','V-CAR 微改装 车生活')->display();
 	}
     
     /**
@@ -97,7 +97,12 @@ class MainController extends \CController {
 	 * 登录
 	 */
 	public function loginAction() {
-        $this->view->assign()->display();
+        if($this->isPost){
+            $nav = UserModel::model()->findByPk('1');
+            var_dump($nav['nickname'],$nav->nickname);die;
+        }else{
+            $this->view->assign()->display();
+        }
 	}
      
     
