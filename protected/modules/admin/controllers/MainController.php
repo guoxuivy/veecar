@@ -36,12 +36,11 @@ class MainController extends \CController {
 	public function menuAction() {
 	   
         $nav = NavModel::model()->findAll('type = 1');
-        if(isset($_REQUEST['active'])){
-            //$find_id = NavModel::model()->find("sys_name = '{$_REQUEST['active']}'")->id;
-            $find_id = $this->getSysId($nav,$_REQUEST['active']);
-            $way = $this->getTreeWay($nav,$find_id);
-        }
+        
         $navTree = $this->treeNavData($nav);
+        if(isset($_REQUEST['active'])){
+            $way = $this->getTreeWay($navTree,$_REQUEST['active']);
+        }
         $this->view->assign(array(
             'way'=>isset($way)?$way:false,
             'nav_arr'=>$navTree
@@ -66,32 +65,26 @@ class MainController extends \CController {
     }
     /**
 	 * 获取节点路径
-     * $arr 节点数组 
-     * $id 要查找的节点id
+     * $arr 节点树 
+     * $id 要查找的节点sys_name
 	 */
-     public function getTreeWay($arr,$id){
+     public function getTreeWay($arr,$search){
         static $ret = array();
+        static $find = false; 
         foreach($arr as $k =>$v) { 
-            if($v['id'] == $id){
-                $ret[]=$v['id'];
-                $this->getTreeWay($arr,$v['fid']);
+            if($find) break;
+            $ret[]=$v['id'];
+            if($v['sys_name'] == $search){
+                $find=true;
             }
+            if(!empty($v['children'])){
+                $this->getTreeWay($v['children'],$search);
+            }
+            if(!$find) array_pop($ret);
         }
         return $ret;   
     }
-    /**
-	 * 查找节点id
-     * $arr 节点数组 
-     * $id 要查找的节点sys_name
-	 */
-     public function getSysId($arr,$sys_name){
-        foreach($arr as $v){
-            if($v['sys_name']==$sys_name){
-                return $v['id'];
-            }
-        }
-        return false;
-    }
+
     
     /**
 	 * 登录
