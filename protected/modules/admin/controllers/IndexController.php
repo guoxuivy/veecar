@@ -6,14 +6,15 @@
  * @package framework
  * @since 1.0
  */
-namespace admin; 
+namespace admin;
 class IndexController extends \SController {
     
     /**
 	 * 显示模版实例示例
 	 */
 	public function indexAction() {
-	   
+        //$v= \Ivy\core\lib\String::buildFormatRand('##*$');
+        //var_dump($v);die;
         $this->view->assign()->display('');
 	}
 	
