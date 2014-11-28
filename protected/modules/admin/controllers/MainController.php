@@ -84,18 +84,27 @@ class MainController extends \CController {
         }
         return $ret;   
     }
-
     
     /**
 	 * 登录
 	 */
-	public function loginAction() {
+	public function loginAction(){
         if($this->isPost){
-            $nav = UserModel::model()->findByPk('1');
-            var_dump($nav['nickname'],$nav->nickname);die;
+            $user = UserModel::model()->find("account = '{$_POST['username']}'");
+            if($user&&$user->password===md5($_POST['password'])){
+                \Ivy::app()->user->login($user);
+                $this->redirect('admin');
+            }
         }else{
             $this->view->assign()->display();
         }
+	}
+    /**
+	 * 登出
+	 */
+	public function logoutAction(){
+        \Ivy::app()->user->logout();
+        $this->redirect('admin');
 	}
      
     

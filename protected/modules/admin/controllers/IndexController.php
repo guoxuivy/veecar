@@ -14,8 +14,8 @@ class IndexController extends \SController {
 	 */
 	public function indexAction() {
         //$v= \Ivy\core\lib\String::buildFormatRand('##*$');
-        //var_dump($v);die;
-        $this->view->assign()->display('');
+        //var_dump(\Ivy::app()->user);die;
+        $this->view->assign()->display();
 	}
 	
 }
