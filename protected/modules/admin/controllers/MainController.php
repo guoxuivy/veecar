@@ -94,6 +94,8 @@ class MainController extends \CController {
             if($user&&$user->password===md5($_POST['password'])){
                 \Ivy::app()->user->login($user);
                 $this->redirect('admin');
+            }else{
+               $this->view->assign('error',"用户名或密码错误！")->display(); 
             }
         }else{
             $this->view->assign()->display();
