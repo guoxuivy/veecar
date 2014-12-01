@@ -93,12 +93,29 @@ class MainController extends \CController {
             $user = UserModel::model()->find("account = '{$_POST['username']}'");
             if($user&&$user->password===md5($_POST['password'])){
                 \Ivy::app()->user->login($user);
-                $this->redirect('admin');
+                if(isset($_POST['remember'])&&$_POST['remember']=='1'){
+                    $this->rememberLogin($user);   
+                }
+                if(\Ivy::app()->user->getReturnUrl()){
+                    $this->redirect(\Ivy::app()->user->getReturnUrl());
+                }else{
+                    $this->redirect('admin');
+                }
             }else{
                $this->view->assign('error',"用户名或密码错误！")->display(); 
             }
         }else{
-            $this->view->assign()->display();
+            //自动登录检测
+            if($this->autoLogin()){
+                if(\Ivy::app()->user->getReturnUrl()){
+                    $this->redirect(\Ivy::app()->user->getReturnUrl());
+                }else{
+                    $this->redirect('admin');
+                }
+            }else{
+                $this->view->assign()->display();
+            }
+            
         }
 	}
     /**
@@ -106,9 +123,49 @@ class MainController extends \CController {
 	 */
 	public function logoutAction(){
         \Ivy::app()->user->logout();
+        setcookie('auth', 'DELETED!', time());
         $this->redirect('admin');
 	}
-     
+    /**
+	 * 记住登录
+	 */
+	private function rememberLogin($user){
+        $salt = 'AUTOLOGIN';
+        $identifier = md5($salt . md5(\Ivy::app()->user->account . $salt));
+        $token = md5(uniqid(rand(), TRUE));
+        $timeout = time() + 60 * 60 * 24 * 7;//7天有效
+        setcookie('auth', "$identifier:$token", $timeout);
+        $user->identifier=$identifier;
+        $user->token=$token;
+        $user->timeout=$timeout;
+        $user->save();
+	}
+    /**
+	 * 自动登录 判断
+	 */
+	private function autoLogin(){
+        $salt = 'AUTOLOGIN';
+        $clean = array();
+        $now = time();
+        if(!isset($_COOKIE['auth'])) return false;
+        list($identifier, $token) = explode(':', $_COOKIE['auth']);
+        
+        if (ctype_alnum($identifier) && ctype_alnum($token))
+        {
+            $clean['identifier'] = $identifier;
+            $clean['token'] = $token;
+        }else{
+            return false;
+        }
+        $user = UserModel::model()->find("identifier = '{$clean['identifier']}'");
+        if($user&&$user->token==$clean['token']&&$now < $user->timeout){
+            \Ivy::app()->user->login($user);
+        }else{
+            return false;
+        }
+        return true;
+	}
+    
     
 	
 }

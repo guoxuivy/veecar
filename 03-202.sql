@@ -31,7 +31,7 @@ CREATE TABLE `admin_nav` (
   `icon` varchar(200) DEFAULT NULL COMMENT '图标',
   PRIMARY KEY (`id`),
   UNIQUE KEY `sys_name` (`sys_name`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COMMENT='系统导航表';
+) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COMMENT='系统导航表';
 
 /*Data for the table `admin_nav` */
 
@@ -47,10 +47,15 @@ CREATE TABLE `admin_user` (
   `nickname` varchar(30) DEFAULT NULL COMMENT '昵称',
   `password` varchar(100) NOT NULL COMMENT '登录密码',
   `login_time` int(11) DEFAULT NULL COMMENT '最后登录时间',
+  `identifier` varchar(32) DEFAULT NULL COMMENT '自动登录标识符',
+  `token` varchar(32) DEFAULT NULL COMMENT '自动登录令牌',
+  `timeout` int(11) DEFAULT NULL COMMENT '自动登录超时时间',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='系统用户表';
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='系统用户表';
 
 /*Data for the table `admin_user` */
+
+insert  into `admin_user`(`id`,`account`,`nickname`,`password`,`login_time`,`identifier`,`token`,`timeout`) values (1,'admin','管理员','e10adc3949ba59abbe56e057f20f883e',0,'117777e17a27a7c684ac0ac663ce4823','962ea0dddba1ea844190d9de93047ce3',1418035295);
 
 /*Table structure for table `article` */
 

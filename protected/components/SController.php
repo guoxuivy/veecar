@@ -16,6 +16,8 @@ class SController extends CController
      **/
     public function init() {
         if(\Ivy::app()->user->isGuest){
+            //记录返回地址
+            \Ivy::app()->user->setReturnUrl(implode('/',$this->route->getRouter()));
             $this->redirect('admin/main/login');
         }
 	}
