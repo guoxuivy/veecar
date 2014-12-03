@@ -38,8 +38,6 @@ final class Application extends CComponent {
         $config = require_once($config);
         $this->config=$config;
     }
-
-    
     
     /**
 	 * 缓存句柄对象

@@ -221,7 +221,7 @@ class CLogger extends CComponent
 	 */
 	public function getExecutionTime()
 	{
-		return microtime(true)-YII_BEGIN_TIME;
+		return microtime(true)-IVY_BEGIN_TIME;
 	}
 
 	/**
@@ -335,22 +335,13 @@ class CLogger extends CComponent
 	 * @param boolean $dumpLogs whether to process the logs immediately as they are passed to log route
 	 * @since 1.1.0
 	 */
-	public function flush($dumpLogs=false)
+	public function flush($dumpLogs=true)
 	{
         $logRoute = new CFileLogRoute();
-        $logRoute->collectLogs($this,true);
-        
+        $logRoute->collectLogs($this,$dumpLogs);
 		$this->_logs=array();
 		$this->_logCount=0;
 	}
 
-	/**
-	 * Raises an <code>onFlush</code> event.
-	 * @param CEvent $event the event parameter
-	 * @since 1.1.0
-	 */
-	public function onFlush($event)
-	{
-		$this->raiseEvent('onFlush', $event);
-	}
+
 }

@@ -1,1 +1,441 @@
-2014/12/02 19:24:26 [info] [application] sdfsdf
+2014/12/32014/12/03 15:33:46 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:33:46 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:35:02 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:35:03 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:35:03 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:37:48 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:37:51 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:38:58 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+
+2014/12/03 15:39:01 [error] [application] 
+ <!--Fatal error-->:  未捕获的异常Ivy\core\CException  
+异常消息：主键异常！  
+file:D:\wwwroot\veecar\framework\core\Model.php  
+line:34  
+function:__construct  
+class:Ivy\core\Model  
+type:->  
+args:array (
+  0 => NULL,
+)  
+file:D:\wwwroot\veecar\protected\controllers\IndexController.php  
+line:42  
+function:model  
+class:Ivy\core\Model  
+type:::  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:147  
+function:viewAction  
+class:IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:103  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'controller' => 'index',
+      'action' => 'view',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\Model.php on line 22
+

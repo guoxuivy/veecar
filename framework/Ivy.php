@@ -16,7 +16,7 @@ defined('__ROOT__') or define('__ROOT__', dirname(__DIR__));                    
 defined('__PROTECTED__') or define('__PROTECTED__',__ROOT__.DIRECTORY_SEPARATOR."protected");   //定义项目文件根目录 D:\wwwroot..protected
 defined('SITE_URL') or define('SITE_URL', dirname($_SERVER['SCRIPT_NAME']));                    //定义访问地址  /ivy
 defined('IVY_PATH') or define('IVY_PATH',dirname(__FILE__));                                    //定义框架根目录 D:\wwwroot\ivy\framework
-
+defined('IVY_BEGIN_TIME') or define('IVY_BEGIN_TIME',microtime(true));  
 use Ivy\core\Application;
 use Ivy\logging\CLogger;
 class Ivy
@@ -60,13 +60,13 @@ class Ivy
 	{
 		if(self::$_logger===null)
 			self::$_logger=new CLogger;
-		if(IVY_DEBUG && $level!==CLogger::LEVEL_PROFILE)
+		if( IVY_DEBUG && $level!==CLogger::LEVEL_PROFILE)
 		{
 			$traces=debug_backtrace();
 			$count=0;
 			foreach($traces as $trace)
 			{
-				if(isset($trace['file'],$trace['line']) && strpos($trace['file'],IVY_PATH)!==0)
+				if(isset($trace['file'],$trace['line']))
 				{
 					$msg.="\nin ".$trace['file'].' ('.$trace['line'].')';
 					if(++$count>=CLogger::REPORT_TRACE_LEVEL)
@@ -74,6 +74,7 @@ class Ivy
 				}
 			}
 		}
+        
 		self::$_logger->log($msg,$level,$category);
 	}
     

@@ -35,10 +35,12 @@ class CFileLogRoute extends CLogRoute
 {
 	/**
 	 * @var integer maximum log file size
+     * 每个日志文件最多1024KB
 	 */
 	private $_maxFileSize=1024; // in KB
 	/**
 	 * @var integer number of log files used for rotation
+     * 最多保存最近的5个日志文件
 	 */
 	private $_maxLogFiles=5;
 	/**
@@ -150,6 +152,7 @@ class CFileLogRoute extends CLogRoute
 
 	/**
 	 * Rotates log files.
+     * 轮转日志文件
 	 */
 	protected function rotateFiles()
 	{
