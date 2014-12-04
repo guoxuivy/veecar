@@ -24,9 +24,9 @@ class MainController extends \CController {
     
     
     /**
-	 * end body载入
+	 * 内部 head载入
 	 */
-	public function topnavAction() {
+	public function inheadAction() {
         $this->view->assign()->display();
 	}
     
