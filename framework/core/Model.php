@@ -61,7 +61,7 @@ abstract class Model extends CComponent implements \IteratorAggregate, \ArrayAcc
 		return new \ArrayIterator($attributes);
 	}
     
-    
+    //数据库属性字段检索
     function __get($proName){
         if(array_key_exists($proName , $this->attributes)){
             return $this->attributes[$proName];
