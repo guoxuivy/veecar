@@ -6,7 +6,8 @@
  * @package framework
  * @since 1.0
  */
-namespace admin; 
+namespace admin;
+use Ivy\core\lib\Image;
 class MainController extends \CController {
     /**
 	 * head载入
@@ -29,6 +30,14 @@ class MainController extends \CController {
 	public function inheadAction() {
         $this->view->assign()->display();
 	}
+    /**
+     * 验证码输出
+     */
+    public function verifyAction(){
+        $w = isset($_GET['w']) ? (int) $_GET['w'] : 50;
+        $h = isset($_GET['h']) ? (int) $_GET['h'] : 24;
+        Image::buildImageVerify(4, 1, 'png', $w, $h);
+    }
     
     /**
 	 * SIDEBAR MENU载入
@@ -90,6 +99,9 @@ class MainController extends \CController {
 	 */
 	public function loginAction(){
         if($this->isPost){
+            if (isset($_POST['verify_code']) && \Ivy::app()->user->getState('verify') != md5($_POST['verify_code'])) {
+                $this->view->assign('error',"验证码错误啦，再输入吧")->display();die;
+            }
             $user = UserModel::model()->find("account = '{$_POST['username']}'");
             if($user&&$user->password===md5($_POST['password'])){
                 \Ivy::app()->user->login($user);
@@ -102,7 +114,7 @@ class MainController extends \CController {
                     $this->redirect('admin');
                 }
             }else{
-               $this->view->assign('error',"用户名或密码错误！")->display(); 
+               $this->view->assign('error',"用户名或密码错误！")->display();die;
             }
         }else{
             //自动登录检测
@@ -113,7 +125,7 @@ class MainController extends \CController {
                     $this->redirect('admin');
                 }
             }else{
-                $this->view->assign()->display();
+                $this->view->assign()->display();die;
             }
             
         }
