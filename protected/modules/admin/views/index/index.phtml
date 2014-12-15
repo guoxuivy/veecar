@@ -176,6 +176,17 @@
 			<!-- END PAGE HEADER-->
 			<!-- BEGIN PAGE CONTENT-->
 			<div class="row">
+
+			<form method="post" enctype="multipart/form-data" action="<?php echo $this->url('admin/index/upload'); ?>" >
+			<input type="file" name='img' />
+			<input type="submit" value="提交" />
+			</form>
+			</div>
+
+
+
+
+			<div class="row">
 				<div class="col-md-12 page-404">
 					<div class="number">
 						 404
