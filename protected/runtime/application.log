@@ -1,6 +1,15 @@
-2014/12/15 18:38:32 [info] [application] 上次成功
-2014/12/15 18:43:50 [info] [application] D:\wamp\tmp\php6E78.tmp
-2014/12/15 18:43:50 [info] [application] 上次成功
-2014/12/15 18:45:00 [info] [application] D:\wwwroot\veecar\upload20141215_p1418640300.jpg
-2014/12/15 18:45:00 [info] [application] 上次成功
-2014/12/15 18:46:19 [info] [application] 上次成功
+2014/12/162014/12/16 11:05:24 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:05:25 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:05:42 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101) in->D:\wwwroot\veecar\framework\core\Application.php (148) in->D:\wwwroot\veecar\framework\core\Application.php (104)
+2014/12/16 11:05:43 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101) in->D:\wwwroot\veecar\framework\core\Application.php (148) in->D:\wwwroot\veecar\framework\core\Application.php (104)
+2014/12/16 11:06:02 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:06:03 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:06:37 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:07:11 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:07:48 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:08:04 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:08:18 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:08:18 [error] [application] 系统错误:Undefined variable: dfs->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:102
+2014/12/16 11:09:01 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
+2014/12/16 11:09:01 [error] [application] 系统错误:Undefined variable: dfs->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:102
+2014/12/16 11:09:12 [profile] [application] erer in->D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php (101)
