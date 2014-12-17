@@ -139,15 +139,21 @@ final class Application extends CComponent {
             throw new CException ( $router['module'] . '-分组不存在！'); 
         }
         
-        $hasMethod = $ReflectedClass->hasMethod($action);
-        if($hasMethod){
-            //widget的参数用$_REQUEST传递
-            if(!empty($param)){
-                $_REQUEST = array_merge($_REQUEST,$param);
-            }
-            return $ReflectedClass->newInstanceArgs(array($routerObj))->$action();//实例化
+        //widget的参数用$_REQUEST传递
+        if(!empty($param)){
+            $_REQUEST = array_merge($_REQUEST,$param);
         }
-        throw new CException ( $class . '控制器中没有方法：' . $action );    
+        return $ReflectedClass->newInstanceArgs(array($routerObj))->$action();//实例化
+
+        // $hasMethod = $ReflectedClass->hasMethod($action);
+        // if(!$hasMethod){
+        //     //widget的参数用$_REQUEST传递
+        //     if(!empty($param)){
+        //         $_REQUEST = array_merge($_REQUEST,$param);
+        //     }
+        //     return $ReflectedClass->newInstanceArgs(array($routerObj))->$action();//实例化
+        // }
+        // throw new CException ( $class . '控制器中没有方法：' . $action );   
      
 	}
     

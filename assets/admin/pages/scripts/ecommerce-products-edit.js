@@ -9,7 +9,7 @@ var EcommerceProductsEdit = function () {
             browse_button : document.getElementById('tab_images_uploader_pickfiles'), // you can pass in id...
             container: document.getElementById('tab_images_uploader_container'), // ... or DOM Element itself
              
-            url : "assets/plugins/plupload/examples/upload.php",
+            url : "assets/global/plugins/plupload/examples/upload.php",
              
             filters : {
                 max_file_size : '10mb',
@@ -20,10 +20,10 @@ var EcommerceProductsEdit = function () {
             },
          
             // Flash settings
-            flash_swf_url : 'assets/plugins/plupload/js/Moxie.swf',
+            flash_swf_url : 'assets/global/plugins/plupload/js/Moxie.swf',
      
             // Silverlight settings
-            silverlight_xap_url : 'assets/plugins/plupload/js/Moxie.xap',             
+            silverlight_xap_url : 'assets/global/plugins/plupload/js/Moxie.xap',             
          
             init: {
                 PostInit: function() {
@@ -52,10 +52,8 @@ var EcommerceProductsEdit = function () {
 
                 FileUploaded: function(up, file, response) {
                     var response = $.parseJSON(response.response);
-
                     if (response.result && response.result == 'OK') {
                         var id = response.id; // uploaded file's unique name. Here you can collect uploaded file names and submit an jax request to your server side script to process the uploaded files and update the images tabke
-
                         $('#uploaded_file_' + file.id + ' > .status').removeClass("label-info").addClass("label-success").html('<i class="fa fa-check"></i> Done'); // set successfull upload
                     } else {
                         $('#uploaded_file_' + file.id + ' > .status').removeClass("label-info").addClass("label-danger").html('<i class="fa fa-warning"></i> Failed'); // set failed upload
@@ -73,6 +71,7 @@ var EcommerceProductsEdit = function () {
 
     }
 
+    //延迟加载评论
     var handleReviews = function () {
 
         var grid = new Datatable();
@@ -171,7 +170,7 @@ var EcommerceProductsEdit = function () {
 
             handleImages();
             handleReviews();
-            handleHistory();
+            //handleHistory();
         }
 
     };

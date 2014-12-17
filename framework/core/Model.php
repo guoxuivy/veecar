@@ -14,9 +14,9 @@ abstract class Model extends CComponent implements \IteratorAggregate, \ArrayAcc
     
     //静态对象保存 节省性能开销
 	private static $_models=array();
-    protected $primaryKey =null;
+    protected $primaryKey = null;
     //用来存储表数据
-    protected $attributes =array();
+    protected $attributes = array();
 
     //错误搜集
     protected $_error = array();
@@ -30,11 +30,11 @@ abstract class Model extends CComponent implements \IteratorAggregate, \ArrayAcc
     
     public static function model()
 	{
-        $className=get_called_class();
+        $className = get_called_class();
 		if(isset(self::$_models[$className])){
             return self::$_models[$className]; 
 		}else{
-			$model=self::$_models[$className]=new $className(null);
+			$model = self::$_models[$className] = new $className(null);
 			return $model;
 		}
 	}
@@ -61,7 +61,7 @@ abstract class Model extends CComponent implements \IteratorAggregate, \ArrayAcc
 		return new \ArrayIterator($attributes);
 	}
     
-    //数据库属性字段检索
+    //数据库属性字段 扩展
     function __get($proName){
         if(array_key_exists($proName , $this->attributes)){
             return $this->attributes[$proName];
@@ -166,6 +166,7 @@ abstract class Model extends CComponent implements \IteratorAggregate, \ArrayAcc
     
 
     /**
+     * 抽象方法 获取表名
 	 * @return string database table name
 	 */
 	abstract function tableName();
