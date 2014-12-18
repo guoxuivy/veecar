@@ -33,55 +33,13 @@
                 
                 
 				<li class="start">
-					<a href="javascript:;">
+					<a href="<?php echo $this->url('admin'); ?>">
 					<i class="icon-home"></i>
 					<span class="title">HOME</span>
 					</a>
 				</li>
                 
-<?php 
-function show_nav($arr,$way=false){
-    $str = '';
-    foreach($arr as $nav){
-        $active=($way&&in_array($nav['id'],$way));
-        if($active){
-            $str.='<li class="active">';
-        }else{
-            $str.='<li>';
-        }
-        $str.='<a href="javascript:;">';
-        if(!empty($nav['icon'])){
-            $str.='<i class="icon-'.$nav['icon'].'"></i>';
-        }
-        if($nav['fid']==0){
-            $str.='<span class="title">'.$nav['show_name'].'</span>';
-            if($active) $str.='<span class="selected"></span>';
-        }else{
-            $str.=$nav['show_name'];
-        }
-        if(!empty($nav['children'])){
-            if($active){
-                $str.='<span class="arrow open"></span>';
-            }else{
-                $str.='<span class="arrow"></span>';
-            }
-        }
-        $str.='</a>';
-        if(!empty($nav['children'])){
-            if($active){
-                $str.='<ul class="sub-menu">';
-            }else{
-                $str.='<ul class="sub-menu" style="display:none;">';
-            }
-            $str.=show_nav($nav['children'],$way);
-            $str.='</ul>';
-        }
-        $str.='</li>';
-    }
-    return $str;
-};
-echo show_nav($nav_arr,$way);
-?>                
+				<?php echo $side_bar_str;?>                
                 
 				<li class="last">
 					<a href="javascript:;">

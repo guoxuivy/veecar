@@ -44,7 +44,7 @@ final class Application extends CComponent {
 	 * 缓存句柄对象
 	 */
 	public function getCache() {
-        if($this->cache instanceof Cache){
+        if($this->cache){
         	return $this->cache;
         }else{
             $this->cache = new Cache ($this->config['memcache']);
@@ -58,7 +58,7 @@ final class Application extends CComponent {
      * 变量类名 无法应用命名空间~~~!
 	 */
 	public function getDb() {
-        if($this->db instanceof AbsoluteDB){
+        if($this->db){
         	return $this->db;
         }else{
             $class_arr=explode(":",$this->config['db_pdo']['dsn']);
@@ -72,7 +72,7 @@ final class Application extends CComponent {
 	 * 登录用户句柄对象
 	 */
 	public function getUser() {
-        if($this->user instanceof User){
+        if($this->user){
         	return $this->user;
         }else{
             $this->user = new User ();

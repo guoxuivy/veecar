@@ -17,8 +17,11 @@ class ArticleController extends \SController {
         $this->view->assign()->display();
 	}
 
-    public function addAction(){
+    public function add11Action(){
         $this->view->assign()->display();
+    }
+    public function saveAction(){
+        $res = \ArticleModel::model()->addOne($_POST['product']);
     }
 
 

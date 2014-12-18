@@ -45,14 +45,13 @@ class MainController extends \CController {
 	public function menuAction() {
 	   
         $nav = NavModel::model()->findAll('type = 1');
-        
+        $way = false;
         $navTree = $this->treeNavData($nav);
         if(isset($_REQUEST['active'])){
             $way = $this->getTreeWay($navTree,$_REQUEST['active']);
         }
         $this->view->assign(array(
-            'way'=>isset($way)?$way:false,
-            'nav_arr'=>$navTree
+            'side_bar_str'=>$this->getSideBarStr($navTree,$way)
         ))->display('sidebar');
 	}
     
@@ -93,6 +92,63 @@ class MainController extends \CController {
         }
         return $ret;   
     }
+
+    /**
+     * sidebar 字符串构造
+     * $arr 节点树 
+     * $way 需要展开的路径节点 
+     */
+     public function getSideBarStr($arr,$way=false){
+        $str = '';
+        foreach($arr as $nav){
+            $active=($way&&in_array($nav['id'],$way));
+            if($active){
+                $str.='<li class="active">';
+            }else{
+                $str.='<li>';
+            }
+            if($nav['uri']){
+                $url = $this->url($nav['uri']);
+            } else{
+                $url = 'javascript:;';
+            }
+            $str.='<a href="'. $url.'">';
+            if(!empty($nav['icon'])){
+                $str.='<i class="icon-'.$nav['icon'].'"></i>';
+            }
+            if($nav['fid']==0){
+                $str.='<span class="title">'.$nav['show_name'].'</span>';
+                if($active) $str.='<span class="selected"></span>';
+            }else{
+                $str.=$nav['show_name'];
+            }
+            if(!empty($nav['children'])){
+                if($active){
+                    $str.='<span class="arrow open"></span>';
+                }else{
+                    $str.='<span class="arrow"></span>';
+                }
+            }
+            $str.='</a>';
+            if(!empty($nav['children'])){
+                if($active){
+                    $str.='<ul class="sub-menu">';
+                }else{
+                    $str.='<ul class="sub-menu" style="display:none;">';
+                }
+                $str.=$this->getSideBarStr($nav['children'],$way);
+                $str.='</ul>';
+            }
+            $str.='</li>';
+        }
+        return $str;  
+    }
+
+
+
+
+
+
     
     /**
 	 * 登录

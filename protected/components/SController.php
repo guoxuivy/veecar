@@ -9,6 +9,7 @@
  * @package framework
  * @since 1.0
  */
+use Ivy\core\CException;
 class SController extends CController
 {
     /**
@@ -26,8 +27,10 @@ class SController extends CController
         if("Action"===substr($method,-6)) {
             $view=substr($method,0,-6);
             $this->view->assign()->display($view);
+        }else{
+            throw new CException('找不到'.$method.'方法');
         }
-        throw new CException('找不到'.$method.'方法');
+        
     }
 
 }

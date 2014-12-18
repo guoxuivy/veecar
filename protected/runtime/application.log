@@ -50,3 +50,197 @@
 2014/12/17 14:39:38 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
  (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
 2014/12/17 14:39:38 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/18 10:17:46 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 10:17:46 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 10:17:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 10:17:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 10:17:47 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/18 11:05:08 [info] [application] 上次成功
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 11:12:26 [error] [application] 系统错误:Undefined index: url->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:110
+2014/12/18 13:39:55 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 13:39:55 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 13:39:56 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 13:39:56 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 13:39:56 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/18 13:43:02 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 13:43:02 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 13:43:03 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 13:43:03 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 13:43:03 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/18 13:49:45 [error] [application] 系统错误:Undefined variable: POST->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:24
+2014/12/18 14:29:50 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 14:29:50 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 14:35:58 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 14:35:58 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 14:46:53 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 14:46:53 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/18 14:46:54 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 14:46:54 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/18 14:46:54 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/18 17:18:53 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:18:53 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:18:53 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:18:53 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:18:53 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:19:26 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:19:26 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:19:35 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:19:35 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:20:12 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:20:12 [error] [application] 系统错误:Undefined variable: primaryKey->file:D:\wwwroot\veecar\framework\core\Model.php->line:68
+2014/12/18 17:26:46 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:26:46 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:29:20 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:29:20 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:33:01 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:33:01 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:33:16 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:33:16 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:35:04 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:35:04 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:35:30 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:35:30 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:36:41 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:36:41 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:37:05 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:37:05 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:38:57 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:38:57 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:43:26 [error] [application] 系统错误:array_keys() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:43:26 [error] [application] 系统错误:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:34
+2014/12/18 17:43:26 [error] [application] 系统错误:Undefined index: tmp_im->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:43:26 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:43:44 [error] [application] 系统错误:Undefined index: tmp_im->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:43:44 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:44:18 [error] [application] 系统错误:Undefined index: tmp_im->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:44:18 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:36
+2014/12/18 17:59:15 [error] [application] 系统错误:Undefined variable: res->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:59
+2014/12/18 17:59:15 [error] [application] 系统错误:Undefined variable: res->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:59
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:135
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:33
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:40
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:157
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:93
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:14:35 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:50
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:135
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:33
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:40
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:157
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:93
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:16:17 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:135
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:33
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:40
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:157
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:93
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:17:52 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:135
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:33
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:40
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:157
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:93
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:18:43 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:133
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:38
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:155
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:91
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:19:12 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:133
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:38
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:155
+2014/12/18 18:20:02 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:91
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:133
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:38
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:155
+2014/12/18 18:20:21 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:91
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:21
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:22
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:135
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:33
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:39
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:40
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:157
+2014/12/18 18:21:26 [error] [application] 系统错误:Accessing static property Ivy\db\pdo\mysql::$pdo as non static->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:93
+2014/12/18 18:33:39 [error] [application] 系统错误:Undefined variable: e->file:D:\wwwroot\veecar\protected\models\ArticleModel.php->line:52

@@ -18,6 +18,9 @@ class IndexController extends \SController {
 	}
 
 
+    /**
+     * [文件上传操作]
+     */
 	public function UploadAction(){
     	if ($this->isPost) {
     		//$this->checkToken();
