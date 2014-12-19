@@ -35,7 +35,7 @@ CREATE TABLE `admin_nav` (
 
 /*Data for the table `admin_nav` */
 
-insert  into `admin_nav`(`id`,`fid`,`show_name`,`sys_name`,`ord`,`type`,`uri`,`icon`) values (1,0,'首页','home',0,2,'','home'),(2,0,'系统设置','setting',0,1,NULL,'settings'),(3,0,'信息管理','news',0,1,NULL,'eye'),(4,0,'数据报表','reports',0,1,NULL,'bar-chart'),(5,0,'数据采集','collect',0,1,NULL,'rocket'),(6,0,'用户管理','user',0,1,NULL,'users'),(7,2,'后台导航','admin_nav',0,1,NULL,NULL),(8,3,'信息类别','news_cate',0,1,NULL,'briefcase'),(9,3,'信息检索','news_list',0,1,NULL,'diamond'),(10,2,'后台上导航','admin_nav_top',0,1,NULL,NULL),(11,2,'后台左导航','admin_nav_left',0,1,NULL,NULL),(12,3,'tag管理','min_nav',0,1,NULL,'globe'),(18,3,'文章发布','edit_article',1,1,NULL,'pencil');
+insert  into `admin_nav`(`id`,`fid`,`show_name`,`sys_name`,`ord`,`type`,`uri`,`icon`) values (1,0,'首页','home',0,2,'admin','home'),(2,0,'系统设置','setting',0,1,NULL,'settings'),(3,0,'信息管理','news',0,1,NULL,'eye'),(4,0,'数据报表','reports',0,1,NULL,'bar-chart'),(5,0,'数据采集','collect',0,1,NULL,'rocket'),(6,0,'用户管理','user',0,1,NULL,'users'),(7,2,'后台导航','admin_nav',0,1,NULL,NULL),(8,3,'信息类别','news_cate',0,1,NULL,'briefcase'),(9,3,'信息检索','news_list',0,1,NULL,'diamond'),(10,2,'后台上导航','admin_nav_top',0,1,NULL,NULL),(11,2,'后台左导航','admin_nav_left',0,1,NULL,NULL),(12,3,'tag管理','min_nav',0,1,NULL,'globe'),(18,3,'文章发布','edit_article',1,1,'admin/article/add','pencil');
 
 /*Table structure for table `admin_user` */
 
@@ -55,7 +55,7 @@ CREATE TABLE `admin_user` (
 
 /*Data for the table `admin_user` */
 
-insert  into `admin_user`(`id`,`account`,`nickname`,`password`,`login_time`,`identifier`,`token`,`timeout`) values (1,'admin','管理员','e10adc3949ba59abbe56e057f20f883e',0,'117777e17a27a7c684ac0ac663ce4823','962ea0dddba1ea844190d9de93047ce3',1418035295),(11,'','','',0,'','',0),(10,'','','',0,'','',0),(9,'','','',0,'','',0);
+insert  into `admin_user`(`id`,`account`,`nickname`,`password`,`login_time`,`identifier`,`token`,`timeout`) values (1,'admin','管理员','e10adc3949ba59abbe56e057f20f883e',0,'117777e17a27a7c684ac0ac663ce4823','962ea0dddba1ea844190d9de93047ce3',1418035295);
 
 /*Table structure for table `article` */
 
@@ -70,13 +70,13 @@ CREATE TABLE `article` (
   `content` text COMMENT '文章内容',
   `add_time` int(11) DEFAULT NULL COMMENT '添加时间',
   `status` tinyint(2) DEFAULT '1' COMMENT '发布状态 1正常',
-  `available_from` datetime NOT NULL COMMENT '生效时间 默认当前时间',
+  `available_from` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '生效时间 默认当前时间',
   `available_to` datetime NOT NULL DEFAULT '2099-12-01 12:00:00' COMMENT '截止时间 默认2099年',
   `meta_title` varchar(100) DEFAULT NULL COMMENT 'SEO',
   `meta_keywords` varchar(255) DEFAULT NULL COMMENT 'SEO',
   `meta_description` varchar(255) DEFAULT NULL COMMENT 'SEO',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=utf8 COMMENT='文章主表';
+) ENGINE=InnoDB AUTO_INCREMENT=164 DEFAULT CHARSET=utf8 COMMENT='文章主表';
 
 /*Data for the table `article` */
 
@@ -121,11 +121,13 @@ DROP TABLE IF EXISTS `attachment`;
 
 CREATE TABLE `attachment` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `rel_id` int(11) DEFAULT NULL COMMENT '关联ID',
+  `table` varchar(50) DEFAULT NULL COMMENT '所属表名',
   `name` varchar(200) NOT NULL COMMENT '附件显示名',
   `uri` varchar(200) NOT NULL COMMENT '保存路径',
   `ext` varchar(20) NOT NULL COMMENT '附件扩展名',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章附件表';
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COMMENT='文章附件表';
 
 /*Data for the table `attachment` */
 

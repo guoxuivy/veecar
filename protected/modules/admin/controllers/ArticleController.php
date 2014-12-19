@@ -17,11 +17,13 @@ class ArticleController extends \SController {
         $this->view->assign()->display();
 	}
 
-    public function add11Action(){
-        $this->view->assign()->display();
-    }
     public function saveAction(){
         $res = \ArticleModel::model()->addOne($_POST['product']);
+        if($res){
+            $this->redirect('admin/article/add');
+        }else{
+            var_dump(\ArticleModel::model()->_error);die;
+        }
     }
 
 
