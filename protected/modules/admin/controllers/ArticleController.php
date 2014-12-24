@@ -29,7 +29,7 @@ class ArticleController extends \SController {
 
 
     /**
-     * json文章列表
+     * json文章列表 recordsFiltered 必须！！
      * {"data":[],"draw":0,"recordsTotal":2430,"recordsFiltered":2430}
      * @return  json [description]
      */
@@ -42,21 +42,18 @@ class ArticleController extends \SController {
         $data=array();
         foreach ($list['list'] as $value) {
             $data[]=array(
-                '<input value="'.$value['id'].'" type="checkbox">',
-                $value['id'],
-                $value['title'],
-                $value['cates'],
-                date('Y-m-d H:i',$value['add_time']),
-                $value['summary'],
-                $value['available_from'],
-                $value['status'],
-                '无'
+                'id'=>$value['id'],
+                'title'=>$value['title'],
+                'cates'=>$value['cates'],
+                'add_time'=>date('Y-m-d H:i',$value['add_time']),
+                'summary'=>$value['summary'],
+                'available_from'=>$value['available_from'],
+                'status'=>$value['status']
             );
         }
         $recordsTotal=$list['recordsTotal'];
-        die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal))); 
+        die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal,"recordsFiltered"=>$recordsTotal))); 
     }
-
 
 	public function UploadAction(){
     	if ($this->isPost) {

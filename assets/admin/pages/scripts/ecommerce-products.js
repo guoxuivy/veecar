@@ -31,7 +31,44 @@ var EcommerceProducts = function () {
                 },
                 "order": [
                     [1, "asc"]
-                ] // set first column as a default sort by asc
+                ], // set first column as a default sort by asc
+                "columns": [
+                    { "data": "check"},
+                    { "data": "id" },
+                    { "data": "title" },
+                    { "data": "cates" },
+                    { "data": "add_time" },
+                    { "data": "summary" },
+                    { "data": "available_from" },
+                    { "data": "status" }
+                ],
+                "columnDefs": [//各列特殊处理
+                    {
+                        "targets": [0], // 目标列位置，下标从0开始
+                        //"data": "check", // 数据列名 如果定义了 columns 属性可用  
+                        "render": function(data, type, full) { // 返回自定义内容
+                            return "<input type='checkbox' value='"+full.id+"'>";
+                        }
+                    },
+                    {
+                        "targets": [7], // 目标列位置，下标从0开始
+                        //"data": "check", // 数据列名 如果定义了 columns 属性可用  
+                        "render": function(data, type, full) { // 返回自定义内容
+                            if(data==0){
+                                return '<span class="label label-danger">未发布</span>';
+                            }else{
+                                return '<span class="label label-success">已发布</span>';
+                            }
+                        }
+                    },
+                    {
+                      "targets": [8], // 目标列位置，下标从0开始
+                      "data": "id", // 数据列名 传入数据的列
+                      "render": function(data, type, full) { // 返回自定义内容
+                            return "<a href='" + base_url+"?r=admin/article/delete&id=" +data+ "'>Delete</a>&nbsp;<a href='" + base_url+"?r=admin/article/edit&id="+ data + "'>Update</a>";
+                      }
+                  }
+                ]
             }
         });
 
