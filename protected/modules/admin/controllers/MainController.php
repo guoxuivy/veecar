@@ -44,7 +44,7 @@ class MainController extends \CController {
 	 */
 	public function menuAction() {
 	   
-        $nav = NavModel::model()->findAll('type = 1');
+        $nav = NavModel::model()->findAll('type = 1',array('*'),array('ord'=>'desc'));
         $way = false;
         $navTree = $this->treeNavData($nav);
         if(isset($_REQUEST['active'])){

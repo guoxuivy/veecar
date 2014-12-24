@@ -274,3 +274,132 @@
 2014/12/24 10:20:29 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
  (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
 2014/12/24 10:20:29 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:07:55 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:07:55 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:65
+2014/12/24 14:08:44 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:09:37 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:09:52 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:09:52 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:65
+2014/12/24 14:10:26 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:10:47 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2014/12/24 14:28:39 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:39 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:40 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:40 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:40 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:46 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:46 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:49 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2014/12/24 14:28:50 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/24 16:05:41 [error] [application] 系统错误:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2014/12/24 16:06:29 [error] [application] 系统错误:Undefined variable: value，array->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:44
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:11:30 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45
+2014/12/24 16:12:18 [error] [application] 系统错误:Undefined offset: 0->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:45

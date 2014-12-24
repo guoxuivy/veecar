@@ -14,7 +14,6 @@ var EcommerceProducts = function () {
         grid.init({
             src: $("#datatable_products"),
             onSuccess: function (grid) {
-                console.log(grid);
                 // execute some code after table records loaded
             },
             onError: function (grid) {

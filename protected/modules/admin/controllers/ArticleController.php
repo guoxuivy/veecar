@@ -34,8 +34,27 @@ class ArticleController extends \SController {
      * @return  json [description]
      */
     public function jsonAction() {
-        $data=array(array("1","1","更新","2","1","1","20140608","1","更新"),array("2","2","更新","2","1","1","20140608","1","更新") );
-        die(json_encode(array('data'=>$data,"draw"=>2,'recordsTotal'=>200,'recordsFiltered'=>200))); 
+        $star=$_REQUEST['start']?$_REQUEST['start']:0;
+        $length=$_REQUEST['length']?$_REQUEST['length']:10;
+        $page = (int)ceil($star/$length+1);
+
+        $list = \ArticleModel::model()->getPagener(NULL,$page,$length);
+        $data=array();
+        foreach ($list['list'] as $value) {
+            $data[]=array(
+                '<input value="'.$value['id'].'" type="checkbox">',
+                $value['id'],
+                $value['title'],
+                $value['cates'],
+                date('Y-m-d H:i',$value['add_time']),
+                $value['summary'],
+                $value['available_from'],
+                $value['status'],
+                '无'
+            );
+        }
+        $recordsTotal=$list['recordsTotal'];
+        die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal))); 
     }
 
 
