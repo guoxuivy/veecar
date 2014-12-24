@@ -17,13 +17,25 @@ class ArticleController extends \SController {
         $this->view->assign()->display();
 	}
 
+    
     public function saveAction(){
         $res = \ArticleModel::model()->addOne($_POST['product']);
         if($res){
-            $this->redirect('admin/article/add');
+            $this->redirect('admin/article/list');
         }else{
             var_dump(\ArticleModel::model()->_error);die;
         }
+    }
+
+
+    /**
+     * json文章列表
+     * {"data":[],"draw":0,"recordsTotal":2430,"recordsFiltered":2430}
+     * @return  json [description]
+     */
+    public function jsonAction() {
+        $data=array(array("1","1","更新","2","1","1","20140608","1","更新"),array("2","2","更新","2","1","1","20140608","1","更新") );
+        die(json_encode(array('data'=>$data,"draw"=>2,'recordsTotal'=>200,'recordsFiltered'=>200))); 
     }
 
 

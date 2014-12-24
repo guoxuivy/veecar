@@ -164,6 +164,8 @@ class MainController extends \CController {
                 if(isset($_POST['remember'])&&$_POST['remember']=='1'){
                     $this->rememberLogin($user);   
                 }
+                $user->login_time=time();
+                $user->save();
                 if(\Ivy::app()->user->getReturnUrl()){
                     $this->redirect(\Ivy::app()->user->getReturnUrl());
                 }else{
@@ -225,12 +227,15 @@ class MainController extends \CController {
         }else{
             return false;
         }
+
         $user = UserModel::model()->find("identifier = '{$clean['identifier']}'");
         if($user&&$user->token==$clean['token']&&$now < $user->timeout){
             \Ivy::app()->user->login($user);
         }else{
             return false;
         }
+        $user->login_time=time();
+        $user->save();
         return true;
 	}
     

@@ -14,6 +14,7 @@ var EcommerceProducts = function () {
         grid.init({
             src: $("#datatable_products"),
             onSuccess: function (grid) {
+                console.log(grid);
                 // execute some code after table records loaded
             },
             onError: function (grid) {
@@ -27,7 +28,7 @@ var EcommerceProducts = function () {
                 ],
                 "pageLength": 10, // default record count per page
                 "ajax": {
-                    "url": "demo/ecommerce_products.php", // ajax source
+                    "url": base_url+"?r=admin/article/json", // ajax source
                 },
                 "order": [
                     [1, "asc"]

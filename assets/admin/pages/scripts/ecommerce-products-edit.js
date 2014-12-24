@@ -169,6 +169,32 @@ var EcommerceProductsEdit = function () {
 
 
     var handleCommon = function () {
+        //表单数据验证
+        var check_form = function (){
+            return true;
+        }
+
+
+        //提交事件绑定
+        $('#act_save').click(function() {
+            if(check_form()){
+                return true;
+            }else{
+                Metronic.alert({type: 'danger', message: '表单验证失败！', closeInSeconds: 5, icon: 'warning'});
+                return false;
+            }
+        });
+
+        $('#act_save_edit').click(function() {
+            if(check_form()){
+
+            }else{
+                Metronic.alert({type: 'danger', message: '表单验证失败！', closeInSeconds: 5, icon: 'warning'});
+            }
+            return false;
+        });
+
+        
         
     }
 

@@ -26,5 +26,12 @@
 <link href="<?php echo $this->basePath('assets');?>/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/><!-- 圆角css -->
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
+<script>
+var base_url='<?php echo  SITE_URL."/index.php";?>';
+
+function get_url(uri){
+	return base_url+"r="+uri;
+}
+</script>
 </head>
 <!-- END HEAD -->

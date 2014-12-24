@@ -44,8 +44,6 @@ class ArticleModel extends \CModel
 		if(isset($post['available_to'])&&empty($post['available_to']))
 			unset($post['available_to']);
 
-		$file='/home/ramki/ramki.pdf';
-		pathinfo($file, PATHINFO_EXTENSION);
 		$this->attributes=$post;
 		try{
 			//开启事务处理  
