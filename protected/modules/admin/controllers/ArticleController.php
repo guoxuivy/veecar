@@ -17,13 +17,18 @@ class ArticleController extends \SController {
         $this->view->assign()->display();
 	}
 
+    public function editAction(){
+        $id=$_REQUEST['id'];
+        $data = \ArticleModel::model()->findByPk($id);
+        $this->view->assign('data',$data)->display();
+    }
     
     public function saveAction(){
         $res = \ArticleModel::model()->addOne($_POST['product']);
         if($res){
             $this->redirect('admin/article/list');
         }else{
-            var_dump(\ArticleModel::model()->_error);die;
+            throw new CException(\ArticleModel::model()->_error);
         }
     }
 
