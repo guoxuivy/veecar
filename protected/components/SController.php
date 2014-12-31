@@ -18,7 +18,7 @@ class SController extends CController
     public function init() {
         if(\Ivy::app()->user->isGuest){
             //记录返回地址
-            \Ivy::app()->user->setReturnUrl(implode('/',$this->route->getRouter()));
+            \Ivy::app()->user->setReturnUrl(implode('/',$this->route->getRouter()).$this->getQueryString());
             $this->redirect('admin/main/login');
         }
 	}
@@ -31,6 +31,20 @@ class SController extends CController
             throw new CException('找不到'.$method.'方法');
         }
         
+    }
+
+
+    /**
+     * 获取 r之外的 get参数 
+     * @return [string] [description]
+     */
+    public function getQueryString(){
+        $q = explode("&", $_SERVER['QUERY_STRING']);
+        if($q && count($q)>1 && $q[0][0]==='r'){
+            unset($q[0]);
+            return "&".implode('&', $q);
+        }
+        return '';
     }
 
 }

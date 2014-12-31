@@ -421,3 +421,6 @@
 2014/12/26 18:18:20 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
  (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
 2014/12/26 18:18:20 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2014/12/31 15:11:50 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21
+2014/12/31 15:11:57 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21
+2014/12/31 15:37:51 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21

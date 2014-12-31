@@ -16,6 +16,11 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $this->basePath('assets');?>/global/plugins/bootstrap-datetimepicker/css/datetimepicker.css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo $this->basePath('assets');?>/global/plugins/fancybox/source/jquery.fancybox.css"/>
 
+<!--加载百度编辑器-->
+<script type="text/javascript" charset="utf-8" src="<?php echo $this->basePath('assets');?>/global/plugins/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="<?php echo $this->basePath('assets');?>/global/plugins/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="<?php echo $this->basePath('assets');?>/global/plugins/ueditor/lang/zh-cn/zh-cn.js"></script>
+<!--加载百度编辑器 完-->
 <body class="page-header-fixed page-quick-sidebar-over-content">
 <!-- 加载内页头部 -->
 <?php  Ivy::app()->widget('admin/main/inhead'); ?>
@@ -136,7 +141,8 @@
 												<div class="form-group">
 													<label class="col-md-2 control-label">内容: <span class="required">* </span></label>
 													<div class="col-md-10">
-														<textarea class="form-control" name="product[content]"><?php echo $data->content;?></textarea>
+														<script id="editor" type="text/plain" style="width:1024px;height:500px;"><?php echo $data->content;?></script>
+														<textarea style="display:none" class="form-control" name="product[content]"><?php echo $data->content;?></textarea>
 													</div>
 												</div>
 												<div class="form-group">
@@ -573,9 +579,12 @@
 
 <script>
 jQuery(document).ready(function() {
-
 	EcommerceProductsEdit.init();
 });
+
+var ue = UE.getEditor('editor');
+
+
 </script>
 
 </body>
