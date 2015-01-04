@@ -169,10 +169,18 @@ var EcommerceProductsEdit = function () {
 
 
     var handleCommon = function () {
+        //百度编辑器初始化
+        var ue = UE.getEditor('editor');
         //表单数据验证
         var check_form = function (){
+            //内容绑定
+            $("textarea[name='product[content]']").val(ue.getContent());
+            //使用默认摘要 
+            if($("textarea[name='product[summary]']").val()==''){
+                $("textarea[name='product[summary]']").val(subString(ue.getContentTxt(),100));
+            }
             return true;
-        }
+        };
 
 
         //提交事件绑定
@@ -193,6 +201,39 @@ var EcommerceProductsEdit = function () {
             }
             return false;
         });
+
+
+
+
+        /**
+         * 截取字符串
+         */
+        var subString = function (str, len){
+            var newLength = 0; 
+            var newStr = ""; 
+            var chineseRegex = /[^\x00-\xff]/g; 
+            var singleChar = ""; 
+            var strLength = str.replace(chineseRegex,"**").length; 
+            for(var i = 0;i < strLength;i++) 
+            { 
+                singleChar = str.charAt(i).toString(); 
+                if(singleChar.match(chineseRegex) != null) 
+                { 
+                    newLength += 2; 
+                } else { 
+                    newLength++; 
+                } 
+                if(newLength > len) { 
+                    break; 
+                } 
+                newStr += singleChar; 
+            } 
+             
+            if(strLength > len) { 
+                newStr += "..."; 
+            }
+            return newStr;
+        };
 
         
         

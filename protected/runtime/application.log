@@ -424,3 +424,63 @@
 2014/12/31 15:11:50 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21
 2014/12/31 15:11:57 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21
 2014/12/31 15:37:51 [error] [application] 系统错误:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:21
+2015/01/04 10:23:32 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 10:23:32 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 10:23:33 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 10:23:33 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 10:23:33 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/01/04 12:36:08 [error] [application] 系统错误:Undefined property: PlugController::$_PLUGDIR->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:21
+2015/01/04 12:36:08 [error] [application] 系统错误:include_once(\ueditor\controller.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\controllers\PlugController.php->line:20
+2015/01/04 12:36:08 [error] [application] 系统错误:include_once() [<a href='function.include'>function.include</a>]: Failed opening '\ueditor\controller.php' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\protected\controllers\PlugController.php->line:20
+2015/01/04 12:37:42 [error] [application] 系统错误:Undefined property: PlugController::$_PLUGDIR->file:D:\wwwroot\veecar\framework\core\CComponent.php->line:21
+2015/01/04 12:38:45 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 12:38:45 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/04 12:38:54 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 12:43:27 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 12:43:34 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 12:43:34 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/04 12:45:40 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 13:02:55 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 13:02:55 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/04 13:02:57 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 13:05:36 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:7
+2015/01/04 13:09:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 13:09:47 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 13:09:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 13:09:48 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 13:09:48 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/01/04 13:09:56 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 13:09:56 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/04 13:09:57 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 13:09:57 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/04 13:09:57 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/01/04 13:24:00 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:00 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:03 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:03 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:11 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:11 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:13 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:13 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:14 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:14 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:28 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:28 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:24:47 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:24:47 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:25:23 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:25:23 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43
+2015/01/04 13:26:40 [error] [application] 系统错误:Undefined index: start->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:42
+2015/01/04 13:26:40 [error] [application] 系统错误:Undefined index: length->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:43

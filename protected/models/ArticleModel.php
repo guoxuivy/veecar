@@ -27,11 +27,15 @@ class ArticleModel extends \CModel
 		return ini_get("upload_tmp_dir") . DIRECTORY_SEPARATOR . "plupload" . DIRECTORY_SEPARATOR;
 	}
 	/**
-	 * 附件保存目录
+	 * 文章附件保存目录
 	 * @return [type] [description]
 	 */
 	static function getUploadDir(){
-		return __ROOT__.DIRECTORY_SEPARATOR."upload".DIRECTORY_SEPARATOR;
+		$targetDir = __ROOT__.DIRECTORY_SEPARATOR."upload".DIRECTORY_SEPARATOR."article".DIRECTORY_SEPARATOR.date("Ymd").DIRECTORY_SEPARATOR;
+		if (!file_exists($targetDir)) {
+			@mkdir($targetDir,0777,true);
+		}
+		return $targetDir;
 	}
 
 	/**

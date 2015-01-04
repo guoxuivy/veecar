@@ -27,10 +27,10 @@
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 <script>
-var base_url='<?php echo  SITE_URL."/index.php";?>';
+var base_url='<?php echo  "http://localhost".SITE_URL;?>';
 
 function get_url(uri){
-	return base_url+"r="+uri;
+	return base_url+"./index.php?r="+uri;
 }
 </script>
 </head>

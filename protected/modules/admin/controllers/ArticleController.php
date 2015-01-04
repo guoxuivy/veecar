@@ -8,6 +8,7 @@
  */
 namespace admin;
 use Ivy\core\lib\UploadFile;
+use Ivy\core\CException;
 class ArticleController extends \SController {
     
     /**
@@ -28,7 +29,7 @@ class ArticleController extends \SController {
         if($res){
             $this->redirect('admin/article/list');
         }else{
-            throw new CException(\ArticleModel::model()->_error);
+            throw new CException(\ArticleModel::model()->_error[0]);
         }
     }
 
@@ -60,6 +61,10 @@ class ArticleController extends \SController {
         die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal,"recordsFiltered"=>$recordsTotal))); 
     }
 
+
+/**
+ * 传统 file post上传测试
+ */
 	public function UploadAction(){
     	if ($this->isPost) {
     		//$this->checkToken();
