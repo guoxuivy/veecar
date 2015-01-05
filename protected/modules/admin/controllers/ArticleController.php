@@ -23,6 +23,16 @@ class ArticleController extends \SController {
         $data = \ArticleModel::model()->findByPk($id);
         $this->view->assign('data',$data)->display();
     }
+
+    public function deleteAction(){
+        $id=(int)$_REQUEST['id'];
+        $res = \ArticleModel::model()->delOne($id);
+        if($res){
+            $this->redirect('admin/article/list');
+        }else{
+            throw new CException(\ArticleModel::model()->_error[0]);
+        }
+    }
     
     public function saveAction(){
         $res = \ArticleModel::model()->addOne($_POST['product']);
@@ -44,7 +54,13 @@ class ArticleController extends \SController {
         $length=$_REQUEST['length']?$_REQUEST['length']:10;
         $page = (int)ceil($star/$length+1);
 
-        $list = \ArticleModel::model()->getPagener(NULL,$page,$length);
+        if($_REQUEST['order']){
+            $col = $_REQUEST['columns'][$_REQUEST['order'][0]['column']]['data'];
+            $dir = $_REQUEST['order'][0]['dir'];
+        }
+        //($tableName,$condition = NULL,$page=1,$limit = 10,$colmnus = array('*'),$order = array())
+
+        $list = \ArticleModel::model()->getPagener(NULL,$page,$length,array('*'),array($col=>$dir));
         $data=array();
         foreach ($list['list'] as $value) {
             $data[]=array(

@@ -32,7 +32,7 @@ var EcommerceProducts = function () {
 
                 },
                 "order": [
-                    [1, "asc"]
+                    [1, "desc"]
                 ], // set first column as a default sort by asc
                 "columns": [
                     { "data": "check"},

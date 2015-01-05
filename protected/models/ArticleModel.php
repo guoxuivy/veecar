@@ -58,7 +58,8 @@ class ArticleModel extends \CModel
 	        	foreach ($post['tmp_images'] as $value) {
 	        		list($name,$target_name)=explode("|", $value);
 	        		$ext = @pathinfo($name, PATHINFO_EXTENSION);
-	        		$sql="INSERT INTO `attachment` (`rel_id`, `table`, `name`, `uri`, `ext`) VALUES ( {$_pk}, 'article','".$name."', '".$target_name."', '".$ext."')";
+	        		$uri = 'article/'.date("Ymd").'/'.$target_name;
+	        		$sql = "INSERT INTO `attachment` (`rel_id`, `table`, `name`, `uri`, `ext`) VALUES ( {$_pk}, 'article','".$name."', '".$uri."', '".$ext."')";
 	        		$this->db->exec($sql);
 	        		$tmp_images[]=array("t"=>$target_name,'n'=>$name);
 	        	}
@@ -83,6 +84,36 @@ class ArticleModel extends \CModel
 		}
 		return false;
 	}
+
+
+	/**
+	 * 删除一条新记录
+	 * @param array $post [description]
+	 */
+	public function delOne($id){
+		try{
+			//开启事务处理  
+	        $this->db->beginT();
+	        $article = $this->findByPk($id)->delete();
+
+	        //图片附件删除
+	        \AttachmentModel::model()->delByRel($id,'article');
+
+
+	        $this->db->commitT();
+	    }catch(CException $e){
+	        $this->_error[]=$e->getMessage();
+	        $this->db->rollbackT();
+	    }
+
+		if(empty($this->_error)){
+			return true;
+		}
+		return false;
+	}
+
+
+
 
 	
 }
