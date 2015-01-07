@@ -503,3 +503,55 @@
 2015/01/05 17:47:49 [error] [application] 系统错误:Missing argument 2 for Ivy\db\pdo\mysql::deleteDataByCondition(), called in D:\wwwroot\veecar\framework\core\Model.php on line 194 and defined->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:232
 2015/01/05 17:47:49 [error] [application] 系统错误:Undefined variable: Condition->file:D:\wwwroot\veecar\framework\db\pdo\mysql.php->line:233
 2015/01/05 17:47:49 [error] [application] 系统错误:Object of class Ivy\db\Where could not be converted to string->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:125
+2015/01/07 14:45:27 [error] [application] 系统错误:require_once(D:\wwwroot\veecar\protected\plugs\ueditor\controller.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\controllers\PlugController.php->line:21
+2015/01/07 14:47:49 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:47:49 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:50:35 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:50:35 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:50:37 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:50:37 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:02 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:02 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:02 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:02 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:51:05 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:51:05 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:02 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:02 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:03 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:03 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:52:04 [error] [application] 系统错误:file_get_contents(config.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:8
+2015/01/07 14:52:04 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:9
+2015/01/07 14:53:31 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:10
+2015/01/07 14:54:05 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 14:57:39 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 14:57:57 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 14:59:13 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 15:02:29 [error] [application] 系统错误:Undefined index: action->file:D:\wwwroot\veecar\protected\plugs\ueditor\controller.php->line:10
+2015/01/07 15:07:25 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 15:11:34 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 15:15:04 [error] [application] 系统错误:iconv() [<a href='function.iconv'>function.iconv</a>]: Wrong charset, conversion from `unicode' to `utf-8' is not allowed->file:D:\wwwroot\veecar\protected\plugs\ueditor\Uploader.class.php->line:64
+2015/01/07 16:41:15 [error] [application] 系统错误:Undefined index: state->file:D:\wwwroot\veecar\protected\controllers\PlugController.php->line:23
+2015/01/07 17:08:13 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/07 17:08:13 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/01/07 17:08:14 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/07 17:08:14 [error] [application] 系统错误:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/01/07 17:08:14 [error] [application] 系统错误:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
