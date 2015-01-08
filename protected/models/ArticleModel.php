@@ -42,7 +42,7 @@ class ArticleModel extends \CModel
 	 * 添加一条新记录
 	 * @param array $post [description]
 	 */
-	public function addOne($post=array()){
+	public function saveOne($post=array()){
 		if(isset($post['available_from'])&&empty($post['available_from']))
 			unset($post['available_from']);
 		if(isset($post['available_to'])&&empty($post['available_to']))

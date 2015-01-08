@@ -118,6 +118,8 @@
 											<a href="#tab_history" data-toggle="tab">History </a>
 										</li>
 									</ul>
+									<!--主键是否处存在-->
+									<input type="hidden" name="product[id]" value="<?php echo $data->id;?>">
 									<div class="tab-content no-space">
 										<div class="tab-pane active" id="tab_general">
 											<div class="form-body">
@@ -305,10 +307,12 @@
 											</tr>
 											</thead>
 											<tbody>
+											<?php  foreach ($imgs as $img) : ?>
+
 											<tr>
 												<td>
-													<a href="../../assets/admin/pages/media/works/img1.jpg" class="fancybox-button" data-rel="fancybox-button">
-													<img class="img-responsive" src="../../assets/admin/pages/media/works/img1.jpg" alt="">
+													<a href="<?php echo SITE_URL."/".$img['uri']; ?>" class="fancybox-button" data-rel="fancybox-button">
+													<img class="img-responsive" src="<?php echo SITE_URL."/upload/".$img['uri']; ?>" alt="">
 													</a>
 												</td>
 												<td>
@@ -337,70 +341,9 @@
 													<i class="fa fa-times"></i> Remove </a>
 												</td>
 											</tr>
-											<tr>
-												<td>
-													<a href="../../assets/admin/pages/media/works/img2.jpg" class="fancybox-button" data-rel="fancybox-button">
-													<img class="img-responsive" src="../../assets/admin/pages/media/works/img2.jpg" alt="">
-													</a>
-												</td>
-												<td>
-													<input type="text" class="form-control" name="product[images][2][label]" value="Product image #1">
-												</td>
-												<td>
-													<input type="text" class="form-control" name="product[images][2][sort_order]" value="1">
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][2][image_type]" value="1">
-													</label>
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][2][image_type]" value="2" checked>
-													</label>
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][2][image_type]" value="3">
-													</label>
-												</td>
-												<td>
-													<a href="javascript:;" class="btn default btn-sm">
-													<i class="fa fa-times"></i> Remove </a>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<a href="../../assets/admin/pages/media/works/img3.jpg" class="fancybox-button" data-rel="fancybox-button">
-													<img class="img-responsive" src="../../assets/admin/pages/media/works/img3.jpg" alt="">
-													</a>
-												</td>
-												<td>
-													<input type="text" class="form-control" name="product[images][3][label]" value="Product image #2">
-												</td>
-												<td>
-													<input type="text" class="form-control" name="product[images][3][sort_order]" value="1">
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][3][image_type]" value="1" checked>
-													</label>
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][3][image_type]" value="2">
-													</label>
-												</td>
-												<td>
-													<label>
-													<input type="radio" name="product[images][3][image_type]" value="3">
-													</label>
-												</td>
-												<td>
-													<a href="javascript:;" class="btn default btn-sm">
-													<i class="fa fa-times"></i> Remove </a>
-												</td>
-											</tr>
+												
+											<?php endforeach; ?>
+											
 											</tbody>
 											</table>
 										</div>

@@ -17,11 +17,15 @@ class ArticleController extends \SController {
 	public function listAction() {
         $this->view->assign()->display();
 	}
+    public function addAction() {
+        $this->view->assign()->display('edit');
+    }
 
     public function editAction(){
         $id=$_REQUEST['id'];
         $data = \ArticleModel::model()->findByPk($id);
-        $this->view->assign('data',$data)->display();
+        $imgs = \AttachmentModel::model()->findAll("`rel_id` = {$id} and `table`='article'");
+        $this->view->assign(array('data'=>$data,'imgs'=>$imgs))->display();
     }
 
     public function deleteAction(){
@@ -35,7 +39,7 @@ class ArticleController extends \SController {
     }
     
     public function saveAction(){
-        $res = \ArticleModel::model()->addOne($_POST['product']);
+        $res = \ArticleModel::model()->saveOne($_POST['product']);
         if($res){
             $this->redirect('admin/article/list');
         }else{
