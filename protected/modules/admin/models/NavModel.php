@@ -7,7 +7,7 @@
  * @since 1.0
  */
 namespace admin; 
-class NavModel extends \CModel
+class NavModel extends \CActiveRecord
 {
     /**
      * 必须方法
@@ -16,5 +16,6 @@ class NavModel extends \CModel
 	{
 		return 'admin_nav';
 	}
+	
 	
 }

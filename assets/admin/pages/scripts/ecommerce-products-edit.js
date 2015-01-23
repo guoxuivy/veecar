@@ -199,7 +199,7 @@ var EcommerceProductsEdit = function () {
             }else{
                 Metronic.alert({type: 'danger', message: '表单验证失败！', closeInSeconds: 5, icon: 'warning'});
             }
-            return false;
+            return true;
         });
 
 

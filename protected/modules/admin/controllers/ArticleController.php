@@ -24,6 +24,7 @@ class ArticleController extends \SController {
     public function editAction(){
         $id=$_REQUEST['id'];
         $data = \ArticleModel::model()->findByPk($id);
+       
         $imgs = \AttachmentModel::model()->findAll("`rel_id` = {$id} and `table`='article'");
         $this->view->assign(array('data'=>$data,'imgs'=>$imgs))->display();
     }

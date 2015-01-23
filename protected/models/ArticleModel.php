@@ -7,7 +7,7 @@
  * @since 1.0
  */
 use \Ivy\core\CException;
-class ArticleModel extends \CModel
+class ArticleModel extends \CActiveRecord
 {
 
 	//设置附件上传目录
@@ -19,6 +19,10 @@ class ArticleModel extends \CModel
 	{
 		return 'article';
 	}
+	public function init()
+	{
+	}
+
 	/**
 	 * 附件零时保存目录
 	 * @return [type] [description]
@@ -47,14 +51,14 @@ class ArticleModel extends \CModel
 			unset($post['available_from']);
 		if(isset($post['available_to'])&&empty($post['available_to']))
 			unset($post['available_to']);
-
+		if(isset($post['status'])&&empty($post['status']))
 		$this->attributes=$post;
 		try{
 			//开启事务处理  
 	        $this->db->beginT();
 	        $_pk = $this->save();
 	    	$tmp_images=array();
-	        if(isset($post['tmp_images'])){
+	        if($_pk && isset($post['tmp_images'])){
 	        	foreach ($post['tmp_images'] as $value) {
 	        		list($name,$target_name)=explode("|", $value);
 	        		$ext = @pathinfo($name, PATHINFO_EXTENSION);

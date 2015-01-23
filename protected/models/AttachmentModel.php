@@ -7,7 +7,7 @@
  * @since 1.0
  */
 use \Ivy\core\CException;
-class AttachmentModel extends \CModel
+class AttachmentModel extends \CActiveRecord
 {
 
 	//设置附件上传目录
