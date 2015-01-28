@@ -15,6 +15,7 @@ class ArticleController extends \SController {
 	 * 显示文章列表
 	 */
 	public function listAction() {
+        //var_dump(\Ivy::app()->auth);
         $this->view->assign()->display();
 	}
     public function addAction() {
@@ -22,9 +23,9 @@ class ArticleController extends \SController {
     }
 
     public function editAction(){
+        \LogModel::model()->test();
         $id=$_REQUEST['id'];
         $data = \ArticleModel::model()->findByPk($id);
-       
         $imgs = \AttachmentModel::model()->findAll("`rel_id` = {$id} and `table`='article'");
         $this->view->assign(array('data'=>$data,'imgs'=>$imgs))->display();
     }

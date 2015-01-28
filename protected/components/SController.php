@@ -32,6 +32,13 @@ class SController extends CController
         }
         
     }
+    /**
+     * 权限控制处理
+     * @return [type] [description]
+     */
+    public function actionBefore(){
+        $r = \Ivy::app()->widget("rbac/auth",array('route'=>$this->route));
+    }
 
 
     /**

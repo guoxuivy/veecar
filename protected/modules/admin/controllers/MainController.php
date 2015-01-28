@@ -12,14 +12,14 @@ class MainController extends \CController {
     /**
 	 * head载入
 	 */
-	public function headAction() {
+	public function headAction(){
         $this->view->assign('page_title','V-CAR 微改装 车生活')->display();
 	}
     
     /**
 	 * end body载入
 	 */
-	public function footAction() {
+	public function footAction(){
         $this->view->assign()->display();
 	}
     
@@ -27,7 +27,7 @@ class MainController extends \CController {
     /**
 	 * 内部 head载入
 	 */
-	public function inheadAction() {
+	public function inheadAction(){
         $this->view->assign()->display();
 	}
     /**
@@ -42,7 +42,7 @@ class MainController extends \CController {
     /**
 	 * SIDEBAR MENU载入
 	 */
-	public function menuAction() {
+	public function menuAction(){
 	   
         $nav = NavModel::model()->findAll('type = 1',array('*'),array('ord'=>'desc'));
         $way = false;
@@ -145,10 +145,6 @@ class MainController extends \CController {
     }
 
 
-
-
-
-
     
     /**
 	 * 登录
@@ -201,7 +197,7 @@ class MainController extends \CController {
 	 */
 	private function rememberLogin($user){
         $salt = 'AUTOLOGIN';
-        $identifier = md5($salt . md5(\Ivy::app()->user->account . $salt));
+        $identifier = md5($salt . md5($user->account . $salt));
         $token = md5(uniqid(rand(), TRUE));
         $timeout = time() + 60 * 60 * 24 * 7;//7天有效
         setcookie('auth', "$identifier:$token", $timeout);
