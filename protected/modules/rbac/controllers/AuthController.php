@@ -16,11 +16,23 @@ class AuthController extends \CController {
     /**
 	 * 权限管理处理逻辑
 	 */
-	public function indexAction() {
+	public function checkAction() {
 		$this->auth_route = $_REQUEST['route'];
-		\Ivy::app()->auth = $this;
+		if (!isset(\Ivy::app()->user->authorized)) {
+		 	\Ivy::app()->user->authorized = $this;
+		}
+
+		
 		//var_dump(\Ivy::app());die;
         //$this->view->assign()->display();
+	}
+
+	/**
+	 * 权限检测
+	 * @return boolen
+	 */
+	protected function checkAccess(){
+
 	}
 	
 }

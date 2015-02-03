@@ -33,11 +33,11 @@ class SController extends CController
         
     }
     /**
-     * 权限控制处理
+     * 权限控制处理 验证权限
      * @return [type] [description]
      */
     public function actionBefore(){
-        $r = \Ivy::app()->widget("rbac/auth",array('route'=>$this->route));
+        $r = \Ivy::app()->widget("rbac/auth/check",array('route'=>$this->route));
     }
 
 

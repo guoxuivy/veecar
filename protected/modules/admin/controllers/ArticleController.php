@@ -23,9 +23,11 @@ class ArticleController extends \SController {
     }
 
     public function editAction(){
-        \LogModel::model()->test();
+
+        //\LogModel::model()->test();
         $id=$_REQUEST['id'];
         $data = \ArticleModel::model()->findByPk($id);
+        //var_dump(\ItemChild::model()->findByPk(array('parent'=>'老大','child'=>'老二')));die;
         $imgs = \AttachmentModel::model()->findAll("`rel_id` = {$id} and `table`='article'");
         $this->view->assign(array('data'=>$data,'imgs'=>$imgs))->display();
     }

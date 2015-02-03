@@ -1,6 +1,6 @@
 <?php
 /**
- * 登录用户信息和session操作
+ * 权限管理 用户角色映射
  * @author ivy <guoxuivy@gmail.com>
  * @copyright Copyright &copy; 2013-2017 Ivy Software LLC
  * @license http://www.ivyframework.com/license/
@@ -9,8 +9,8 @@
  * @since 1.0 
  * 
  */
-namespace Ivy\core;
-class User extends Model
+namespace rbac;
+class Assignments extends \CActiveRecord
 {
     private static $_keyPrefix; 
     private $_attributes = null;
