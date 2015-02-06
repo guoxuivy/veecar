@@ -37,7 +37,11 @@ class SController extends CController
      * @return [type] [description]
      */
     public function actionBefore(){
-        $r = \Ivy::app()->widget("rbac/auth/check",array('route'=>$this->route));
+        $result = \Ivy::app()->user->checkAccess($this->route);
+        if($result==false){
+            $route = implode('->', $this->route->getRouter());
+            throw new CException('没有授权该操作！'.$route);
+        }
     }
 
 

@@ -86,6 +86,16 @@ class ArticleController extends \SController {
     }
 
 
+
+
+
+
+
+
+
+
+
+
 /**
  * 传统 file post上传测试
  */

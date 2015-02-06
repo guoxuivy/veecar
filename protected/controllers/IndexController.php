@@ -12,7 +12,6 @@ class IndexController extends \CController {
 	 * 显示模版实例示例
 	 */
 	public function indexAction() {
-	   
 		$typeList = $this->db->find( 'article_cate' ); // 获取类型
         Ivy::app()->cache->set('guox',$typeList);
         //var_dump(Ivy::app()->cache->getConfigByKey('aqwewsd2132sed13'));die;

@@ -56,14 +56,14 @@ class ArticleModel extends \CActiveRecord
 		try{
 			//开启事务处理  
 	        $this->db->beginT();
-	        $_pk = $this->save();
+	        $this->save();
 	    	$tmp_images=array();
-	        if($_pk && isset($post['tmp_images'])){
+	        if(isset($post['tmp_images'])){
 	        	foreach ($post['tmp_images'] as $value) {
 	        		list($name,$target_name)=explode("|", $value);
 	        		$ext = @pathinfo($name, PATHINFO_EXTENSION);
 	        		$uri = 'article/'.date("Ymd").'/'.$target_name;
-	        		$sql = "INSERT INTO `attachment` (`rel_id`, `table`, `name`, `uri`, `ext`) VALUES ( {$_pk}, 'article','".$name."', '".$uri."', '".$ext."')";
+	        		$sql = "INSERT INTO `attachment` (`rel_id`, `table`, `name`, `uri`, `ext`) VALUES ( {$this->id}, 'article','".$name."', '".$uri."', '".$ext."')";
 	        		$this->db->exec($sql);
 	        		$tmp_images[]=array("t"=>$target_name,'n'=>$name);
 	        	}

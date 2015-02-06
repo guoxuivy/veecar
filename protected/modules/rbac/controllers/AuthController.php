@@ -1,6 +1,6 @@
 <?php
 /**
- * 权限管理 扩展
+ * 权限管理 扩展 
  * @author ivy <guoxuivy@gmail.com>
  * @copyright Copyright &copy; 2013-2017 Ivy Software LLC
  * @license http://www.ivyframework.com/license/
@@ -11,28 +11,91 @@
  */
 namespace rbac;
 class AuthController extends \CController {
-	protected $auth_route = null;		//当前正在自动验证的方法
-    
-    /**
-	 * 权限管理处理逻辑
-	 */
-	public function checkAction() {
-		$this->auth_route = $_REQUEST['route'];
-		if (!isset(\Ivy::app()->user->authorized)) {
-		 	\Ivy::app()->user->authorized = $this;
-		}
 
-		
-		//var_dump(\Ivy::app());die;
-        //$this->view->assign()->display();
+	protected $_confit=null; 	//rbac配置
+
+	public function __construct($confit=null){
+        $this->_confit=$confit;
+        parent::__construct();
+    }
+
+
+	/**
+	 * 权限检测  是否持有权限
+	 * @return boolen
+	 */
+	public function checkAccess($route=null,&$auth_list=null){
+		if($route==null || $auth_list==null) return false;
+		$acc="";
+		$route_arr=$route->getRouter();
+		if(isset($route_arr['module'])&&$route_arr['module']!=null) $acc.=strtolower($route_arr['module'])."@";
+		if(isset($route_arr['controller'])&&$route_arr['controller']!=null) $acc.=strtolower($route_arr['controller'])."#";
+		if(isset($route_arr['action'])&&$route_arr['action']!=null) $acc.=strtolower($route_arr['action']);
+
+		return in_array($acc,$auth_list);
+
+	}
+
+
+	/**
+	 * 获取用户 权限数组 对位提供 
+	 * @param  int $userId [description]
+	 * @return array
+	 */
+	public function getAuthList($userId=null){
+		if($userId==null){
+			$id_str = $this->_confit["userid"];
+			$userId==\Ivy::app()->user->$id_str;
+		}
+		$list = $this->getMethodListByUId($userId);
+		return $list;
+	}
+
+	
+
+	/**
+	 * 获取用户任务列表
+	 * @param  int $userId [description]
+	 * @return array
+	 */
+	protected function getTaskListByUId($userId){
+		$task_list=array();
+		//拥有角色列表
+		$role_list=Assignment::model()->findAll("userid=".$userId);
+		foreach ($role_list as $value) {
+			$_list=$this->getChild($value['itemname']);
+			$task_list = array_merge($task_list,$_list);
+		}
+		return $task_list;
 	}
 
 	/**
-	 * 权限检测
-	 * @return boolen
+	 * 获取用户操作列表
+	 * @param  int $userId [description]
+	 * @return array
 	 */
-	protected function checkAccess(){
-
+	protected function getMethodListByUId($userId){
+		$method_list=array();
+		$task_list=$this->getTaskListByUId($userId);
+		foreach ($task_list as $value) {
+			$_list=$this->getChild($value);
+			$method_list = array_merge($method_list,$_list);
+		}
+		return $method_list;
 	}
-	
+
+	/**
+	 * 获取子节点数组
+	 * @param  parent
+	 * @return array 
+	 */
+	protected function getChild($parent){
+		$child_list=array();
+		$_list=ItemChild::model()->findAll("parent='{$parent}'");
+		foreach ($_list as $value) {
+			$child_list[] = $value['child'];
+		}
+		return $child_list;
+	}
+
 }

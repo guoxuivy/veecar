@@ -1,17 +1,15 @@
 <?php
 namespace rbac;
 use \Ivy\core\CException;
-class AuthItem extends \CActiveRecord
+class Assignment extends \CActiveRecord
 {
     /**
      * 必须方法
      **/
     public function tableName()
 	{
-		return 'auth_item';
+		return 'auth_assignment';
 	}
-
-	
 
     
 }

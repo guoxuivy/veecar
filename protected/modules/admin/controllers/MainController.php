@@ -190,7 +190,7 @@ class MainController extends \CController {
 	public function logoutAction(){
         \Ivy::app()->user->logout();
         setcookie('auth', 'DELETED!', time());
-        $this->redirect('admin');
+        $this->redirect('admin/main/login');
 	}
     /**
 	 * 记住登录
