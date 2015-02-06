@@ -117,3 +117,13 @@
 2015/02/06 15:32:50 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
 2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
 2015/02/06 15:32:50 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/06 18:02:53 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310

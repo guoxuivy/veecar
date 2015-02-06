@@ -10,13 +10,17 @@
  * 
  */
 namespace rbac;
+use Ivy\core\CException;
 class AuthController extends \CController {
 
 	protected $_confit=null; 	//rbac配置
 
-	public function __construct($confit=null){
-        $this->_confit=$confit;
-        parent::__construct();
+	public function __construct($route=NULL){
+		$confit=\Ivy::app()->config;
+		if(!isset($confit['rbac'])) 
+			throw new CException('rbac 配置错误！');
+        $this->_confit=$confit['rbac'];
+        parent::__construct($route);
     }
 
 

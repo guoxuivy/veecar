@@ -10,14 +10,28 @@
  * 
  */
 namespace rbac;
-class IndexController extends \CController {
-	protected $auth_route = null;		//当前正在自动验证的方法
+use Ivy\core\CException;
+class IndexController extends AuthController {
+	/**
+     * 本控制器的权限认证
+     * @return [type] [description]
+     */
+    public function actionBefore(){
+        $result = \Ivy::app()->user->checkAccess($this->route);
+        $result = true;
+
+        if($result==false){
+            $route = implode('->', $this->route->getRouter());
+            throw new CException('没有授权该操作！'.$route);
+        }
+    }
 
 	/**
 	 * 自动权限管理检测入口
 	 */
 	public function indexAction() {
 		
+		var_dump($this);
         $this->view->assign()->display();
 	}
 	
