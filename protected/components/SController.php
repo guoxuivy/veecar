@@ -10,7 +10,8 @@
  * @since 1.0
  */
 use Ivy\core\CException;
-class SController extends CController
+use rbac\AuthController;
+class SController extends AuthController
 {
     /**
      * 用户登录验证 
@@ -31,17 +32,6 @@ class SController extends CController
             throw new CException('找不到'.$method.'方法');
         }
         
-    }
-    /**
-     * 权限控制处理 验证权限
-     * @return [type] [description]
-     */
-    public function actionBefore(){
-        $result = \Ivy::app()->user->checkAccess($this->route);
-        if($result==false){
-            $route = implode('->', $this->route->getRouter());
-            throw new CException('没有授权该操作！'.$route);
-        }
     }
 
 

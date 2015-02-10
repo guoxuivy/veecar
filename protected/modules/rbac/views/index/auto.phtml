@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<head>
+</head>
+<body>
+
+
+<div style="background-color:beige">
+	<div id="controller_list" style="width:300px;float:left">
+		<?php if($global_controllers): ?>
+		<div>
+			<p>全局控制器：</p>
+			<ul>
+			<?php foreach($global_controllers as $item): ?>
+				 <li><?php echo $item ;?><a href="<?php echo $this->url('rbac/index/autoCreateItems',array('class'=>$item))?>">操作</a></li>
+			<?php endforeach; ?>
+			</ul>
+		</div>
+		<?php endif;?>
+		<?php foreach($group_controllers as $group=>$item): ?>
+			 <div><p><?php echo $group ;?></p>
+				<ul>
+				<?php foreach($item as $controller): ?>
+					 <li><?php echo $controller ;?><a href="<?php echo $this->url('rbac/index/autoCreateItems',array('class'=>$controller,'group'=>$group))?>">操作</a></li>
+				<?php endforeach; ?>
+				</ul>
+			 </div>
+		<?php endforeach; ?>
+	</div>
+	<div style="margin-left:300px;min-height:500px">
+		<div><button id="add_out_list">收录未授权项</button></div>
+		<div id="show_list">
+
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+var out_list=[];
+$('#controller_list a').click(function(){
+	var url=$(this).attr("href");
+	$.getJSON(url,function(json){
+		var str1 = $("<div><span>未收录的权限点：</span></div>");
+		$.each( json.data.out_list, function(i,v){
+			str1.append("<p>"+v+"</p>");
+		});
+		var str2 = $("<div><span>已收录的权限点：</span></div>");
+		$.each( json.data.in_list, function(i,v){
+			str2.append("<p>"+v+"</p>");
+		});
+		$("#show_list").empty().append(str1).append(str2);
+		out_list=json.data.out_list;
+	});
+	return false;
+});
+
+$("#add_out_list").click(function(){
+	var url = "<?php echo $this->url('rbac/index/addMethods')?>";
+	$.post(url, { list: out_list } ,function(res){
+		if(res=='ok'){
+			alert('收录成功，请刷新！');
+		}else{
+			alert('收录失败！');
+		} 
+	});
+});
+</script>

@@ -1,129 +1,529 @@
-2015/02/06 13:59:56 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:56
-2015/02/06 13:59:57 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:56
-2015/02/06 13:59:57 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:56
-2015/02/06 13:59:58 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:56
-2015/02/06 14:13:23 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:13:23 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:13:23 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:13:25 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:13:26 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:13:26 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:17:37 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:40
-2015/02/06 14:18:23 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:25 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:28 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:31 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:32 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:34 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:18:34 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:19:17 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:19:18 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:19:19 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:19:36 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:00 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:00 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:01 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:01 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:22 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:22 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:25 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:25 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:34 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:24:34 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:01 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:01 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:04 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:04 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:05 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:05 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:09 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:09 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:48 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:48 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:49 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:49 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:25:50 [notice] [application] 系统通知:Undefined property: Ivy\core\User::$id->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:26:37 [notice] [application] 系统通知:Use of undefined constant id - assumed 'id'->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:26:37 [notice] [application] 系统通知:Use of undefined constant id - assumed 'id'->file:D:\wwwroot\veecar\framework\core\User.php->line:41
-2015/02/06 14:28:12 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 14:28:12 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 14:28:12 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 14:28:12 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 14:28:12 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 14:28:12 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 14:28:12 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 14:28:12 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 14:28:12 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 14:28:12 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 14:36:10 [notice] [application] 系统通知:Undefined variable: id_str->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:46
-2015/02/06 14:37:41 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\framework\core\User.php->line:149
-2015/02/06 14:37:41 [notice] [application] 系统通知:Undefined variable: id_str->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\AuthController.php->line:46
-2015/02/06 14:38:46 [notice] [application] 系统通知:Undefined variable: list->file:D:\wwwroot\veecar\framework\core\User.php->line:149
-2015/02/06 15:18:44 [notice] [application] 系统通知:Undefined index: product->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:46
-2015/02/06 15:19:21 [notice] [application] 系统通知:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:28
-2015/02/06 15:19:47 [notice] [application] 系统通知:Undefined index: id->file:D:\wwwroot\veecar\protected\modules\admin\controllers\ArticleController.php->line:28
-2015/02/06 15:31:17 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:31:17 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:31:17 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:31:17 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:31:17 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:31:17 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:31:17 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:31:17 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:31:17 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:31:17 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:31:30 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:31:30 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:31:30 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:31:30 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:31:30 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:31:30 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:31:30 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:31:30 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:31:30 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:31:30 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:00 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:00 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:00 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:00 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:00 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:00 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:00 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:00 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:00 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:00 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:49 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:49 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:50 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:50 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:50 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:50 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 15:32:50 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 15:32:50 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
-2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
-2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
-2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 18:02:53 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
-2015/02/06 18:02:53 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/02/06 18:02:53 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 11:28:56 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/09 11:28:56 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/09 11:28:57 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/09 11:28:57 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/09 11:28:57 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/09 11:28:57 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/09 11:28:58 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/09 11:28:58 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/09 11:28:59 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/09 11:28:59 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/09 11:28:59 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/09 11:28:59 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/09 11:29:57 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 11:29:57 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 11:29:57 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 11:29:57 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 11:29:57 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 11:29:57 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 11:29:57 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 11:29:57 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 11:29:57 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 11:29:57 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 12:06:48 [notice] [application] 系统通知:Undefined index: name->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:21
+2015/02/09 12:06:48 [notice] [application] 系统通知:Undefined index: type->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:21
+2015/02/09 12:07:32 [notice] [application] 系统通知:Undefined index: name->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:21
+2015/02/09 12:07:32 [notice] [application] 系统通知:Undefined index: type->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:21
+2015/02/09 13:35:38 [notice] [application] 系统通知:Undefined variable: itemlist->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:20
+2015/02/09 13:35:38 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\index.phtml->line:20
+2015/02/09 13:43:36 [warning] [application] 系统警告:array_push() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\LoaderClass.php->line:93
+2015/02/09 13:43:36 [warning] [application] 系统警告:array_push() expects parameter 1 to be array, null given->file:D:\wwwroot\veecar\framework\core\LoaderClass.php->line:93
+2015/02/09 13:51:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 13:51:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 13:51:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 13:51:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 13:51:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 13:51:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 13:51:49 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 13:51:49 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 13:51:49 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 13:51:49 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 13:52:59 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 13:52:59 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 13:52:59 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 13:52:59 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 13:52:59 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 13:52:59 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 13:52:59 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 13:52:59 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 13:52:59 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 13:52:59 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 14:37:10 [notice] [application] 系统通知:Undefined variable: c_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:73
+2015/02/09 14:37:21 [notice] [application] 系统通知:Undefined variable: c_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:73
+2015/02/09 15:34:54 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:54 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:54 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:34:54 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:34:54 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:121
+2015/02/09 15:34:54 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:34:54 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:34:55 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:55 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:55 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:34:55 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:34:55 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:121
+2015/02/09 15:34:55 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:34:55 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:34:57 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:57 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:34:57 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:34:57 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:34:57 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:121
+2015/02/09 15:34:57 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:34:57 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:35:35 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:35:35 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:35:35 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:35:35 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:00 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:00 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:00 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:00 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:00 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:00 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:00 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:15 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:15 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:15 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:15 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:15 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:15 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:15 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:16 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:16 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:16 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:16 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:16 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:16 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:16 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:17 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:17 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:17 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:17 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:17 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:17 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:17 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:28 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:28 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:28 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:28 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:28 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:28 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:28 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:52 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:52 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:36:52 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:36:52 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:36:52 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:36:52 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:36:52 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:07 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:07 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:07 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:07 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:07 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:07 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:07 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:08 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:08 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:09 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:09 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:09 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:09 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:09 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:12 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:12 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:66
+2015/02/09 15:37:12 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:68
+2015/02/09 15:37:12 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:74
+2015/02/09 15:37:12 [notice] [application] 系统通知:Undefined variable: template_path->file:D:\wwwroot\veecar\framework\core\Template.php->line:80
+2015/02/09 15:37:12 [warning] [application] 系统警告:include_once(D:\wwwroot\veecar) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: Permission denied->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:12 [warning] [application] 系统警告:include_once() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear')->file:D:\wwwroot\veecar\framework\core\Template.php->line:27
+2015/02/09 15:37:40 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:67
+2015/02/09 15:37:40 [notice] [application] 系统通知:Undefined variable: r->file:D:\wwwroot\veecar\framework\core\Template.php->line:67
+2015/02/09 16:01:55 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 16:01:55 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 16:01:55 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 16:01:55 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 16:01:55 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 16:01:55 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 16:01:55 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 16:01:55 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 16:01:55 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 16:01:55 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 16:11:16 [notice] [application] 系统通知:Undefined variable: page_title->file:D:\wwwroot\veecar\protected\modules\admin\views\main\head.phtml->line:4
+2015/02/09 16:24:19 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 16:24:19 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/09 16:24:19 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 16:24:19 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/09 16:24:19 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 16:24:19 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/09 16:24:19 [notice] [application] 系统通知:Undefined variable: data->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 16:24:19 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/09 16:24:19 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 16:24:19 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/09 16:54:22 [notice] [application] 系统通知:Undefined variable: class->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:65
+2015/02/09 17:27:07 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:07 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:31 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:31 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:32 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:50 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:50 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:59 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:27:59 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:28:30 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:28:30 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:28:31 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:28:31 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:29:06 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:29:06 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:12
+2015/02/09 17:29:06 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:12
+2015/02/09 17:29:08 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:29:08 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:12
+2015/02/09 17:29:08 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:12
+2015/02/09 17:30:15 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:15 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:15 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:30:15 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:30:42 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:42 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:42 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:30:42 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:30:42 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:17
+2015/02/09 17:30:55 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:55 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:30:55 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:30:55 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:40 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:40 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:40 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:40 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:41 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:41 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:42 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:42 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:31:42 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:31:42 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:32:03 [notice] [application] 系统通知:Undefined variable: global_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:32:03 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:11
+2015/02/09 17:32:03 [notice] [application] 系统通知:Undefined variable: group_controllers->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 17:32:03 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\rbac\views\index\auto.phtml->line:14
+2015/02/09 18:29:46 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:32:36 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:32:51 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:33:11 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:43:22 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:43:49 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:43:55 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:44:06 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:44:29 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:17 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:25 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:25 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:25 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:25 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:26 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 18:45:36 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 19:10:02 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [notice] [application] 系统通知:Undefined variable: have_list->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:10:47 [warning] [application] 系统警告:in_array() expects parameter 2 to be array, null given->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:92
+2015/02/09 19:11:07 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/09 19:18:29 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:60
+2015/02/10 10:56:38 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:38 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:39 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:39 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:39 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:56:39 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:56:41 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:41 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:42 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:42 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:42 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:56:42 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:56:46 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:46 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:56:47 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:47 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:56:47 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:56:47 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:57:59 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:57:59 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:00 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:00 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:00 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:58:00 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:58:13 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:13 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:14 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:14 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:14 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:58:14 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:58:18 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:18 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:19 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:19 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:19 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:58:19 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:58:22 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:22 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:58:23 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:23 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:58:23 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:58:23 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 10:59:40 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:59:40 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 10:59:41 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:59:41 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 10:59:41 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 10:59:41 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:05 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:05 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:06 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:06 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:06 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:06 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:14 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:14 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:15 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:15 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:15 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:15 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:17 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:17 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:18 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:18 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:18 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:18 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:35 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:35 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:36 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:36 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:36 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:36 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:38 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:38 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:39 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:39 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:39 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:39 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:04:52 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:52 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:04:53 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:53 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:04:53 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:04:53 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:01 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:01 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:02 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:02 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:02 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:02 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:15 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:15 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:16 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:16 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:16 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:16 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:20 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:20 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:21 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:21 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:21 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:21 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:28 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:28 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:29 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:29 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:29 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:29 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:33 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:33 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:34 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:34 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:34 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:34 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:05:37 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:37 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/10 11:05:38 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:38 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:34
+2015/02/10 11:05:38 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:50
+2015/02/10 11:05:38 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:46
+2015/02/10 11:17:13 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:28:17 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:28:41 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:28:47 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:30:44 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:31:01 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:31:56 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:31:59 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:33:23 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:44:47 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:47:20 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:47:34 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:47:45 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:47:47 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:47:48 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:48:17 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:49:41 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:50:09 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:52:20 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:52:25 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 11:52:29 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:57
+2015/02/10 12:19:04 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 12:19:09 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 12:19:13 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 12:19:41 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 12:19:47 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 12:20:11 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:69
+2015/02/10 15:02:22 [notice] [application] 系统通知:Undefined index: group->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:75

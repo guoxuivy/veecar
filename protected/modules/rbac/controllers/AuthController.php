@@ -13,16 +13,29 @@ namespace rbac;
 use Ivy\core\CException;
 class AuthController extends \CController {
 
-	protected $_confit=null; 	//rbac配置
+	protected $_rbac_confit=null; 	//rbac配置
 
 	public function __construct($route=NULL){
 		$confit=\Ivy::app()->config;
 		if(!isset($confit['rbac'])) 
 			throw new CException('rbac 配置错误！');
-        $this->_confit=$confit['rbac'];
+        $this->_rbac_confit=$confit['rbac'];
         parent::__construct($route);
     }
 
+
+
+    /**
+     * 权限控制处理 验证权限 交由 user 处理 方便缓存 登出
+     * @return [type] [description]
+     */
+    public function actionBefore(){
+        $result = \Ivy::app()->user->checkAccess($this->route);
+        if($result==false){
+            $route = implode('->', $this->route->getRouter());
+            throw new CException('没有授权该操作！'.$route);
+        }
+    }
 
 	/**
 	 * 权限检测  是否持有权限
@@ -42,13 +55,13 @@ class AuthController extends \CController {
 
 
 	/**
-	 * 获取用户 权限数组 对位提供 
+	 * 获取用户 权限数组 对外提供 
 	 * @param  int $userId [description]
 	 * @return array
 	 */
 	public function getAuthList($userId=null){
 		if($userId==null){
-			$id_str = $this->_confit["userid"];
+			$id_str = $this->_rbac_confit["userid"];
 			$userId==\Ivy::app()->user->$id_str;
 		}
 		$list = $this->getMethodListByUId($userId);
