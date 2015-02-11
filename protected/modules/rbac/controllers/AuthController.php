@@ -10,8 +10,9 @@
  * 
  */
 namespace rbac;
+use Ivy\core\Controller;
 use Ivy\core\CException;
-class AuthController extends \CController {
+class AuthController extends Controller {
 
 	protected $_rbac_confit=null; 	//rbac配置
 

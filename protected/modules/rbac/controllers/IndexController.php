@@ -26,13 +26,102 @@ class IndexController extends AuthController {
         }
     }
 
+    /**
+     * 分配授权项
+     * @return [type] [description]
+     */
+    public function assignAction(){
+    	$user_class = $this->_rbac_confit["userclass"];
+    	$id_str = $this->_rbac_confit["userid"];
+    	$user_name = $this->_rbac_confit["username"];
+    	$user_model = $user_class::model();
+
+    	$u_list = $user_model->findAll(null,array($id_str,$user_name));
+    	$role_list = AuthItem::model()->findAll('type=2',array('name'));
+    	$task_list = AuthItem::model()->findAll('type=1',array('name'));
+    	//$method_list = AuthItem::model()->findAll('type=0',array('name'));
+
+    	$have_role_list=Assignment::model()->findAll("userid=".$userId);
+    	
+
+    	$this->view->assign(array(
+    		'user_name_col'=>$user_name,
+    		'user_id_col'=>$id_str,
+    		'u_list'=>$u_list,
+    		'role_list'=>$role_list,
+    		'task_list'=>$task_list,
+    	))->display();
+    }
+
+    /**
+	 * 角色绑定json
+	 */
+	public function jsonRoleAction() {
+		$userId=$_REQUEST['user_id']=1;
+		$have_role_list=Assignment::model()->findAll("userid=".$userId,array('itemname'));
+    	$role_list = AuthItem::model()->findAll('type=2',array('name'));
+    	$all=self::i_array_column($role_list,'name');
+    	$have=self::i_array_column($have_role_list,'itemname');
+    	$no=array();
+    	foreach ($all as $value) {
+    		if(!in_array($value, $have))
+    			$no[]=$value;
+    	}
+		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
+	}
+
+
+
+
 	/**
-	 * 自动权限管理检测入口
+	 * item列表
 	 */
 	public function indexAction() {
-		$itemlist = AuthItem::model()->getPagener();
+		$page=$_REQUEST['page']?$_REQUEST['page']:1;
+		$itemlist = AuthItem::model()->getPagener(null,$page,30);
 		$result= $this->getAllControllers();
         $this->view->assign('itemlist',$itemlist)->display();
+	}
+	
+	/**
+	 * 添加一条记录
+	 */
+	public function addItemAction() {
+		$model = new AuthItem;
+		$model->attributes=$_POST;
+		$model->save();
+		$this->redirect('index');
+	}
+
+	/**
+	 * 编辑一条记录
+	 */
+	public function editItemAction() {
+		AuthItem::model()->edit($_POST['oname'],$_POST['name']);
+		if($this->isAjax){
+			die('ok');
+		}else{
+			$this->redirect('index');
+		}
+	}
+	/**
+	 * 删除一条记录
+	 */
+	public function delItemAction() {
+		AuthItem::model()->deleteByPk($_POST['oname']);
+		if($this->isAjax){
+			die('ok');
+		}else{
+			$this->redirect('index');
+		}
+	}
+
+	/**
+	 * 自动建立权限点
+	 */
+	public function autoAction() {
+		$result= $this->getAllControllers();
+        $this->view->assign($result)->display();
 	}
 
 	/**
@@ -45,25 +134,6 @@ class IndexController extends AuthController {
 		}else{
 			die('error');
 		}
-	}
-	
-	/**
-	 * 添加一条记录
-	 */
-	public function addItemAction() {
-		$model = new AuthItem;
-		$model->attributes=$_POST;
-		$model->save();
-		$this->redirect('index');
-		//$this->view->assign()->display('index');
-	}
-
-	/**
-	 * 自动建立权限点
-	 */
-	public function autoAction() {
-		$result= $this->getAllControllers();
-        $this->view->assign($result)->display();
 	}
 	
 
@@ -196,5 +266,37 @@ class IndexController extends AuthController {
 	       }
 	   }
 	}
+
+
+
+	static public function i_array_column($input, $columnKey, $indexKey=null){
+        if(!function_exists('array_column')){ 
+            $columnKeyIsNumber  = (is_numeric($columnKey))?true:false; 
+            $indexKeyIsNull            = (is_null($indexKey))?true :false; 
+            $indexKeyIsNumber     = (is_numeric($indexKey))?true:false; 
+            $result                         = array(); 
+            foreach((array)$input as $key=>$row){ 
+                if($columnKeyIsNumber){ 
+                    $tmp= array_slice($row, $columnKey, 1); 
+                    $tmp= (is_array($tmp) && !empty($tmp))?current($tmp):null; 
+                }else{ 
+                    $tmp= isset($row[$columnKey])?$row[$columnKey]:null; 
+                } 
+                if(!$indexKeyIsNull){ 
+                    if($indexKeyIsNumber){ 
+                      $key = array_slice($row, $indexKey, 1); 
+                      $key = (is_array($key) && !empty($key))?current($key):null; 
+                      $key = is_null($key)?0:$key; 
+                    }else{ 
+                      $key = isset($row[$indexKey])?$row[$indexKey]:0; 
+                    } 
+                } 
+                $result[$key] = $tmp; 
+            } 
+            return $result; 
+        }else{
+            return array_column($input, $columnKey, $indexKey);
+        }
+    }
 
 }

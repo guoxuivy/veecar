@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<body>
+
+<style type="text/css">
+.dropdown{
+	position: static;
+    width: 100%;
+}
+</style>
+
+<div><button>角色</button><button>任务</button><button>操作</button></div>
+<div id='role'>
+<table width='100%'>
+	<tr><td>给用户分配角色</td><td>已分配角色</td><td></td><td>未分配角色</td></tr>
+	<tr valign="top">
+		<td>
+			<select id="user_id" name="user_id" class="dropdown" size="15">
+			<?php foreach($u_list as $u): ?>
+				<option value="<?php echo $u[$user_id_col] ?>"><?php echo $u[$user_name_col] ?></option>
+			<?php endforeach; ?>
+			</select>
+		</td>
+		<td>
+			<select id="have_role" name="have_role" class="dropdown" size="15">
+			</select>
+		</td>
+		<td width="20px" align="center" valign="middle">
+			<input type="button" id="assignUser" value="&lt;&lt;" name="assignUser">  
+			<input type="button" id="revokeUser" value="&gt;&gt;" name="revokeUser">    
+      	</td>
+		<td>
+			<select id="no_role" name="no_role" class="dropdown" size="15">
+			</select>
+		</td>
+	</tr>
+	<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+
+</div>
+<div id='task'></div>
+<div id='method'></div>
+
+
+</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+$('#user_id').change(function(){
+	var url = "<?php echo $this->url('rbac/index/jsonRole')?>";
+	var user_id = $(this).val();
+	$.post(url,{user_id:user_id},function(json){
+		if(json.statusCode=='200'){
+			$('#have_role').empty();
+			$.each( json.data.have, function(i, n){
+				$('#have_role').append('<option value="'+n+'">'+n+'</option>');
+			});
+			$('#no_role').empty();
+			$.each( json.data.no, function(i, n){
+				$('#no_role').append('<option value="'+n+'">'+n+'</option>');
+			});
+		}
+	},'json')
+	
+});
+
+</script>

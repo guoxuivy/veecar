@@ -12,17 +12,60 @@ type:<select name="type"><option value="0">操作<option><option value="1">任�
 <input type="submit" value="添加">
 </form>
 
-<table>
-	<thead>
-		<tr><th>名称</th><th>类型</th><th>操作</th></tr>
-	</thead>
-	<tbody>
-	<?php foreach($itemlist['list'] as $item): ?>
-		<tr><th><?php echo $item['name'] ?></th><th><?php echo $item['type'] ?></th><th>编辑</th></tr>
-	<?php endforeach; ?>
-	</tbody>
+
+<table cellspacing="0" cellpadding="0" style="border:1px solid #000;">
+	<tr>
+		<td>
+			<table>
+				<thead>
+					<tr><th>名称</th><th>类型</th><th>操作</th></tr>
+				</thead>
+				<tbody>
+				<?php foreach($itemlist['list'] as $item): ?>
+					<tr><th><?php echo $item['name'] ?></th><th><?php echo $item['type'] ?></th><th class="rabc_edit">操作</th></tr>
+				<?php endforeach; ?>
+				</tbody>
+				<tfoot><tr><td colspan="3" align="center">
+				<?php for($i=1;$i<=$itemlist['pageNums'];$i++){
+					echo "<a href='".$this->url('index',array('page'=>$i))."'>{$i}</a>";
+				}?>
+				</td></tr></tfoot>
+			</table>
+		</td>
+		<td valign="top"  style="min-width:300px;border-left:1px solid #000;">
+			<div id="show_edit" style="display:none;margin-top:20px;margin-left:5px">
+				<input rel='0' id="edit_name" name='name' /> <button class="rabc_save">保存</button><button class="rabc_delete">删除</button>
+			</div>
+			
+		</td>
+	</tr>
 </table>
 
 </body>
 
 </html>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+$('.rabc_edit').click(function(){
+	$('#show_edit').show();
+	$('#edit_name').val($(this).prev().prev().text());
+	$('#edit_name').attr('rel',$(this).prev().prev().text());
+});
+
+$('.rabc_save').click(function(){
+	var url = "<?php echo $this->url('rbac/index/editItem')?>";
+	$.post(url,{name:$('#edit_name').val(),oname:$('#edit_name').attr('rel')},function(data){
+		if(data=='ok'){
+			location.reload();
+		}
+	})
+});
+$('.rabc_delete').click(function(){
+	var url = "<?php echo $this->url('rbac/index/delItem')?>";
+	$.post(url,{oname:$('#edit_name').attr('rel')},function(data){
+		if(data=='ok'){
+			location.reload();
+		}
+	})
+});
+</script>

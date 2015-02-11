@@ -30,4 +30,13 @@ class AuthItem extends \CActiveRecord
 		$sql=substr($sql,0,-1);
 		return $this->exec($sql);
 	}
+
+	/**
+	 * 更新
+	 * @param array $list 方法名数组
+	 * @return  boolen
+	 */
+	public function edit($name,$new_name){
+		return $this->db->updateDataByCondition($this->tableName(),"name='{$name}'",array('name'=>$new_name));
+	}
 }

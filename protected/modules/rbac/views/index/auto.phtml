@@ -46,7 +46,7 @@ var out_list=[];
 $('#controller_list a').click(function(){
 	var url=$(this).attr("href");
 	$.getJSON(url,function(json){
-		var str1 = $("<div><span>未收录的权限点：</span></div>");
+		var str1 = $("<div style='color:green'><span>未收录的权限点：</span></div>");
 		$.each( json.data.out_list, function(i,v){
 			str1.append("<p>"+v+"</p>");
 		});
@@ -64,7 +64,7 @@ $("#add_out_list").click(function(){
 	var url = "<?php echo $this->url('rbac/index/addMethods')?>";
 	$.post(url, { list: out_list } ,function(res){
 		if(res=='ok'){
-			alert('收录成功，请刷新！');
+			location.reload();
 		}else{
 			alert('收录失败！');
 		} 
