@@ -3,18 +3,17 @@
 <html lang="en" class="no-js">
 
 <body>
-
+<?php  Ivy::app()->widget('rbac/index/nav'); ?>
 <style type="text/css">
 .dropdown{
 	position: static;
     width: 100%;
 }
 </style>
-
-<div><button>角色</button><button>任务</button><button>操作</button></div>
-<div id='role'>
+<div class="rbac_tab_top"><button rel='role'>角色</button><button rel='task'>任务</button><button rel='method'>操作</button></div>
+<div class="rbac_tab" id='tab_role'>
 <table width='100%'>
-	<tr><td>给用户分配角色</td><td>已分配角色</td><td></td><td>未分配角色</td></tr>
+	<tr><td>给用户分配角色</td><td>已分配角色(按ctrl多选)</td><td></td><td>未分配角色(按ctrl多选)</td></tr>
 	<tr valign="top">
 		<td>
 			<select id="user_id" name="user_id" class="dropdown" size="15">
@@ -24,24 +23,80 @@
 			</select>
 		</td>
 		<td>
-			<select id="have_role" name="have_role" class="dropdown" size="15">
+			<select id="have_role" name="have_role" class="dropdown" multiple="multiple" size="15">
 			</select>
 		</td>
 		<td width="20px" align="center" valign="middle">
-			<input type="button" id="assignUser" value="&lt;&lt;" name="assignUser">  
-			<input type="button" id="revokeUser" value="&gt;&gt;" name="revokeUser">    
+			<input type="button" id="add_role" value="&lt;&lt;" name="add_role">  
+			<input type="button" id="remove_role" value="&gt;&gt;" name="remove_role">    
       	</td>
 		<td>
-			<select id="no_role" name="no_role" class="dropdown" size="15">
+			<select id="no_role" name="no_role" class="dropdown" multiple="multiple" size="15">
 			</select>
 		</td>
 	</tr>
 	<tr><td></td><td></td><td></td><td></td></tr>
 </table>
-
 </div>
-<div id='task'></div>
-<div id='method'></div>
+
+
+<div class="rbac_tab" id='tab_task' style="display:none">
+<table width='100%'>
+	<tr><td>给角色分配任务</td><td>已分配任务(按ctrl多选)</td><td></td><td>未分配任务(按ctrl多选)</td></tr>
+	<tr valign="top">
+		<td>
+			<select id="role" name="role" class="dropdown" size="15">
+			<?php foreach($role_list as $role): ?>
+				<option value="<?php echo $role['name'] ?>"><?php echo $role['name'] ?></option>
+			<?php endforeach; ?>
+			</select>
+		</td>
+		<td>
+			<select id="have_task" name="have_task" class="dropdown" multiple="multiple" size="15">
+			</select>
+		</td>
+		<td width="20px" align="center" valign="middle">
+			<input type="button" id="add_task" value="&lt;&lt;" name="add_task">  
+			<input type="button" id="remove_task" value="&gt;&gt;" name="remove_task">    
+      	</td>
+		<td>
+			<select id="no_task" name="no_task" class="dropdown" multiple="multiple" size="15">
+			</select>
+		</td>
+	</tr>
+	<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+
+
+
+<div class="rbac_tab" id='tab_method' style="display:none">
+<table width='100%'>
+	<tr><td>给任务分配操作</td><td>已分配操作(按ctrl多选)</td><td></td><td>未分配操作(按ctrl多选)</td></tr>
+	<tr valign="top">
+		<td>
+			<select id="task" name="task" class="dropdown" size="15">
+			<?php foreach($task_list as $task): ?>
+				<option value="<?php echo $task['name'] ?>"><?php echo $task['name'] ?></option>
+			<?php endforeach; ?>
+			</select>
+		</td>
+		<td>
+			<select id="have_method" name="have_method" class="dropdown" multiple="multiple" size="15">
+			</select>
+		</td>
+		<td width="20px" align="center" valign="middle">
+			<input type="button" id="add_method" value="&lt;&lt;" name="add_method">  
+			<input type="button" id="remove_method" value="&gt;&gt;" name="remove_method">    
+      	</td>
+		<td>
+			<select id="no_method" name="no_method" class="dropdown" multiple="multiple" size="15">
+			</select>
+		</td>
+	</tr>
+	<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
 
 
 </body>
@@ -49,10 +104,18 @@
 </html>
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript">
+$('.rbac_tab_top button').click(function(){
+	var id = $(this).attr('rel');
+	$('.rbac_tab').hide();
+	$('#tab_'+id).show();
+});
+
+
+<!--角色 tab-->
 $('#user_id').change(function(){
 	var url = "<?php echo $this->url('rbac/index/jsonRole')?>";
 	var user_id = $(this).val();
-	$.post(url,{user_id:user_id},function(json){
+	$.post(url,{'user_id':user_id},function(json){
 		if(json.statusCode=='200'){
 			$('#have_role').empty();
 			$.each( json.data.have, function(i, n){
@@ -66,5 +129,135 @@ $('#user_id').change(function(){
 	},'json')
 	
 });
+$('#add_role').click(function(){
+	var roles = $('#no_role').val();
+	if(roles==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeRole')?>";
+	var user_id = $('#user_id').val();
+	$.post(url,{'user_id':user_id,'roles':roles,'act':'add'},function(json){
+		if(json.statusCode=='200'){
+			$('#no_role option:selected').each(function(i){
+				$('#have_role').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+			
+		}
+	},'json')
+});
+$('#remove_role').click(function(){
+	var roles = $('#have_role').val();
+	if(roles==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeRole')?>";
+	var user_id = $('#user_id').val();
+	$.post(url,{'user_id':user_id,'roles':roles,'act':'remove'},function(json){
+		if(json.statusCode=='200'){
+			$('#have_role option:selected').each(function(i){
+				$('#no_role').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+		}
+	},'json')
+});
+<!--角色 tab end-->
 
+
+
+<!--任务 tab-->
+$('#role').change(function(){
+	var url = "<?php echo $this->url('rbac/index/jsonTask')?>";
+	var role = $(this).val();
+	$.post(url,{'role':role},function(json){
+		if(json.statusCode=='200'){
+			$('#have_task').empty();
+			$.each( json.data.have, function(i, n){
+				$('#have_task').append('<option value="'+n+'">'+n+'</option>');
+			});
+			$('#no_task').empty();
+			$.each( json.data.no, function(i, n){
+				$('#no_task').append('<option value="'+n+'">'+n+'</option>');
+			});
+		}
+	},'json')
+	
+});
+$('#add_task').click(function(){
+	var tasks = $('#no_task').val();
+	if(tasks==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
+	var role = $('#role').val();
+	$.post(url,{'parent':role,'childs':tasks,'act':'add'},function(json){
+		if(json.statusCode=='200'){
+			$('#no_task option:selected').each(function(i){
+				$('#have_task').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+			
+		}
+	},'json')
+});
+$('#remove_task').click(function(){
+	var tasks = $('#have_task').val();
+	if(tasks==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
+	var role = $('#role').val();
+	$.post(url,{'parent':role,'childs':tasks,'act':'remove'},function(json){
+		if(json.statusCode=='200'){
+			$('#have_task option:selected').each(function(i){
+				$('#no_task').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+		}
+	},'json')
+});
+<!--任务 tab end-->
+
+
+<!--操作 tab-->
+$('#task').change(function(){
+	var url = "<?php echo $this->url('rbac/index/jsonMethod')?>";
+	var task = $(this).val();
+	$.post(url,{'task':task},function(json){
+		if(json.statusCode=='200'){
+			$('#have_method').empty();
+			$.each( json.data.have, function(i, n){
+				$('#have_method').append('<option value="'+n+'">'+n+'</option>');
+			});
+			$('#no_method').empty();
+			$.each( json.data.no, function(i, n){
+				$('#no_method').append('<option value="'+n+'">'+n+'</option>');
+			});
+		}
+	},'json')
+	
+});
+$('#add_method').click(function(){
+	var methods = $('#no_method').val();
+	if(methods==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
+	var task = $('#task').val();
+	$.post(url,{'parent':task,'childs':methods,'act':'add'},function(json){
+		if(json.statusCode=='200'){
+			$('#no_method option:selected').each(function(i){
+				$('#have_method').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+			
+		}
+	},'json')
+});
+$('#remove_method').click(function(){
+	var methods = $('#have_method').val();
+	if(methods==null) return false;
+	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
+	var task = $('#task').val();
+	$.post(url,{'parent':task,'childs':methods,'act':'remove'},function(json){
+		if(json.statusCode=='200'){
+			$('#have_method option:selected').each(function(i){
+				$('#no_method').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
+				$(this).remove();
+			});
+		}
+	},'json')
+});
+<!--操作 tab end-->
 </script>

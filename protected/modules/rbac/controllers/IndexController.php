@@ -17,7 +17,7 @@ class IndexController extends AuthController {
      * @return [type] [description]
      */
     public function actionBefore(){
-        $result = \Ivy::app()->user->checkAccess($this->route);
+        //$result = \Ivy::app()->user->checkAccess($this->route);
         $result = true;
 
         if($result==false){
@@ -40,7 +40,6 @@ class IndexController extends AuthController {
     	$role_list = AuthItem::model()->findAll('type=2',array('name'));
     	$task_list = AuthItem::model()->findAll('type=1',array('name'));
     	//$method_list = AuthItem::model()->findAll('type=0',array('name'));
-
     	$have_role_list=Assignment::model()->findAll("userid=".$userId);
     	
 
@@ -54,10 +53,10 @@ class IndexController extends AuthController {
     }
 
     /**
-	 * 角色绑定json
+	 * 用户已绑定角色显示json
 	 */
 	public function jsonRoleAction() {
-		$userId=$_REQUEST['user_id']=1;
+		$userId=$_REQUEST['user_id'];
 		$have_role_list=Assignment::model()->findAll("userid=".$userId,array('itemname'));
     	$role_list = AuthItem::model()->findAll('type=2',array('name'));
     	$all=self::i_array_column($role_list,'name');
@@ -70,8 +69,81 @@ class IndexController extends AuthController {
 		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
 	}
 
+	/**
+	 * 用户角色变更json
+	 */
+	public function changeRoleAction() {
+		$userId=$_REQUEST['user_id'];
+		$roles=$_REQUEST['roles'];
+		$act=$_REQUEST['act'];//add 添加 remove 移除
+
+		if($act=='add'){
+			Assignment::model()->addRoles($userId,$roles);
+		}elseif($act=='remove'){
+			Assignment::model()->removeRoles($userId,$roles);
+		}else{
+			throw new CException('无效操作！');
+		}
+		$this->ajaxReturn('200','ok');
+	}
 
 
+	/**
+	 * 角色已绑定任务显示json
+	 */
+	public function jsonTaskAction() {
+		$role=$_REQUEST['role'];
+		$have_task_list=ItemChild::model()->findAll("parent='{$role}'",array('child'));
+    	$task_list = AuthItem::model()->findAll('type=1',array('name'));
+    	$all=self::i_array_column($task_list,'name');
+    	$have=self::i_array_column($have_task_list,'child');
+    	$no=array();
+    	foreach ($all as $value) {
+    		if(!in_array($value, $have))
+    			$no[]=$value;
+    	}
+		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
+	}
+	/**
+	 * 子集变更json
+	 */
+	public function changeChildAction() {
+		$parent=$_REQUEST['parent'];
+		$childs=$_REQUEST['childs'];
+		$act=$_REQUEST['act'];//add 添加 remove 移除
+
+		if($act=='add'){
+			ItemChild::model()->addChilds($parent,$childs);
+		}elseif($act=='remove'){
+			ItemChild::model()->removeChilds($parent,$childs);
+		}else{
+			throw new CException('无效操作！');
+		}
+		$this->ajaxReturn('200','ok');
+	}
+
+
+	/**
+	 * 角色已绑定任务显示json
+	 */
+	public function jsonMethodAction() {
+		$task=$_REQUEST['task'];
+		$have_method_list=ItemChild::model()->findAll("parent='{$task}'",array('child'));
+    	$method_list = AuthItem::model()->findAll('type=0',array('name'));
+    	$all=self::i_array_column($method_list,'name');
+    	$have=self::i_array_column($have_method_list,'child');
+    	$no=array();
+    	foreach ($all as $value) {
+    		if(!in_array($value, $have))
+    			$no[]=$value;
+    	}
+		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
+	}
+
+
+	public function navAction() {
+        $this->view->assign()->display();
+	}
 
 	/**
 	 * item列表
@@ -231,6 +303,8 @@ class IndexController extends AuthController {
 			array_pop($tmp);
 			$module_name=array_pop($tmp);
 			$tmp_class= basename($c_file,'.php');
+
+			if($module_name=='rbac') continue;
 
 			if(!is_subclass_of('\\'.$module_name.'\\'.$tmp_class, '\\rbac\\AuthController')){
 				continue;
