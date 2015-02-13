@@ -39,7 +39,7 @@ abstract class AbsoluteDB {
                 $sql .= ' where ' . $condition->getCond();
             }
         }else{
-            throw new CException('无效的条件'.$condition);
+            throw new CException('无效的条件');
         }
 	
 		if(!empty($order)){
