@@ -101,12 +101,20 @@ class MainController extends \CController {
      public function getSideBarStr($arr,$way=false){
         $str = '';
         foreach($arr as $nav){
+            $str .= '<li';
+            $li_class=array();
             $active=($way&&in_array($nav['id'],$way));
             if($active){
-                $str.='<li class="active">';
-            }else{
-                $str.='<li>';
+                $li_class[]='active';
             }
+            if($nav['fid']==0&&$nav==$arr[0]){
+                $li_class[]='start';
+            }
+            if($nav['fid']==0&&$nav==$arr[count($arr)-1]){
+                $li_class[]='last';
+            }
+            $str.=' class="'.implode(' ', $li_class).'" >'; //li标签结束
+
             if($nav['uri']){
                 $url = $this->url($nav['uri']);
             } else{

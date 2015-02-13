@@ -154,6 +154,41 @@ class IndexController extends AuthController {
 		$result= $this->getAllControllers();
         $this->view->assign('itemlist',$itemlist)->display();
 	}
+
+	/**
+	 * 权限查看
+	 */
+	public function showAction() {
+		if($this->isAjax){
+			$userId=$_REQUEST['userid'];
+			$role_list=Assignment::model()->findAll("userid=".$userId,array('itemname'));
+			foreach ($role_list as &$value) {
+				$task_list=$this->getChild($value['itemname']);
+				foreach ($task_list as &$task) {
+					$method_list=$this->getChild($task);
+					$task=array('name'=>$task,'method_list'=>$method_list);
+					unset($task);
+				}
+				$value['task_list']=$task_list;
+				unset($value);
+			}
+			$this->ajaxReturn('200','ok',$role_list);
+
+		}else{
+			$user_class = $this->_rbac_confit["userclass"];
+	    	$id_str = $this->_rbac_confit["userid"];
+	    	$user_name = $this->_rbac_confit["username"];
+	    	$user_model = $user_class::model();
+	    	$u_list = $user_model->findAll(null,array($id_str,$user_name));
+			$this->view->assign(array(
+	    		'user_name_col'=>$user_name,
+	    		'user_id_col'=>$id_str,
+	    		'u_list'=>$u_list,
+    		))->display();
+		}
+
+		
+	}
 	
 	/**
 	 * 添加一条记录

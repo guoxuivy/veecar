@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<style type="text/css">
+fieldset{}
+</style>
+<body>
+<?php  Ivy::app()->widget('rbac/index/nav'); ?>
+
+
+<select id="user_id" name="user_id">
+	<option value="">-请选择-</option>
+<?php foreach($u_list as $u): ?>
+	<option value="<?php echo $u[$user_id_col] ?>"><?php echo $u[$user_name_col] ?></option>
+<?php endforeach; ?>
+</select>
+
+<div id="rbac_show"></div>
+</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript">
+
+$('#user_id').change(function(){
+	var user_id = $(this).val();
+	if(user_id=='') return ;
+	var url = "<?php echo $this->url('rbac/index/show')?>";
+	$.post(url,{'userid':user_id},function(json){
+		if(json.statusCode=='200'){
+			console.log(json)
+			var str = $('<fieldset style="width:80%"><legend>拥有权限</legend></fieldset>');
+			$.each( json.data, function(i,role){
+				var str_role = $('<fieldset  style="width:50%;margin-left:40%"><legend>'+role.itemname+'</legend></fieldset>');
+				
+				$.each( role.task_list, function(i,task){
+					var str_task = $('<fieldset style="width:50%;margin-left:40%"><legend>'+task.name+'</legend></fieldset>');
+
+					$.each( task.method_list, function(i,method){
+						var str_method = $('<p>'+method+'</p>');
+						str_task.append(str_method);
+					});
+
+					str_role.append(str_task);
+				});
+				str.append(str_role);
+
+
+			});
+			$('#rbac_show').empty().append(str);
+
+		}
+	},'json')
+});
+
+</script>
