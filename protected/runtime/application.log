@@ -402,3 +402,300 @@
 2015/02/13 14:01:59 [notice] [application] 系统通知:Undefined variable: userId->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:43
 2015/02/13 14:02:46 [notice] [application] 系统通知:Undefined index: page->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:152
 2015/02/13 14:02:47 [notice] [application] 系统通知:Undefined variable: userId->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:43
+2015/02/27 11:54:18 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:54:18 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:54:18 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:54:18 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\framework\db\AbsoluteDB.php->line:22
+2015/02/27 11:54:18 [notice] [application] 系统通知:Undefined index: module->file:D:\wwwroot\veecar\framework\core\Controller.php->line:79
+2015/02/27 11:55:41 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:55:41 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:55:41 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 11:55:41 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:55:56 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:55:56 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:55:56 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 11:55:56 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:56:03 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:56:03 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:56:03 [warning] [application] 系统警告:Memcache::delete() [<a href='memcache.delete'>memcache.delete</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:61
+2015/02/27 11:56:03 [notice] [application] 系统通知:Undefined offset: 1->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:225
+2015/02/27 11:57:35 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:35 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:35 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 11:57:35 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:57:35 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 11:57:35 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 11:57:35 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 11:57:35 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 11:57:35 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:35 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:38 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:38 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:38 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 11:57:38 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:57:38 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 11:57:38 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 11:57:38 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 11:57:38 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 11:57:38 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:38 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:48 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:48 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:57:48 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 11:57:48 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 11:57:48 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 11:57:48 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 11:57:48 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 11:57:48 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 11:57:48 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:48 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 11:57:50 [notice] [application] 系统通知:Undefined index: page->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:152
+2015/02/27 11:57:54 [notice] [application] 系统通知:Undefined variable: userId->file:D:\wwwroot\veecar\protected\modules\rbac\controllers\IndexController.php->line:43
+2015/02/27 11:58:14 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:58:14 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 11:58:14 [warning] [application] 系统警告:Memcache::delete() [<a href='memcache.delete'>memcache.delete</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:61
+2015/02/27 11:58:14 [notice] [application] 系统通知:Undefined offset: 1->file:D:\wwwroot\veecar\protected\modules\admin\controllers\MainController.php->line:225
+2015/02/27 11:58:48 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：method "admin\MainController:adminAction" is not exist.  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:__call  
+class:Ivy\core\CComponent  
+type:->  
+args:array (
+  0 => 'adminAction',
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:adminAction  
+class:admin\MainController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:106  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'main',
+      'action' => 'admin',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\CComponent.php on line 76
+<!--Fatal error end-->
+
+2015/02/27 11:59:42 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：method "admin\MainController:adminAction" is not exist.  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:__call  
+class:Ivy\core\CComponent  
+type:->  
+args:array (
+  0 => 'adminAction',
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:adminAction  
+class:admin\MainController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:106  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'main',
+      'action' => 'admin',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\CComponent.php on line 76
+<!--Fatal error end-->
+
+2015/02/27 11:59:44 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：method "admin\MainController:adminAction" is not exist.  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:__call  
+class:Ivy\core\CComponent  
+type:->  
+args:array (
+  0 => 'adminAction',
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:adminAction  
+class:admin\MainController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:106  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'main',
+      'action' => 'admin',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\CComponent.php on line 76
+<!--Fatal error end-->
+
+2015/02/27 11:59:56 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：method "admin\MainController:adminAction" is not exist.  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:__call  
+class:Ivy\core\CComponent  
+type:->  
+args:array (
+  0 => 'adminAction',
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:adminAction  
+class:admin\MainController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:106  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'main',
+      'action' => 'admin',
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\CComponent.php on line 76
+<!--Fatal error end-->
+
+2015/02/27 12:00:07 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:00:07 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于目标计算机积极拒绝，无法连接。
+ (10061)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:00:07 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 12:00:07 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 12:00:07 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 12:00:07 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 12:00:07 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 12:00:07 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 12:00:07 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 12:00:07 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 12:01:08 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:01:08 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:01:08 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 12:01:08 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 12:01:08 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 12:01:08 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 12:01:08 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 12:01:08 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 12:01:08 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 12:01:08 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 12:02:02 [notice] [application] 系统通知:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Server 127.0.0.1 (tcp 11211) failed with: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:02:02 [warning] [application] 系统警告:Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)->file:D:\wwwroot\veecar\framework\core\Cache.php->line:33
+2015/02/27 12:02:02 [warning] [application] 系统警告:Memcache::get() [<a href='memcache.get'>memcache.get</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:49
+2015/02/27 12:02:02 [warning] [application] 系统警告:Memcache::set() [<a href='memcache.set'>memcache.set</a>]: No servers added to memcache connection->file:D:\wwwroot\veecar\framework\core\Cache.php->line:45
+2015/02/27 12:02:02 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:122
+2015/02/27 12:02:02 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:129
+2015/02/27 12:02:02 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:135
+2015/02/27 12:02:02 [notice] [application] 系统通知:Trying to get property of non-object->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:141
+2015/02/27 12:02:02 [notice] [application] 系统通知:Undefined variable: imgs->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
+2015/02/27 12:02:02 [warning] [application] 系统警告:Invalid argument supplied for foreach()->file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310

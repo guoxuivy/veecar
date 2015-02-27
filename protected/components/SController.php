@@ -13,6 +13,8 @@ use Ivy\core\CException;
 use rbac\AuthController;
 class SController extends AuthController
 {
+    //布局文件
+    public $layout='/layouts/main';
     /**
      * 用户登录验证 
      **/

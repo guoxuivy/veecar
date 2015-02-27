@@ -10,7 +10,7 @@ return array (
 			'password' => ''
 		),
         //支持memcache集群
-        'memcache'=> array(
+        'memcache' => array(
             "127.0.0.1:11211",
         ),
 		
@@ -25,5 +25,11 @@ return array (
 	        'userid' => 'id', //default: userid     用户表标识位对应字段
 	        'username' => 'account', //default:username  用户表中用户名对应字段
 		),
+		//友好错误显示页面
+        'errorHandler' => array(
+            'errorAction' => 'error/index',
+        ),
+
+        /******************************以上为系统框架配置**************************************/
 		
 );
