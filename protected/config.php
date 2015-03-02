@@ -9,11 +9,11 @@ return array (
 			'user' => 'root',
 			'password' => ''
 		),
-		//支持memcache集群
-		'memcache' => array(
-			"127.0.0.1:11211",
-			"192.168.1.202:11211",
-		),
+        //支持memcache集群
+        'memcache' => array(
+            "127.0.0.1:11211",
+            "192.168.1.202:11211",
+        ),
 		
 		//默认路由
 		'route' => array(
@@ -22,15 +22,15 @@ return array (
 		),
 		//权限管理配置
 		'rbac' => array(
-			'userclass' => "\\admin\\UserModel", //default: User      对应用户的model
-			'userid' => 'id', //default: userid     用户表标识位对应字段
-			'username' => 'account', //default:username  用户表中用户名对应字段
+	        'userclass' => "\\admin\\UserModel", //default: User      对应用户的model
+	        'userid' => 'id', //default: userid     用户表标识位对应字段
+	        'username' => 'account', //default:username  用户表中用户名对应字段
 		),
 		//友好错误显示页面
-		'errorHandler' => array(
-			'errorAction' => 'error/index',
-		),
+        'errorHandler' => array(
+            'errorAction' => 'error/index',
+        ),
 
-		/******************************以上为系统框架配置**************************************/
+        /******************************以上为系统框架配置**************************************/
 		
 );
