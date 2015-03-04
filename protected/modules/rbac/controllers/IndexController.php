@@ -36,11 +36,11 @@ class IndexController extends AuthController {
     	$user_name = $this->_rbac_confit["username"];
     	$user_model = $user_class::model();
 
-    	$u_list = $user_model->findAll(null,array($id_str,$user_name));
-    	$role_list = AuthItem::model()->findAll('type=2',array('name'));
-    	$task_list = AuthItem::model()->findAll('type=1',array('name'));
-    	//$method_list = AuthItem::model()->findAll('type=0',array('name'));
-    	$have_role_list=Assignment::model()->findAll("userid=".$userId);
+    	$u_list = $user_model->field(array($id_str,$user_name))->findAll();
+    	$role_list = AuthItem::model()->field('name')->where('type=2')->findAll();
+    	$task_list = AuthItem::model()->field('name')->where('type=1')->findAll();
+
+    	$have_role_list=Assignment::model()->where("userid=".$userId)->findAll();
     	
 
     	$this->view->assign(array(
@@ -57,8 +57,8 @@ class IndexController extends AuthController {
 	 */
 	public function jsonRoleAction() {
 		$userId=$_REQUEST['user_id'];
-		$have_role_list=Assignment::model()->findAll("userid=".$userId,array('itemname'));
-    	$role_list = AuthItem::model()->findAll('type=2',array('name'));
+		$have_role_list=Assignment::model()->field('itemname')->where("userid=".$userId)->findAll();
+    	$role_list = AuthItem::model()->field('name')->findAll('type=2');
     	$all=self::i_array_column($role_list,'name');
     	$have=self::i_array_column($have_role_list,'itemname');
     	$no=array();
@@ -93,8 +93,8 @@ class IndexController extends AuthController {
 	 */
 	public function jsonTaskAction() {
 		$role=$_REQUEST['role'];
-		$have_task_list=ItemChild::model()->findAll("parent='{$role}'",array('child'));
-    	$task_list = AuthItem::model()->findAll('type=1',array('name'));
+		$have_task_list=ItemChild::model()->field('child')->findAll("parent='{$role}'");
+    	$task_list = AuthItem::model()->field('name')->findAll('type=1');
     	$all=self::i_array_column($task_list,'name');
     	$have=self::i_array_column($have_task_list,'child');
     	$no=array();
@@ -128,8 +128,8 @@ class IndexController extends AuthController {
 	 */
 	public function jsonMethodAction() {
 		$task=$_REQUEST['task'];
-		$have_method_list=ItemChild::model()->findAll("parent='{$task}'",array('child'));
-    	$method_list = AuthItem::model()->findAll('type=0',array('name'));
+		$have_method_list=ItemChild::model()->field('child')->findAll("parent='{$task}'");
+    	$method_list = AuthItem::model()->field('name')->findAll('type=0');
     	$all=self::i_array_column($method_list,'name');
     	$have=self::i_array_column($have_method_list,'child');
     	$no=array();
@@ -150,8 +150,8 @@ class IndexController extends AuthController {
 	 */
 	public function indexAction() {
 		$page=$_REQUEST['page']?$_REQUEST['page']:1;
-		$itemlist = AuthItem::model()->getPagener(null,$page,30);
-		$result= $this->getAllControllers();
+		$itemlist = AuthItem::model()->page($page,30)->getPagener();
+		//$result= $this->getAllControllers();
         $this->view->assign('itemlist',$itemlist)->display();
 	}
 
@@ -161,7 +161,7 @@ class IndexController extends AuthController {
 	public function showAction() {
 		if($this->isAjax){
 			$userId=$_REQUEST['userid'];
-			$role_list=Assignment::model()->findAll("userid=".$userId,array('itemname'));
+			$role_list=Assignment::model()->field('itemname')->findAll("userid=".$userId);
 			foreach ($role_list as &$value) {
 				$task_list=$this->getChild($value['itemname']);
 				foreach ($task_list as &$task) {
@@ -179,7 +179,7 @@ class IndexController extends AuthController {
 	    	$id_str = $this->_rbac_confit["userid"];
 	    	$user_name = $this->_rbac_confit["username"];
 	    	$user_model = $user_class::model();
-	    	$u_list = $user_model->findAll(null,array($id_str,$user_name));
+	    	$u_list = $user_model->field(array($id_str,$user_name))->findAll();
 			$this->view->assign(array(
 	    		'user_name_col'=>$user_name,
 	    		'user_id_col'=>$id_str,

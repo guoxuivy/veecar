@@ -42,13 +42,13 @@ class MainController extends \CController {
     /**
 	 * SIDEBAR MENU载入
 	 */
-	public function menuAction(){
+	public function menuAction($active=null){
 	   
-        $nav = NavModel::model()->findAll('type = 1',array('*'),array('ord'=>'desc'));
+        $nav = NavModel::model()->where('type = 1')->order(array('ord'=>'desc'))->findAll();;
         $way = false;
         $navTree = $this->treeNavData($nav);
-        if(isset($_REQUEST['active'])){
-            $way = $this->getTreeWay($navTree,$_REQUEST['active']);
+        if($active){
+            $way = $this->getTreeWay($navTree,$active);
         }
         $this->view->assign(array(
             'side_bar_str'=>$this->getSideBarStr($navTree,$way)
@@ -232,7 +232,7 @@ class MainController extends \CController {
             return false;
         }
 
-        $user = UserModel::model()->find("identifier = '{$clean['identifier']}'");
+        $user = UserModel::model()->where("identifier = '{$clean['identifier']}'")->find();
         if($user&&$user->token==$clean['token']&&$now < $user->timeout){
             \Ivy::app()->user->login($user);
         }else{

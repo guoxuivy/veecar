@@ -26,7 +26,7 @@ type:<select name="type"><option value="0">操作<option><option value="1">任�
 				<?php endforeach; ?>
 				</tbody>
 				<tfoot><tr><td colspan="3" align="center">
-				<?php for($i=1;$i<=$itemlist['pageNums'];$i++){
+				<?php for($i=1;$i<=$itemlist['pagener']['pageNums'];$i++){
 					echo "<a href='".$this->url('index',array('page'=>$i))."'>{$i}</a>";
 				}?>
 				</td></tr></tfoot>

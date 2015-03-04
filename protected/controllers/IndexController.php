@@ -12,11 +12,11 @@ class IndexController extends \CController {
 	 * 显示模版实例示例
 	 */
 	public function indexAction() {
-		$typeList = $this->db->find( 'article_cate' ); // 获取类型
+		$typeList = $this->db->findBySql( ' select * from `article_cate` ' ); // 获取类型
         Ivy::app()->cache->set('guox',$typeList);
         //var_dump(Ivy::app()->cache->getConfigByKey('aqwewsd2132sed13'));die;
         $page=isset($_GET['p'])?(int)$_GET['p']:1;
-		$article = $this->db->getPagener('article',null,$order = array('add_time' => 'DESC'),10,$page);
+		$article = $typeList;
         $this->view->assign('article',$article)->display();
 	}
     

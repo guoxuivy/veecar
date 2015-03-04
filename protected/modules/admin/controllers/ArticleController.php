@@ -15,7 +15,6 @@ class ArticleController extends \SController {
 	 * 显示文章列表
 	 */
 	public function listAction() {
-        //var_dump(\Ivy::app()->auth);
         $this->view->assign()->display();
 	}
     public function addAction() {
@@ -27,8 +26,7 @@ class ArticleController extends \SController {
         //\LogModel::model()->test();
         $id=$_REQUEST['id'];
         $data = \ArticleModel::model()->findByPk($id);
-        //var_dump(\ItemChild::model()->findByPk(array('parent'=>'老大','child'=>'老二')));die;
-        $imgs = \AttachmentModel::model()->findAll("`rel_id` = {$id} and `table`='article'");
+        $imgs = \AttachmentModel::model()->where("`rel_id` = {$id} and `table`='article'")->findAll();
         $this->view->assign(array('data'=>$data,'imgs'=>$imgs))->display();
     }
 
@@ -68,7 +66,7 @@ class ArticleController extends \SController {
         }
         //($tableName,$condition = NULL,$page=1,$limit = 10,$colmnus = array('*'),$order = array())
 
-        $list = \ArticleModel::model()->getPagener(NULL,$page,$length,array('*'),array($col=>$dir));
+        $list = \ArticleModel::model()->page($page,$length)->order(array($col=>$dir))->getPagener();
         $data=array();
         foreach ($list['list'] as $value) {
             $data[]=array(
@@ -81,7 +79,7 @@ class ArticleController extends \SController {
                 'status'=>$value['status']
             );
         }
-        $recordsTotal=$list['recordsTotal'];
+        $recordsTotal=$list['pagener']['recordsTotal'];
         die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal,"recordsFiltered"=>$recordsTotal))); 
     }
 

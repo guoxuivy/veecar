@@ -12,9 +12,7 @@ class ErrorController extends Controller {
 	//布局文件
 	public $layout=null;
 
-	public function indexAction() {
-		$code=$_REQUEST['code']?$_REQUEST['code']:'404';
-		$msg=$_REQUEST['msg']?$_REQUEST['msg']:'哎哟...  您访问的页面不存在';
+	public function indexAction($code='404',$msg='哎哟...  您访问的页面不存在！') {
 		$this->view->assign(array('code'=>$code,'msg'=>$msg))->display();
 	}
     
