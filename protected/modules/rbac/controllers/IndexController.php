@@ -18,7 +18,8 @@ class IndexController extends AuthController {
      */
     public function actionBefore(){
         //$result = \Ivy::app()->user->checkAccess($this->route);
-        $result = true;
+       
+        $result = !\Ivy::app()->user->isGuest;
 
         if($result==false){
             $route = implode('->', $this->route->getRouter());
@@ -34,15 +35,13 @@ class IndexController extends AuthController {
     	$user_class = $this->_rbac_confit["userclass"];
     	$id_str = $this->_rbac_confit["userid"];
     	$user_name = $this->_rbac_confit["username"];
-    	$user_model = $user_class::model();
 
+    	$user_model = $user_class::model();
     	$u_list = $user_model->field(array($id_str,$user_name))->findAll();
     	$role_list = AuthItem::model()->field('name')->where('type=2')->findAll();
     	$task_list = AuthItem::model()->field('name')->where('type=1')->findAll();
 
-    	$have_role_list=Assignment::model()->where("userid=".$userId)->findAll();
     	
-
     	$this->view->assign(array(
     		'user_name_col'=>$user_name,
     		'user_id_col'=>$id_str,
@@ -149,7 +148,7 @@ class IndexController extends AuthController {
 	 * item列表
 	 */
 	public function indexAction() {
-		$page=$_REQUEST['page']?$_REQUEST['page']:1;
+		$page=isset($_REQUEST['page'])?$_REQUEST['page']:1;
 		$itemlist = AuthItem::model()->page($page,30)->getPagener();
 		//$result= $this->getAllControllers();
         $this->view->assign('itemlist',$itemlist)->display();

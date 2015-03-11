@@ -28,7 +28,7 @@ var EcommerceProducts = function () {
                 "pageLength": 10, // default record count per page
                 "ajax": {
                     //"url": base_url+"?r=admin/article/json", // ajax source
-                    "url": get_url("admin/article/json"), // ajax source
+                    "url": get_url("admin/article/list"), // ajax source
 
                 },
                 "order": [

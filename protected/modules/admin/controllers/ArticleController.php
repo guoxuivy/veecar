@@ -15,8 +15,43 @@ class ArticleController extends \SController {
 	 * 显示文章列表
 	 */
 	public function listAction() {
+        if($this->isAjax)
+            $this->jsonList();
         $this->view->assign()->display();
 	}
+
+    /**
+     * json文章列表 recordsFiltered 必须！！
+     * {"data":[],"draw":0,"recordsTotal":2430,"recordsFiltered":2430}
+     * @return  json [description]
+     */
+    protected function jsonList() {
+        $star=$_REQUEST['start']?$_REQUEST['start']:0;
+        $length=$_REQUEST['length']?$_REQUEST['length']:10;
+        $page = (int)ceil($star/$length+1);
+
+        if($_REQUEST['order']){
+            $col = $_REQUEST['columns'][$_REQUEST['order'][0]['column']]['data'];
+            $dir = $_REQUEST['order'][0]['dir'];
+        }
+
+        $list = \ArticleModel::model()->page($page,$length)->order(array($col=>$dir))->getPagener();
+        $data=array();
+        foreach ($list['list'] as $value) {
+            $data[]=array(
+                'id'=>$value['id'],
+                'title'=>$value['title'],
+                'cates'=>$value['cates'],
+                'add_time'=>date('Y-m-d H:i',$value['add_time']),
+                'summary'=>$value['summary'],
+                'available_from'=>$value['available_from'],
+                'status'=>$value['status']
+            );
+        }
+        $recordsTotal=$list['pagener']['recordsTotal'];
+        die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal,"recordsFiltered"=>$recordsTotal))); 
+    }
+
     public function addAction() {
         $this->view->assign()->display('edit');
     }
@@ -50,38 +85,7 @@ class ArticleController extends \SController {
     }
 
 
-    /**
-     * json文章列表 recordsFiltered 必须！！
-     * {"data":[],"draw":0,"recordsTotal":2430,"recordsFiltered":2430}
-     * @return  json [description]
-     */
-    public function jsonAction() {
-        $star=$_REQUEST['start']?$_REQUEST['start']:0;
-        $length=$_REQUEST['length']?$_REQUEST['length']:10;
-        $page = (int)ceil($star/$length+1);
-
-        if($_REQUEST['order']){
-            $col = $_REQUEST['columns'][$_REQUEST['order'][0]['column']]['data'];
-            $dir = $_REQUEST['order'][0]['dir'];
-        }
-        //($tableName,$condition = NULL,$page=1,$limit = 10,$colmnus = array('*'),$order = array())
-
-        $list = \ArticleModel::model()->page($page,$length)->order(array($col=>$dir))->getPagener();
-        $data=array();
-        foreach ($list['list'] as $value) {
-            $data[]=array(
-                'id'=>$value['id'],
-                'title'=>$value['title'],
-                'cates'=>$value['cates'],
-                'add_time'=>date('Y-m-d H:i',$value['add_time']),
-                'summary'=>$value['summary'],
-                'available_from'=>$value['available_from'],
-                'status'=>$value['status']
-            );
-        }
-        $recordsTotal=$list['pagener']['recordsTotal'];
-        die(json_encode(array('data'=>$data,'recordsTotal'=>$recordsTotal,"recordsFiltered"=>$recordsTotal))); 
-    }
+    
 
 
 
