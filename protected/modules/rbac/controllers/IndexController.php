@@ -13,58 +13,57 @@ namespace rbac;
 use Ivy\core\CException;
 class IndexController extends AuthController {
 	/**
-     * 本控制器的权限认证 重写该方法
-     * @return [type] [description]
-     */
-    public function actionBefore(){
-        //$result = \Ivy::app()->user->checkAccess($this->route);
-       
-        $result = !\Ivy::app()->user->isGuest;
+	 * 本控制器的权限认证 重写该方法
+	 * @return [type] [description]
+	 */
+	public function actionBefore(){
+		//$result = \Ivy::app()->user->checkAccess($this->route);
+		$result = !\Ivy::app()->user->isGuest;
 
-        if($result==false){
-            $route = implode('->', $this->route->getRouter());
-            throw new CException('没有授权该操作！'.$route);
-        }
-    }
+		if($result==false){
+			$route = implode('->', $this->route->getRouter());
+			throw new CException('没有授权该操作！'.$route);
+		}
+	}
 
-    /**
-     * 分配授权项
-     * @return [type] [description]
-     */
-    public function assignAction(){
-    	$user_class = $this->_rbac_confit["userclass"];
-    	$id_str = $this->_rbac_confit["userid"];
-    	$user_name = $this->_rbac_confit["username"];
+	/**
+	 * 分配授权项
+	 * @return [type] [description]
+	 */
+	public function assignAction(){
+		$user_class = $this->_rbac_confit["userclass"];
+		$id_str = $this->_rbac_confit["userid"];
+		$user_name = $this->_rbac_confit["username"];
 
-    	$user_model = $user_class::model();
-    	$u_list = $user_model->field(array($id_str,$user_name))->findAll();
-    	$role_list = AuthItem::model()->field('name')->where('type=2')->findAll();
-    	$task_list = AuthItem::model()->field('name')->where('type=1')->findAll();
+		$user_model = $user_class::model();
+		$u_list = $user_model->field(array($id_str,$user_name))->findAll();
+		$role_list = AuthItem::model()->field('name')->where('type=2')->findAll();
+		$task_list = AuthItem::model()->field('name')->where('type=1')->findAll();
 
-    	
-    	$this->view->assign(array(
-    		'user_name_col'=>$user_name,
-    		'user_id_col'=>$id_str,
-    		'u_list'=>$u_list,
-    		'role_list'=>$role_list,
-    		'task_list'=>$task_list,
-    	))->display();
-    }
+		
+		$this->view->assign(array(
+			'user_name_col'=>$user_name,
+			'user_id_col'=>$id_str,
+			'u_list'=>$u_list,
+			'role_list'=>$role_list,
+			'task_list'=>$task_list,
+		))->display();
+	}
 
-    /**
+	/**
 	 * 用户已绑定角色显示json
 	 */
 	public function jsonRoleAction() {
 		$userId=$_REQUEST['user_id'];
 		$have_role_list=Assignment::model()->field('itemname')->where("userid=".$userId)->findAll();
-    	$role_list = AuthItem::model()->field('name')->findAll('type=2');
-    	$all=self::i_array_column($role_list,'name');
-    	$have=self::i_array_column($have_role_list,'itemname');
-    	$no=array();
-    	foreach ($all as $value) {
-    		if(!in_array($value, $have))
-    			$no[]=$value;
-    	}
+		$role_list = AuthItem::model()->field('name')->findAll('type=2');
+		$all=self::i_array_column($role_list,'name');
+		$have=self::i_array_column($have_role_list,'itemname');
+		$no=array();
+		foreach ($all as $value) {
+			if(!in_array($value, $have))
+				$no[]=$value;
+		}
 		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
 	}
 
@@ -93,14 +92,14 @@ class IndexController extends AuthController {
 	public function jsonTaskAction() {
 		$role=$_REQUEST['role'];
 		$have_task_list=ItemChild::model()->field('child')->findAll("parent='{$role}'");
-    	$task_list = AuthItem::model()->field('name')->findAll('type=1');
-    	$all=self::i_array_column($task_list,'name');
-    	$have=self::i_array_column($have_task_list,'child');
-    	$no=array();
-    	foreach ($all as $value) {
-    		if(!in_array($value, $have))
-    			$no[]=$value;
-    	}
+		$task_list = AuthItem::model()->field('name')->findAll('type=1');
+		$all=self::i_array_column($task_list,'name');
+		$have=self::i_array_column($have_task_list,'child');
+		$no=array();
+		foreach ($all as $value) {
+			if(!in_array($value, $have))
+				$no[]=$value;
+		}
 		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
 	}
 	/**
@@ -128,20 +127,20 @@ class IndexController extends AuthController {
 	public function jsonMethodAction() {
 		$task=$_REQUEST['task'];
 		$have_method_list=ItemChild::model()->field('child')->findAll("parent='{$task}'");
-    	$method_list = AuthItem::model()->field('name')->findAll('type=0');
-    	$all=self::i_array_column($method_list,'name');
-    	$have=self::i_array_column($have_method_list,'child');
-    	$no=array();
-    	foreach ($all as $value) {
-    		if(!in_array($value, $have))
-    			$no[]=$value;
-    	}
+		$method_list = AuthItem::model()->field('name')->findAll('type=0');
+		$all=self::i_array_column($method_list,'name');
+		$have=self::i_array_column($have_method_list,'child');
+		$no=array();
+		foreach ($all as $value) {
+			if(!in_array($value, $have))
+				$no[]=$value;
+		}
 		$this->ajaxReturn('200','ok',array('have'=>$have,'no'=>$no));
 	}
 
 
 	public function navAction() {
-        $this->view->assign()->display();
+		$this->view->assign()->display();
 	}
 
 	/**
@@ -151,7 +150,7 @@ class IndexController extends AuthController {
 		$page=isset($_REQUEST['page'])?$_REQUEST['page']:1;
 		$itemlist = AuthItem::model()->page($page,30)->getPagener();
 		//$result= $this->getAllControllers();
-        $this->view->assign('itemlist',$itemlist)->display();
+		$this->view->assign('itemlist',$itemlist)->display();
 	}
 
 	/**
@@ -175,20 +174,20 @@ class IndexController extends AuthController {
 
 		}else{
 			$user_class = $this->_rbac_confit["userclass"];
-	    	$id_str = $this->_rbac_confit["userid"];
-	    	$user_name = $this->_rbac_confit["username"];
-	    	$user_model = $user_class::model();
-	    	$u_list = $user_model->field(array($id_str,$user_name))->findAll();
+			$id_str = $this->_rbac_confit["userid"];
+			$user_name = $this->_rbac_confit["username"];
+			$user_model = $user_class::model();
+			$u_list = $user_model->field(array($id_str,$user_name))->findAll();
 			$this->view->assign(array(
-	    		'user_name_col'=>$user_name,
-	    		'user_id_col'=>$id_str,
-	    		'u_list'=>$u_list,
-    		))->display();
+				'user_name_col'=>$user_name,
+				'user_id_col'=>$id_str,
+				'u_list'=>$u_list,
+			))->display();
 		}
 
 		
 	}
-	
+
 	/**
 	 * 添加一条记录
 	 */
@@ -227,7 +226,7 @@ class IndexController extends AuthController {
 	 */
 	public function autoAction() {
 		$result= $this->getAllControllers();
-        $this->view->assign($result)->display();
+		$this->view->assign($result)->display();
 	}
 
 	/**
@@ -241,7 +240,7 @@ class IndexController extends AuthController {
 			die('error');
 		}
 	}
-	
+
 
 	/**
 	 * 获取控制器下权限点列表
@@ -308,7 +307,7 @@ class IndexController extends AuthController {
 		return $list;
 	}
 
-	
+
 	/**
 	 * 获取所有控制器名称
 	 * @return array global_controllers 全局控制器 
@@ -356,55 +355,55 @@ class IndexController extends AuthController {
 
 	/**
 	 * 文件夹遍历
-     * 返回所有控制器文件
+	 * 返回所有控制器文件
 	 */
 	static public function allScandir($file_path='',&$arr) {
-	   if(!empty($file_path)){
-	       foreach(scandir($file_path) as $dir){
-	           if($dir!="."&&$dir!=".."){
-	               $f_name=$file_path.DIRECTORY_SEPARATOR.$dir;
-	               if(is_dir($f_name)){
-	                   self::allScandir($f_name,$arr);
-	               }else{
-	               		if("Controller.php"===substr($dir,-14)){
-	                       array_push($arr,$f_name);
-	                    }
-	               }
-	           }
-	       }
-	   }
+		if(!empty($file_path)){
+			foreach(scandir($file_path) as $dir){
+				if($dir!="."&&$dir!=".."){
+					$f_name=$file_path.DIRECTORY_SEPARATOR.$dir;
+					if(is_dir($f_name)){
+						self::allScandir($f_name,$arr);
+					}else{
+						if("Controller.php"===substr($dir,-14)){
+							array_push($arr,$f_name);
+						}
+					}
+				}
+			}
+		}
 	}
 
 
 
 	static public function i_array_column($input, $columnKey, $indexKey=null){
-        if(!function_exists('array_column')){ 
-            $columnKeyIsNumber  = (is_numeric($columnKey))?true:false; 
-            $indexKeyIsNull            = (is_null($indexKey))?true :false; 
-            $indexKeyIsNumber     = (is_numeric($indexKey))?true:false; 
-            $result                         = array(); 
-            foreach((array)$input as $key=>$row){ 
-                if($columnKeyIsNumber){ 
-                    $tmp= array_slice($row, $columnKey, 1); 
-                    $tmp= (is_array($tmp) && !empty($tmp))?current($tmp):null; 
-                }else{ 
-                    $tmp= isset($row[$columnKey])?$row[$columnKey]:null; 
-                } 
-                if(!$indexKeyIsNull){ 
-                    if($indexKeyIsNumber){ 
-                      $key = array_slice($row, $indexKey, 1); 
-                      $key = (is_array($key) && !empty($key))?current($key):null; 
-                      $key = is_null($key)?0:$key; 
-                    }else{ 
-                      $key = isset($row[$indexKey])?$row[$indexKey]:0; 
-                    } 
-                } 
-                $result[$key] = $tmp; 
-            } 
-            return $result; 
-        }else{
-            return array_column($input, $columnKey, $indexKey);
-        }
-    }
+		if(!function_exists('array_column')){ 
+			$columnKeyIsNumber  = (is_numeric($columnKey))?true:false; 
+			$indexKeyIsNull            = (is_null($indexKey))?true :false; 
+			$indexKeyIsNumber     = (is_numeric($indexKey))?true:false; 
+			$result                         = array(); 
+			foreach((array)$input as $key=>$row){ 
+				if($columnKeyIsNumber){ 
+					$tmp= array_slice($row, $columnKey, 1); 
+					$tmp= (is_array($tmp) && !empty($tmp))?current($tmp):null; 
+				}else{ 
+					$tmp= isset($row[$columnKey])?$row[$columnKey]:null; 
+				} 
+				if(!$indexKeyIsNull){ 
+					if($indexKeyIsNumber){ 
+					  $key = array_slice($row, $indexKey, 1); 
+					  $key = (is_array($key) && !empty($key))?current($key):null; 
+					  $key = is_null($key)?0:$key; 
+					}else{ 
+					  $key = isset($row[$indexKey])?$row[$indexKey]:0; 
+					} 
+				} 
+				$result[$key] = $tmp; 
+			} 
+			return $result; 
+		}else{
+			return array_column($input, $columnKey, $indexKey);
+		}
+	}
 
 }
