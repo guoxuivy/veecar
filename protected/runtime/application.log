@@ -1,3 +1,61 @@
-2015/03/12 11:46:03 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/03/12 11:46:06 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:310
-2015/03/12 12:06:27 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/03/13 11:43:09 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:10 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:11 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:12 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:13 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:14 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:15 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:16 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:18 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:19 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:20 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:21 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:22 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:23 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:24 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:25 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:26 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:43:27 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:50:53 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:50:55 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:56:19 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/13 11:56:21 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:06:36 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:12:01 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:12:03 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:12:04 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:12:04 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/03/16 14:12:10 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/16 14:12:11 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/20 11:58:42 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/03/26 12:03:27 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35

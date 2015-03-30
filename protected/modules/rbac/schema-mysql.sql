@@ -1,11 +1,11 @@
 /**
- * Database schema required by CDbAuthManager.
- *
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @link http://www.yiiframework.com/
- * @copyright Copyright &copy; 2008 Yii Software LLC
- * @license http://www.yiiframework.com/license/
- * @since 1.0
+ * tables sql 
+ * @author ivy <guoxuivy@gmail.com>
+ * @copyright Copyright &copy; 2013-2017 Ivy Software LLC
+ * @license https://github.com/guoxuivy/ivy/
+ * @package framework
+ * @link https://github.com/guoxuivy/ivy 
+ * @since 1.0 
  */
 
 drop table if exists `auth_assignment`;
