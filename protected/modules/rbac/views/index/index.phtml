@@ -3,8 +3,7 @@
 <html lang="en" class="no-js">
 
 <body>
-<?php  Ivy::app()->widget('rbac/index/nav'); ?>
-
+<?php $this->import('rbac/index/nav');?>
 
 <form method="post" action="<?php echo $this->url('rbac/index/addItem')?>">
 name:<input name="name" >

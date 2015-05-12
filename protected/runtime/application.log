@@ -59,3 +59,529 @@
  (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
 2015/03/26 12:03:27 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
  (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
+2015/05/12 10:33:55 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：找不到CException类文件  
+function:loadFile  
+class:Ivy\core\LoaderClass  
+type:::  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\Ivy.php  
+line:151  
+function:spl_autoload_call  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:116  
+function:importWidget  
+class:Ivy  
+type:::  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
+line:9  
+function:widget  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:45  
+args:array (
+  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
+)  
+function:include  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:28  
+function:render  
+class:Ivy\core\Template  
+type:->  
+args:array (
+  0 => '',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
+line:17  
+function:display  
+class:Ivy\core\Template  
+type:->  
+args:array (
+)  
+function:indexAction  
+class:admin\IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:227  
+function:invokeArgs  
+class:ReflectionMethod  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:195  
+function:_doMethod  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 'indexAction',
+  2 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:176  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'index',
+      'action' => 'index',
+    ),
+     'param' => 
+    array (
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'index',
+      'action' => 'index',
+    ),
+     'param' => 
+    array (
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
+<!--Fatal error end-->
+
+2015/05/12 10:34:25 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：找不到CException类文件  
+function:loadFile  
+class:Ivy\core\LoaderClass  
+type:::  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\Ivy.php  
+line:151  
+function:spl_autoload_call  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:116  
+function:importWidget  
+class:Ivy  
+type:::  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
+line:9  
+function:widget  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:45  
+args:array (
+  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
+)  
+function:include  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:28  
+function:render  
+class:Ivy\core\Template  
+type:->  
+args:array (
+  0 => '',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
+line:17  
+function:display  
+class:Ivy\core\Template  
+type:->  
+args:array (
+)  
+function:indexAction  
+class:admin\IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:227  
+function:invokeArgs  
+class:ReflectionMethod  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:195  
+function:_doMethod  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 'indexAction',
+  2 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:176  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'index',
+      'action' => 'index',
+    ),
+     'param' => 
+    array (
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'index',
+      'action' => 'index',
+    ),
+     'param' => 
+    array (
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
+<!--Fatal error end-->
+
+2015/05/12 10:34:38 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\core\CException  
+异常消息：找不到CException类文件  
+function:loadFile  
+class:Ivy\core\LoaderClass  
+type:::  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\Ivy.php  
+line:151  
+function:spl_autoload_call  
+args:array (
+  0 => 'CException',
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:116  
+function:importWidget  
+class:Ivy  
+type:::  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
+line:9  
+function:widget  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 'admin/main/head',
+)  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:45  
+args:array (
+  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
+)  
+function:include  
+file:D:\wwwroot\veecar\framework\core\Template.php  
+line:28  
+function:render  
+class:Ivy\core\Template  
+type:->  
+args:array (
+  0 => '',
+)  
+file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
+line:17  
+function:display  
+class:Ivy\core\Template  
+type:->  
+args:array (
+)  
+function:indexAction  
+class:admin\IndexController  
+type:->  
+args:array (
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:227  
+function:invokeArgs  
+class:ReflectionMethod  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:195  
+function:_doMethod  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  admin\IndexController::__set_state(array(
+     'layout' => NULL,
+     '_m' => 
+    array (
+      0 => 
+      Ivy\core\Route::__set_state(array(
+         'route' => 
+        array (
+          'module' => 'admin',
+          'controller' => 'index',
+          'action' => 'index',
+        ),
+         'param' => 
+        array (
+        ),
+      )),
+    ),
+  )),
+  1 => 'indexAction',
+  2 => 
+  array (
+  ),
+)  
+file:D:\wwwroot\veecar\framework\core\Application.php  
+line:150  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:array (
+  0 => 
+  Ivy\core\Route::__set_state(array(
+     'route' => 
+    array (
+      'module' => 'admin',
+      'controller' => 'index',
+      'action' => 'index',
+    ),
+     'param' => 
+    array (
+    ),
+  )),
+)  
+file:D:\wwwroot\veecar\index.php  
+line:8  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:array (
+)  
+异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
+<!--Fatal error end-->
+
+2015/05/12 11:36:23 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:36:49 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:37:24 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:38:16 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:38:58 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:39:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:39:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:40:22 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:40:44 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:41:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:41:51 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:42:27 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:42:47 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:06 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:06 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:18 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:43:58 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:44:00 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:45:20 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:45:25 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:46:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:46:29 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:46:36 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:46:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:00 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:13 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:20 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:48:32 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:49:12 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:49:49 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 11:50:04 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
+2015/05/12 12:54:43 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/05/12 13:00:11 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/05/12 13:00:13 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/05/12 13:00:15 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/05/12 13:01:37 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2015/05/12 13:04:33 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308

@@ -12,5 +12,6 @@
 use Ivy\core\Controller;
 class CController extends Controller
 {
-    
+	//布局文件
+	public $layout='/layouts/main';
 }

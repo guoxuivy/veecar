@@ -3,7 +3,7 @@
 <html lang="en" class="no-js">
 
 <body>
-<?php  Ivy::app()->widget('rbac/index/nav'); ?>
+<?php $this->import('rbac/index/nav');?>
 <style type="text/css">
 .dropdown{
 	position: static;
@@ -116,7 +116,7 @@ $('#user_id').change(function(){
 	var url = "<?php echo $this->url('rbac/index/jsonRole')?>";
 	var user_id = $(this).val();
 	$.post(url,{'user_id':user_id},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_role').empty();
 			$.each( json.data.have, function(i, n){
 				$('#have_role').append('<option value="'+n+'">'+n+'</option>');
@@ -135,7 +135,7 @@ $('#add_role').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeRole')?>";
 	var user_id = $('#user_id').val();
 	$.post(url,{'user_id':user_id,'roles':roles,'act':'add'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#no_role option:selected').each(function(i){
 				$('#have_role').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();
@@ -150,7 +150,7 @@ $('#remove_role').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeRole')?>";
 	var user_id = $('#user_id').val();
 	$.post(url,{'user_id':user_id,'roles':roles,'act':'remove'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_role option:selected').each(function(i){
 				$('#no_role').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();
@@ -167,7 +167,7 @@ $('#role').change(function(){
 	var url = "<?php echo $this->url('rbac/index/jsonTask')?>";
 	var role = $(this).val();
 	$.post(url,{'role':role},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_task').empty();
 			$.each( json.data.have, function(i, n){
 				$('#have_task').append('<option value="'+n+'">'+n+'</option>');
@@ -186,7 +186,7 @@ $('#add_task').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
 	var role = $('#role').val();
 	$.post(url,{'parent':role,'childs':tasks,'act':'add'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#no_task option:selected').each(function(i){
 				$('#have_task').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();
@@ -201,7 +201,7 @@ $('#remove_task').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
 	var role = $('#role').val();
 	$.post(url,{'parent':role,'childs':tasks,'act':'remove'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_task option:selected').each(function(i){
 				$('#no_task').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();
@@ -217,7 +217,7 @@ $('#task').change(function(){
 	var url = "<?php echo $this->url('rbac/index/jsonMethod')?>";
 	var task = $(this).val();
 	$.post(url,{'task':task},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_method').empty();
 			$.each( json.data.have, function(i, n){
 				$('#have_method').append('<option value="'+n+'">'+n+'</option>');
@@ -236,7 +236,7 @@ $('#add_method').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
 	var task = $('#task').val();
 	$.post(url,{'parent':task,'childs':methods,'act':'add'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#no_method option:selected').each(function(i){
 				$('#have_method').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();
@@ -251,7 +251,7 @@ $('#remove_method').click(function(){
 	var url = "<?php echo $this->url('rbac/index/changeChild')?>";
 	var task = $('#task').val();
 	$.post(url,{'parent':task,'childs':methods,'act':'remove'},function(json){
-		if(json.statusCode=='200'){
+		if(json.code=='200'){
 			$('#have_method option:selected').each(function(i){
 				$('#no_method').append('<option value="'+$(this).val()+'">'+$(this).text()+'</option>');
 				$(this).remove();

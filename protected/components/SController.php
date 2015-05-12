@@ -21,7 +21,7 @@ class SController extends AuthController
     public function init() {
         if(\Ivy::app()->user->isGuest){
             //记录返回地址
-            \Ivy::app()->user->setReturnUrl(implode('/',$this->route->getRouter()).$this->getQueryString());
+            \Ivy::app()->user->setReturnUrl(implode('/',$this->getRouter()).$this->getQueryString());
             $this->redirect('admin/main/login');
         }
 	}
@@ -31,7 +31,7 @@ class SController extends AuthController
             $view=substr($method,0,-6);
             $this->view->assign()->display($view);
         }else{
-            throw new CException('找不到'.$method.'方法');
+            return parent::__call($method, $param);
         }
         
     }

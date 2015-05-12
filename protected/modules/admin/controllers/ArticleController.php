@@ -10,7 +10,7 @@ namespace admin;
 use Ivy\core\lib\UploadFile;
 use Ivy\core\CException;
 class ArticleController extends \SController {
-    
+    public $layout=null;
     /**
 	 * 显示文章列表
 	 */

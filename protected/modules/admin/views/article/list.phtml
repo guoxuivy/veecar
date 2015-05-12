@@ -5,7 +5,7 @@
 <html lang="en" class="no-js">
 <!--<![endif]-->
 <!-- 加载公用head -->
-<?php  Ivy::app()->widget('admin/main/head'); ?>
+<?php $this->import('admin/main/head');?>
 <!-- END 加载公用head -->
 <body class="page-header-fixed page-quick-sidebar-over-content">
 <!-- BEGIN PAGE STYLES 加载本页面所需要样式 -->
@@ -15,12 +15,12 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $this->basePath('assets');?>/global/plugins/bootstrap-datetimepicker/css/datetimepicker.css"/>
 <link rel="stylesheet" type="text/css" href="<?php echo $this->basePath('assets');?>/global/plugins/fancybox/source/jquery.fancybox.css"/>
 <!-- 加载内页头部 -->
-<?php  Ivy::app()->widget('admin/main/inhead'); ?>
+<?php $this->import('admin/main/inhead');?>
 <!-- END 加载内页头部 -->
 <!-- BEGIN CONTAINER -->
 <div class="page-container">
     <!-- IMPORT SIDEBAR -->
-	<?php  Ivy::app()->widget('admin/main/menu',array('active'=>'news_list')); ?>
+	<?php echo Ivy::app()->widget('top/nav','news_list'); ?>
 
 	<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
@@ -353,8 +353,7 @@
 	<!-- END QUICK SIDEBAR -->
 </div>
 <!-- END CONTAINER -->
-
-<?php  Ivy::app()->widget('admin/main/foot'); ?>
+<?php $this->import('admin/main/foot');?>
 <!-- 加载本页面所需要js插件 -->
 <!-- BEGIN PAGE plugs -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->

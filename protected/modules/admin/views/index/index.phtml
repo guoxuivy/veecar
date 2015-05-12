@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en" class="no-js">
-<!--<![endif]-->
-
-<!-- 加载公用head -->
-<?php  Ivy::app()->widget('admin/main/head'); ?>
-<!-- END 加载公用head -->
-
-<!-- BEGIN PAGE STYLES 加载本页面所需要样式 -->
-<link href="<?php echo $this->basePath('assets');?>/admin/pages/css/error.css" rel="stylesheet" type="text/css"/>
-
-<body class="page-header-fixed page-quick-sidebar-over-content">
-<!-- 加载内页头部 -->
-<?php  Ivy::app()->widget('admin/main/inhead'); ?>
-<!-- END 加载内页头部 -->
-<!-- BEGIN CONTAINER -->
-<div class="page-container">
-    <!-- IMPORT SIDEBAR -->
-	<?php  Ivy::app()->widget('admin/main/menu',array('active'=>'min_nav')); ?>
-
-	<!-- BEGIN CONTENT -->
+<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
 		<div class="page-content">
 			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
@@ -216,20 +193,3 @@
 		<!-- BEGIN CONTENT -->
 	</div>
 	<!-- END CONTENT -->
-	<!-- BEGIN QUICK SIDEBAR -->
-    <!-- QUICK SIDEBAR 全站及时聊天系统 -->
-	<!-- END QUICK SIDEBAR -->
-</div>
-<!-- END CONTAINER -->
-
-<!-- 加载本页面所需要js插件 -->
-<!-- BEGIN PAGE plugs -->
-
-<!-- END PAGE plugs -->
-
-
-<?php  Ivy::app()->widget('admin/main/foot'); ?>
-
-</body>
-<!-- END BODY -->
-</html>

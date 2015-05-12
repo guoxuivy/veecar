@@ -15,12 +15,14 @@ use Ivy\core\CException;
 class AuthController extends Controller {
 
 	protected $_rbac_confit=null; 	//rbac配置
+	protected $route=null; 	
 
 	public function __construct($route=NULL){
 		$confit=\Ivy::app()->config;
 		if(!isset($confit['rbac'])) 
 			throw new CException('rbac 配置错误！');
         $this->_rbac_confit=$confit['rbac'];
+        $this->route=$route;
         parent::__construct($route);
     }
 
