@@ -17,8 +17,10 @@ class mysql extends AbsoluteDB {
 	const SQL_ERROR='sql_error';
 	//连接句柄池
 	private $pdo = null;
-	//事物标记
-	private $_begin_transaction = false;
+	//事物标记 多层嵌套 只有最外层有效 参考laravel方案
+	private $_transaction_level = 0;
+
+	public $lastSql="";
 
 
 	public function __construct($config=null) {
@@ -37,6 +39,7 @@ class mysql extends AbsoluteDB {
 		$config=is_null($config)?$this->config:$config;
 		try {
 			$pdo = new \PDO ( $config ['dsn'], $config ['user'], $config ['password'] );
+			$pdo->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
 			$pdo->exec('set names utf8');
 			return $pdo;
 		} catch ( \PDOException $e ) {
@@ -57,18 +60,11 @@ class mysql extends AbsoluteDB {
 	 * @return [boolen] [description]
 	 */
 	public function beginT(){
-		//如果已经有事物在运行 则先回滚
-		if($this->_begin_transaction){
-			throw new CException ( '还有有事务未提交！' );
-		}
-		try {
-			$this->_begin_transaction = false;
+		++$this->_transaction_level;
+		if ($this->_transaction_level == 1){
+			//关闭自动提交
 			$this->pdo()->setAttribute(\PDO::ATTR_AUTOCOMMIT, 0);
-			$res = $this->pdo()->beginTransaction();
-			if($res) $this->_begin_transaction = true;
-			return $res;
-		} catch ( \PDOException $e ) {
-			throw new CException ( $e->getMessage () );
+			$this->pdo()->beginTransaction();
 		}
 	}
 
@@ -77,14 +73,13 @@ class mysql extends AbsoluteDB {
 	 * @return boolen 
 	 */
 	public function rollbackT(){
-		try {
-			$this->_begin_transaction = false;
-			$res = $this->pdo()->rollback();
+		if ($this->_transaction_level == 1){
+			$this->_transaction_level = 0;
+			$this->pdo()->rollback();
 			//恢复自动提交
 			$this->pdo()->setAttribute(\PDO::ATTR_AUTOCOMMIT, 1);
-			return $res;
-		} catch ( \PDOException $e ) {
-			throw new CException ( $e->getMessage () );
+		}else{
+			--$this->_transaction_level;
 		}
 	}
 
@@ -93,18 +88,12 @@ class mysql extends AbsoluteDB {
 	 * @return [boolen] 
 	 */
 	public function commitT(){
-		if($this->_begin_transaction){
-			try {
-				$this->_begin_transaction = false;
-				$res = $this->pdo()->commit();
-				//恢复自动提交
-				$this->pdo()->setAttribute(\PDO::ATTR_AUTOCOMMIT, 1);
-				return $res;
-			} catch ( \PDOException $e ) {
-				throw new CException ( $e->getMessage () );
-			}
+		if ($this->_transaction_level == 1){
+			$res = $this->pdo()->commit();
+			//恢复自动提交
+			$this->pdo()->setAttribute(\PDO::ATTR_AUTOCOMMIT, 1);
 		}
-		return false;
+		--$this->_transaction_level;
 	}
 
 
@@ -116,13 +105,9 @@ class mysql extends AbsoluteDB {
 	 * @return int id;
 	 */
 	public function insertData($tableName, $data) {
-		try {
-			$sql = $this->getInsertSql($tableName, $data);
-			$this->exec( $sql );
-			return $this->pdo()->lastInsertId();
-		} catch ( \PDOException $e ) {
-			throw new CException ( $e->getMessage () );
-		}
+		$sql = $this->getInsertSql($tableName, $data);
+		$this->_exec( $sql );
+		return $this->pdo()->lastInsertId();
 	}
 
 
@@ -132,14 +117,9 @@ class mysql extends AbsoluteDB {
 	 * @return array;
 	 */
 	public function findAllBySql($sql){
-		try {
-			$res = $this->pdo()->query($sql);
-			if(!$res) return null;
-			return $res->fetchAll(\PDO::FETCH_ASSOC);
-		} catch ( \PDOException $e ) {
-			\Ivy::log($sql,CLogger::LEVEL_ERROR,self::SQL_ERROR);
-			throw new CException ( $e->getMessage () );
-		}
+		$res = $this->_query($sql);
+		if(!$res) return null;
+		return $res->fetchAll(\PDO::FETCH_ASSOC);
 		
 	}
 
@@ -149,31 +129,42 @@ class mysql extends AbsoluteDB {
 	 * @return array;
 	 */
 	public function findBySql($sql){
-		try {
-			$res = $this->pdo()->query($sql);
-			if(!$res) return null;
-			return $res->fetch(\PDO::FETCH_ASSOC);
-		} catch ( \PDOException $e ) {
-			\Ivy::log($sql,CLogger::LEVEL_ERROR,self::SQL_ERROR);
-			throw new CException ( $e->getMessage () );
-		}
+		$res = $this->_query( $sql );
+		if(!$res) return null;
+		return $res->fetch(\PDO::FETCH_ASSOC);
 	}
 
 	/**
-	 * 执行sql
-	 * @param string $sql
-	 * @return  返回影响行数 可能为 0
+	 * 执行查询类sql
+	 * @param 		string $sql
+	 * @return  	pdo->res
+	 * @throws   	CException
 	 */
-	public function exec($sql){
+	protected function _query($sql){
 		try {
-			$res = $this->pdo()->exec( $sql );
-			return $res;
+			$this->lastSql = $sql;
+			return $this->pdo()->query( $sql );
 		} catch ( \PDOException $e ) {
 			\Ivy::log($sql,CLogger::LEVEL_ERROR,self::SQL_ERROR);
-			throw new CException ( $e->getMessage () );
+			throw new CException ( $e->getMessage() );
 		}
 	}
-
+	/**
+	 * 执行非查询类sql
+	 * @param 		string $sql
+	 * @return  	pdo->res
+	 * @throws  	CException
+	 */
+	protected function _exec($sql){
+		try {
+			$this->lastSql = $sql;
+			return $this->pdo()->exec( $sql );
+		} catch ( \PDOException $e ) {
+			\Ivy::log($sql,CLogger::LEVEL_ERROR,self::SQL_ERROR);
+			throw new CException ( $e->getMessage() );
+		}
+		
+	}
 
 	/**
 	 * 根据条件更新数据
@@ -183,7 +174,7 @@ class mysql extends AbsoluteDB {
 	 */
 	public function updateDataByCondition($tableName,$Condition,$data){
 		$sql = $this->getUpdataSql($tableName,$Condition,$data);
-		return $this->exec( $sql );
+		return $this->_exec( $sql );
 	}
 
 	/**
@@ -191,7 +182,7 @@ class mysql extends AbsoluteDB {
 	 */
 	public function deleteDataByCondition($tableName,$Condition){
 		$sql = $this->getDeltetSql($tableName,$Condition);
-		return $this->exec( $sql );
+		return $this->_exec( $sql );
 	}
 
 
