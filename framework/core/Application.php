@@ -250,6 +250,9 @@ final class Application extends CComponent {
 	 * 正常结束处理
 	 * @return [type] [description]
 	 */
-	public function finished() {}
+	public function finished() {
+		//日志写入
+		\Ivy::logger()->flush();
+	}
 	
 }
