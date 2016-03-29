@@ -15,8 +15,7 @@ use Ivy\db\DBException;
 use Ivy\logging\CLogger;
 class mysql extends AbsoluteDB {
 	const SQL_ERROR='sql_error';
-	//连接句柄池
-	private $pdo = null;
+	
 	//事物标记 多层嵌套 只有最外层有效 参考laravel方案
 	private $_transaction_level = 0;
 
@@ -35,12 +34,11 @@ class mysql extends AbsoluteDB {
 	}
 
 	/**
-	 * 连接数据库
+	 * 主库连接
 	 * @param  [type] $config [description]
 	 * @return [type]         [description]
 	 */
-	public function connect($config=null) {
-		$config=is_null($config)?$this->config:$config;
+	public function connect($config) {
 		try {
 			$params = array (
 				\PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'' ,
@@ -56,13 +54,7 @@ class mysql extends AbsoluteDB {
 		}
 	}
 
-	/**
-	 * 连接句柄
-	 * @return pdo
-	 */
-	protected function pdo(){
-		return $this->pdo;
-	}
+
 
 	/**
 	 * 事务开始
@@ -155,10 +147,10 @@ class mysql extends AbsoluteDB {
 			$this->lastSql = $sql;
 			if($this->enableProfiling){
 				\Ivy::log('begin:'.$sql, CLogger::LEVEL_PROFILE, "query");
-				$res = $this->pdo()->query( $sql );
+				$res = $this->spdo()->query( $sql );
 				\Ivy::log('end:'.$sql, CLogger::LEVEL_PROFILE, "query");
 			}else{
-				$res = $this->pdo()->query( $sql );
+				$res = $this->spdo()->query( $sql );
 			}
 			return $res;
 		} catch ( \PDOException $e ) {
