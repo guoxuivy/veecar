@@ -138,3 +138,35 @@ in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
 in F:\xampp\htdocs\veecar1\protected\components\Request.php (490)
 2019/04/23 15:32:14 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
 in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 17:49:12 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\components\SController.php (35)
+2019/04/23 17:49:12 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\top\navWidget.php (82)
+2019/04/23 17:49:12 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\top\navWidget.php (82)
+2019/04/23 17:49:12 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\top\navWidget.php (82)
+2019/04/23 17:49:12 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\top\navWidget.php (82)
+2019/04/23 17:49:13 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\page\pageWidget.php (67)
+2019/04/23 17:49:13 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\page\pageWidget.php (67)
+2019/04/23 17:49:13 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\page\pageWidget.php (67)
+2019/04/23 17:49:13 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\page\pageWidget.php (67)
+2019/04/23 17:49:13 [warning] [application] [system-level-2] [http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:89
+in F:\xampp\htdocs\veecar1\protected\widgets\page\pageWidget.php (67)
+2019/04/23 17:51:38 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 18:14:01 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 18:14:14 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 18:16:07 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 18:16:12 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 18:18:11 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
