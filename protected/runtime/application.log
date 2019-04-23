@@ -585,3 +585,169 @@ args:array (
 2015/05/12 13:00:15 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
 2015/05/12 13:01:37 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
 2015/05/12 13:04:33 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
+2019/04/23 09:19:00 [error] [sql_error]  select * from `article_cate` 
+2019/04/23 09:19:00 [trace] [application] 
+<!--Fatal error-->
+未捕获的异常Ivy\db\DBException  
+异常抛出点：F:\xampp\htdocs\veecar1\framework\db\pdo\mysql.php on line 158
+<!--Fatal error end-->
+异常消息：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'veecar.article_cate' doesn't exist  
+file:F:\xampp\htdocs\veecar1\framework\db\pdo\mysql.php  
+line:133  
+function:_query  
+class:Ivy\db\pdo\mysql  
+type:->  
+args:Array
+(
+    [0] =>  select * from `article_cate` 
+)
+  
+file:F:\xampp\htdocs\veecar1\protected\controllers\IndexController.php  
+line:15  
+function:findBySql  
+class:Ivy\db\pdo\mysql  
+type:->  
+args:Array
+(
+    [0] =>  select * from `article_cate` 
+)
+  
+function:indexAction  
+class:IndexController  
+type:->  
+args:Array
+(
+)
+  
+file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
+line:244  
+function:invokeArgs  
+class:ReflectionMethod  
+type:->  
+args:Array
+(
+    [0] => IndexController Object
+        (
+            [layout] => /layouts/main
+            [_b:Ivy\core\CComponent:private] => Array
+                (
+                    [route] => Ivy\core\Route Object
+                        (
+                            [route:protected] => Array
+                                (
+                                    [controller] => index
+                                    [action] => index
+                                )
+
+                            [param] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [_m:protected] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+        )
+
+)
+  
+file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
+line:212  
+function:_doMethod  
+class:Ivy\core\Application  
+type:->  
+args:Array
+(
+    [0] => IndexController Object
+        (
+            [layout] => /layouts/main
+            [_b:Ivy\core\CComponent:private] => Array
+                (
+                    [route] => Ivy\core\Route Object
+                        (
+                            [route:protected] => Array
+                                (
+                                    [controller] => index
+                                    [action] => index
+                                )
+
+                            [param] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [_m:protected] => Array
+                (
+                )
+
+        )
+
+    [1] => indexAction
+    [2] => Array
+        (
+        )
+
+)
+  
+file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
+line:164  
+function:dispatch  
+class:Ivy\core\Application  
+type:->  
+args:Array
+(
+    [0] => Ivy\core\Route Object
+        (
+            [route:protected] => Array
+                (
+                    [controller] => index
+                    [action] => index
+                )
+
+            [param] => Array
+                (
+                )
+
+        )
+
+)
+  
+file:F:\xampp\htdocs\veecar1\index.php  
+line:7  
+function:run  
+class:Ivy\core\Application  
+type:->  
+args:Array
+(
+)
+  
+
+2019/04/23 09:20:09 [error] [sql_error]  select * from `article_cate` 
+in F:\xampp\htdocs\veecar1\protected\controllers\IndexController.php (15)
+2019/04/23 10:11:18 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
+2019/04/23 10:12:05 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
+2019/04/23 10:12:33 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
+2019/04/23 10:13:50 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php->line:27
+in F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php (27)
+2019/04/23 10:13:50 [error] [sql_error] insert into `auth_item` (`name`,`type`) values
+in F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php (31)
+2019/04/23 10:14:18 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
+2019/04/23 10:25:41 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
+2019/04/23 10:26:30 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)

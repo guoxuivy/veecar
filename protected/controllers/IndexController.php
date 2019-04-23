@@ -24,6 +24,7 @@ class IndexController extends \CController {
 	 * widget 方式输出模板
 	 */
 	public function headerAction() {
+		$this->layout = null;
         $this->view->assign('title','我是头部文件啊！我是头部文件啊！我是头部文件啊！我是头部文件啊！')
                     ->display( 'header' );
 	}
