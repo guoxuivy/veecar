@@ -1,753 +1,140 @@
-2015/03/13 11:43:09 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:10 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:11 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:12 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:13 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:14 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:15 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:16 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:18 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:19 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:20 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:21 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:22 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:23 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:24 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:25 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:26 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:43:27 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:50:53 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:50:55 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:56:19 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/13 11:56:21 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:06:36 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:12:01 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:12:03 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:12:04 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:12:04 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/03/16 14:12:10 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/16 14:12:11 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/20 11:58:42 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/03/26 12:03:27 [warning] [application] [system-level-2] [Memcache::connect() [<a href='memcache.connect'>memcache.connect</a>]: Can't connect to 127.0.0.1:11211, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
- (10060)] file:D:\wwwroot\veecar\framework\cache\MCache.php->line:35
-2015/05/12 10:33:55 [trace] [application] 
-<!--Fatal error-->
-未捕获的异常Ivy\core\CException  
-异常消息：找不到CException类文件  
-function:loadFile  
-class:Ivy\core\LoaderClass  
-type:::  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\Ivy.php  
-line:151  
-function:spl_autoload_call  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:116  
-function:importWidget  
-class:Ivy  
-type:::  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
-line:9  
-function:widget  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:45  
-args:array (
-  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
-)  
-function:include  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:28  
-function:render  
-class:Ivy\core\Template  
-type:->  
-args:array (
-  0 => '',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
-line:17  
-function:display  
-class:Ivy\core\Template  
-type:->  
-args:array (
-)  
-function:indexAction  
-class:admin\IndexController  
-type:->  
-args:array (
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:227  
-function:invokeArgs  
-class:ReflectionMethod  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:195  
-function:_doMethod  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 'indexAction',
-  2 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:176  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  Ivy\core\Route::__set_state(array(
-     'route' => 
-    array (
-      'module' => 'admin',
-      'controller' => 'index',
-      'action' => 'index',
-    ),
-     'param' => 
-    array (
-    ),
-  )),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:150  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  Ivy\core\Route::__set_state(array(
-     'route' => 
-    array (
-      'module' => 'admin',
-      'controller' => 'index',
-      'action' => 'index',
-    ),
-     'param' => 
-    array (
-    ),
-  )),
-)  
-file:D:\wwwroot\veecar\index.php  
-line:8  
-function:run  
-class:Ivy\core\Application  
-type:->  
-args:array (
-)  
-异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
-<!--Fatal error end-->
-
-2015/05/12 10:34:25 [trace] [application] 
-<!--Fatal error-->
-未捕获的异常Ivy\core\CException  
-异常消息：找不到CException类文件  
-function:loadFile  
-class:Ivy\core\LoaderClass  
-type:::  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\Ivy.php  
-line:151  
-function:spl_autoload_call  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:116  
-function:importWidget  
-class:Ivy  
-type:::  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
-line:9  
-function:widget  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:45  
-args:array (
-  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
-)  
-function:include  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:28  
-function:render  
-class:Ivy\core\Template  
-type:->  
-args:array (
-  0 => '',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
-line:17  
-function:display  
-class:Ivy\core\Template  
-type:->  
-args:array (
-)  
-function:indexAction  
-class:admin\IndexController  
-type:->  
-args:array (
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:227  
-function:invokeArgs  
-class:ReflectionMethod  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:195  
-function:_doMethod  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 'indexAction',
-  2 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:176  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  Ivy\core\Route::__set_state(array(
-     'route' => 
-    array (
-      'module' => 'admin',
-      'controller' => 'index',
-      'action' => 'index',
-    ),
-     'param' => 
-    array (
-    ),
-  )),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:150  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  Ivy\core\Route::__set_state(array(
-     'route' => 
-    array (
-      'module' => 'admin',
-      'controller' => 'index',
-      'action' => 'index',
-    ),
-     'param' => 
-    array (
-    ),
-  )),
-)  
-file:D:\wwwroot\veecar\index.php  
-line:8  
-function:run  
-class:Ivy\core\Application  
-type:->  
-args:array (
-)  
-异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
-<!--Fatal error end-->
-
-2015/05/12 10:34:38 [trace] [application] 
-<!--Fatal error-->
-未捕获的异常Ivy\core\CException  
-异常消息：找不到CException类文件  
-function:loadFile  
-class:Ivy\core\LoaderClass  
-type:::  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\Ivy.php  
-line:151  
-function:spl_autoload_call  
-args:array (
-  0 => 'CException',
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:116  
-function:importWidget  
-class:Ivy  
-type:::  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\views\index\index.phtml  
-line:9  
-function:widget  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 'admin/main/head',
-)  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:45  
-args:array (
-  0 => 'D:\\wwwroot\\veecar\\protected\\modules\\admin\\views\\index\\index.phtml',
-)  
-function:include  
-file:D:\wwwroot\veecar\framework\core\Template.php  
-line:28  
-function:render  
-class:Ivy\core\Template  
-type:->  
-args:array (
-  0 => '',
-)  
-file:D:\wwwroot\veecar\protected\modules\admin\controllers\IndexController.php  
-line:17  
-function:display  
-class:Ivy\core\Template  
-type:->  
-args:array (
-)  
-function:indexAction  
-class:admin\IndexController  
-type:->  
-args:array (
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:227  
-function:invokeArgs  
-class:ReflectionMethod  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:195  
-function:_doMethod  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  admin\IndexController::__set_state(array(
-     'layout' => NULL,
-     '_m' => 
-    array (
-      0 => 
-      Ivy\core\Route::__set_state(array(
-         'route' => 
-        array (
-          'module' => 'admin',
-          'controller' => 'index',
-          'action' => 'index',
-        ),
-         'param' => 
-        array (
-        ),
-      )),
-    ),
-  )),
-  1 => 'indexAction',
-  2 => 
-  array (
-  ),
-)  
-file:D:\wwwroot\veecar\framework\core\Application.php  
-line:150  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:array (
-  0 => 
-  Ivy\core\Route::__set_state(array(
-     'route' => 
-    array (
-      'module' => 'admin',
-      'controller' => 'index',
-      'action' => 'index',
-    ),
-     'param' => 
-    array (
-    ),
-  )),
-)  
-file:D:\wwwroot\veecar\index.php  
-line:8  
-function:run  
-class:Ivy\core\Application  
-type:->  
-args:array (
-)  
-异常抛出点：D:\wwwroot\veecar\framework\core\LoaderClass.php on line 89
-<!--Fatal error end-->
-
-2015/05/12 11:36:23 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:36:49 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:37:24 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:38:16 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:38:58 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:39:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:39:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:40:22 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:40:44 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:41:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:41:51 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:41:53 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:42:27 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:42:47 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:05 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:06 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:06 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:18 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:43:58 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:44:00 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:45:20 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:45:25 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:46:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:46:29 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:46:36 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:46:46 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:00 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:01 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:13 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:14 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:20 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:48:32 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:49:12 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:49:49 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 11:50:04 [warning] [application] [system-level-2] [implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed] file:D:\wwwroot\veecar\protected\components\SController.php->line:24
-2015/05/12 12:54:43 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/05/12 13:00:11 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/05/12 13:00:13 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/05/12 13:00:15 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/05/12 13:01:37 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2015/05/12 13:04:33 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:D:\wwwroot\veecar\protected\modules\admin\views\article\edit.phtml->line:308
-2019/04/23 09:19:00 [error] [sql_error]  select * from `article_cate` 
-2019/04/23 09:19:00 [trace] [application] 
-<!--Fatal error-->
-未捕获的异常Ivy\db\DBException  
-异常抛出点：F:\xampp\htdocs\veecar1\framework\db\pdo\mysql.php on line 158
-<!--Fatal error end-->
-异常消息：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'veecar.article_cate' doesn't exist  
-file:F:\xampp\htdocs\veecar1\framework\db\pdo\mysql.php  
-line:133  
-function:_query  
-class:Ivy\db\pdo\mysql  
-type:->  
-args:Array
-(
-    [0] =>  select * from `article_cate` 
-)
-  
-file:F:\xampp\htdocs\veecar1\protected\controllers\IndexController.php  
-line:15  
-function:findBySql  
-class:Ivy\db\pdo\mysql  
-type:->  
-args:Array
-(
-    [0] =>  select * from `article_cate` 
-)
-  
-function:indexAction  
-class:IndexController  
-type:->  
-args:Array
-(
-)
-  
-file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
-line:244  
-function:invokeArgs  
-class:ReflectionMethod  
-type:->  
-args:Array
-(
-    [0] => IndexController Object
-        (
-            [layout] => /layouts/main
-            [_b:Ivy\core\CComponent:private] => Array
-                (
-                    [route] => Ivy\core\Route Object
-                        (
-                            [route:protected] => Array
-                                (
-                                    [controller] => index
-                                    [action] => index
-                                )
-
-                            [param] => Array
-                                (
-                                )
-
-                        )
-
-                )
-
-            [_m:protected] => Array
-                (
-                )
-
-        )
-
-    [1] => Array
-        (
-        )
-
-)
-  
-file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
-line:212  
-function:_doMethod  
-class:Ivy\core\Application  
-type:->  
-args:Array
-(
-    [0] => IndexController Object
-        (
-            [layout] => /layouts/main
-            [_b:Ivy\core\CComponent:private] => Array
-                (
-                    [route] => Ivy\core\Route Object
-                        (
-                            [route:protected] => Array
-                                (
-                                    [controller] => index
-                                    [action] => index
-                                )
-
-                            [param] => Array
-                                (
-                                )
-
-                        )
-
-                )
-
-            [_m:protected] => Array
-                (
-                )
-
-        )
-
-    [1] => indexAction
-    [2] => Array
-        (
-        )
-
-)
-  
-file:F:\xampp\htdocs\veecar1\framework\core\Application.php  
-line:164  
-function:dispatch  
-class:Ivy\core\Application  
-type:->  
-args:Array
-(
-    [0] => Ivy\core\Route Object
-        (
-            [route:protected] => Array
-                (
-                    [controller] => index
-                    [action] => index
-                )
-
-            [param] => Array
-                (
-                )
-
-        )
-
-)
-  
-file:F:\xampp\htdocs\veecar1\index.php  
-line:7  
-function:run  
-class:Ivy\core\Application  
-type:->  
-args:Array
-(
-)
-  
-
-2019/04/23 09:20:09 [error] [sql_error]  select * from `article_cate` 
-in F:\xampp\htdocs\veecar1\protected\controllers\IndexController.php (15)
-2019/04/23 10:11:18 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
-in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
-2019/04/23 10:12:05 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
-in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
-2019/04/23 10:12:33 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
-in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
-2019/04/23 10:13:50 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php->line:27
-in F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php (27)
-2019/04/23 10:13:50 [error] [sql_error] insert into `auth_item` (`name`,`type`) values
-in F:\xampp\htdocs\veecar1\protected\modules\rbac\models\AuthItem.php (31)
-2019/04/23 10:14:18 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
-in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
-2019/04/23 10:25:41 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml->line:308
-in F:\xampp\htdocs\veecar1\protected\modules\admin\views\article\edit.phtml (308)
-2019/04/23 10:26:30 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+2019/04/23 11:21:14 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
 in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:23:34 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:23:40 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:23:56 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:24:48 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:24:50 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:25:03 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 11:25:15 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
+in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/23 15:03:17 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:03:17 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:03:29 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:03:29 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:03:45 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:03:45 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:04:16 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:04:49 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:04:49 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:05:08 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:05:08 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:05:26 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:05:26 [warning] [application] [system-level-2] [array_merge(): Argument #3 is not an array] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:638
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (638)
+2019/04/23 15:06:49 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:06:55 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:11:00 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:11:09 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:14:45 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:14:54 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:15:08 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:15:22 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:15:42 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:15:53 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:16:30 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:17:16 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:17:57 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:18:15 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:19:42 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:20:26 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:20:26 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:20:26 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:20:26 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:22:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:52 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:52 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:52 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:22:52 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:24:24 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:24:24 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:24:24 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:24:24 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:25:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:25:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:25:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:25:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:494
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (494)
+2019/04/23 15:25:59 [warning] [application] [system-level-2] [Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\veecar1\protected\components\Request.php:128)] file:F:\xampp\htdocs\veecar1\framework\core\Controller.php->line:106
+in F:\xampp\htdocs\veecar1\protected\components\SController.php (26)
+2019/04/23 15:26:56 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:26:56 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:26:56 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:26:56 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)
+2019/04/23 15:28:33 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:28:59 [warning] [application] [system-level-2] [Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\veecar1\protected\components\Request.php:128)] file:F:\xampp\htdocs\veecar1\framework\core\Controller.php->line:106
+in F:\xampp\htdocs\veecar1\protected\components\SController.php (26)
+2019/04/23 15:30:15 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:30:38 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:31:11 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:31:11 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:31:30 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:492
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (492)
+2019/04/23 15:32:14 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:490
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (490)
+2019/04/23 15:32:14 [warning] [application] [system-level-2] [Use of undefined constant IS_CLI - assumed 'IS_CLI' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\protected\components\Request.php->line:493
+in F:\xampp\htdocs\veecar1\protected\components\Request.php (493)

@@ -26,16 +26,20 @@ class ArticleController extends \SController {
      * @return  json [description]
      */
     protected function jsonList() {
-        $star=$_REQUEST['start']?$_REQUEST['start']:0;
-        $length=$_REQUEST['length']?$_REQUEST['length']:10;
+        $star=$this->request->param('start',0);
+        $length=$this->request->param('length',10);
         $page = (int)ceil($star/$length+1);
 
-        if($_REQUEST['order']){
-            $col = $_REQUEST['columns'][$_REQUEST['order'][0]['column']]['data'];
-            $dir = $_REQUEST['order'][0]['dir'];
+        $order=$this->request->param('order/a');
+        $sort = [];
+        if($order){
+            $columns=$this->request->param('columns/a');
+            foreach ($order as $s){
+                $key = $columns[$s['column']]['data'];
+                $sort[$key] = $s['dir'];
+            }
         }
-
-        $list = \ArticleModel::model()->page($page,$length)->order(array($col=>$dir))->getPagener();
+        $list = \ArticleModel::model()->page($page,$length)->order($sort)->getPagener();
         $data=array();
         foreach ($list['list'] as $value) {
             $data[]=array(

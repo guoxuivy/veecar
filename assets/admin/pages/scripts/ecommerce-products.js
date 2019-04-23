@@ -32,7 +32,7 @@ var EcommerceProducts = function () {
 
                 },
                 "order": [
-                    [1, "desc"]
+                    [1, "desc"],[2, "desc"]
                 ], // set first column as a default sort by asc
                 "columns": [
                     { "data": "check"},
@@ -88,7 +88,7 @@ var EcommerceProducts = function () {
                 Metronic.alert({
                     type: 'danger',
                     icon: 'warning',
-                    message: 'Please select an action',
+                    message: '请选择一种操作',
                     container: grid.getTableWrapper(),
                     place: 'prepend'
                 });

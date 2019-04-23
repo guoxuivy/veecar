@@ -8,7 +8,7 @@
  */
 namespace admin;
 use Ivy\core\lib\UploadFile;
-class IndexController extends \CController {
+class IndexController extends \SController {
     
     /**
 	 * 显示模版实例示例

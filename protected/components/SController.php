@@ -14,11 +14,12 @@ use rbac\AuthController;
 class SController extends AuthController
 {
     //布局文件
-    public $layout='/layouts/main';
+    public $layout='/layouts/admin';
     /**
      * 用户登录验证 
      **/
     public function init() {
+        parent::init();
         if(\Ivy::app()->user->isGuest){
             //记录返回地址
             \Ivy::app()->user->setReturnUrl(implode('/',$this->getRouter()).$this->getQueryString());

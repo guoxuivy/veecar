@@ -49,7 +49,7 @@ var Datatable = function () {
                         "metronicAjaxRequestGeneralError": "Could not complete request. Please check your internet connection",
 
                         // data tables spesific
-                        "lengthMenu": "<span class='seperator'>|</span>View _MENU_ records",
+                        "lengthMenu": "<span class='seperator'>|</span>每页显示 _MENU_ 条",
                         "info": "<span class='seperator'>|</span>共找到 _TOTAL_ 条记录",
                         "infoEmpty": "No records found to show",
                         "emptyTable": "No data available in table",
