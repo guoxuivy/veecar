@@ -170,3 +170,5 @@ in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb
 in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
 2019/04/23 18:18:11 [warning] [application] [system-level-2] [Invalid argument supplied for foreach()] file:F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml->line:308
 in F:\xampp\htdocs\veecar1\protected\runtime\template\be08440811b3efc152f20812bb62eb7b.phtml (308)
+2019/04/24 13:40:40 [warning] [application] [system-level-2] [Use of undefined constant SITE_URL - assumed 'SITE_URL' (this will throw an Error in a future version of PHP)] file:F:\xampp\htdocs\veecar1\framework\core\Route.php->line:87
+in F:\xampp\htdocs\veecar1\protected\components\SController.php (35)
